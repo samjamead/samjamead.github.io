@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+  
+  <div class="section">
+    <div class="container">
+    
+      <h3>Posts</h3>
+    
+      <ul class="list-unstyled post-list">
+        {% for post in site.posts %}
+          <li>
+            
+            <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+          
+            <ul class="list-inline post-meta">
+              <li>{{ post.author }}</li>
+              <li>&middot;</li>
+              <li>{{ post.date | date: "%b %-d, %Y" }}</li>
+              <li>&middot;</li>
+              <li class="capitalise">{{ post.categories }}</li>
+            </ul>  
+            
+          </li>
+        {% endfor %}
+      </ul>
+    
+    </div>
+  </div>
+</div>

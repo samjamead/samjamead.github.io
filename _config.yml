@@ -1,0 +1,23 @@
+# Site settings
+title: Sam J A Mead
+email: samjamead@gmail.com
+description: A blog about startups, coding, the environment, and sports. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://samjamead.com" # the base hostname & protocol for your site
+twitter_username: samjamead
+github_username:  samjamead
+paginate: 5
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Deafaults 
+defaults:
+ -
+    scope:
+      path: ""
+      type: "posts" 
+    values:
+     author: Sam Mead
+     layout: "post"

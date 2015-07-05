@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="text-center">
+    <h1>Sam J A Mead</h1>
+  </div>
+</div>
+
+<div class="section" id="about">
+  <div class="container">
+  
+    <h3>About</h3>
+    
+    <p>In 2011 I cofounded my first company with some friends from university. It didn't go very well, but my <a href="http://saberr.com" target="_blank">second</a> attempt has done much better.</p>
+		<p>Since moving to WA in February 2014 I've been helping other startups, entrepreneurs and small businesses avoid some of the mistakes that I’ve made along the way. Call it mentorship, advice, coaching, or whatever &mdash; I love helping others in the startup world.</p>
+		<p>If you're interested in having a chat, I'd love to hear from you, so drop me an <a href="mailto:samjamead@gmail.com?&subject=G'day%20Sam&body=I have a project you might be interested in working on..." target="_blank">email</a> and let's start the conversation.</p>
+		<p>Outside of tech startups, I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping.</p>
+	
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    
+    <div id="calendar"></div>
+    
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+  
+    <h3>Recent Posts</h3>
+    
+    <hr />
+  
+    <ul class="list-unstyled post-list">
+      {% for post in site.posts limit:3 %}
+        <li>
+          
+          <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+        
+          <ul class="list-inline post-meta">
+            <li>{{ post.author }}</li>
+            <li>&middot;</li>
+            <li>{{ post.date | date: "%b %-d, %Y" }}</li>
+            <li>&middot;</li>
+            <li class="capitalise">{{ post.categories }}</li>
+          </ul>  
+          
+          {{ post.excerpt }}
+          
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</div>

@@ -1,0 +1,106 @@
+/* ========================================================
+      First, let's reset some basic elements...
+======================================================== */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================================
+      Set `margin-bottom` to maintain vertical rhythm
+======================================================== */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+/* ========================================================
+      Blah, blah blah blah, blah blah blah. 
+      
+      Now, let's party. 
+======================================================== */
+html, body {
+  height: 100%;
+}
+body {
+  background: url('/img/forest.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  font-family: Montserrat, $base-font-family;;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: #fff;
+}
+.navbar-fixed-top {
+  position: absolute;
+}
+.navbar-brand {
+  padding-top: $navbar-padding;
+  padding-bottom: $navbar-padding;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: $base-font-size * 1.75;
+}
+.navbar-nav {
+  li {
+    a {
+      padding-top: $navbar-padding; // Not dry, but that's ok in this instance. 
+      padding-bottom: $navbar-padding;
+      text-transform: uppercase;
+    }
+  }
+}
+.hero {
+  height: 100vh;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  h1 {
+    font-size: 5 * $base-font-size;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    text-transform: uppercase;
+  }
+}
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+}
+ul.post-list {
+  li {
+    margin-bottom: $spacing-unit * 1.5;
+  }
+}
+.post-link {
+  margin-bottom: $spacing-unit / 3;
+}
+ul.post-meta {
+  li {
+    margin-bottom: $spacing-unit / 3;
+    font-size: $small-font-size;
+    font-style: italic;
+  }
+}
+.small {
+  font-size: $small-font-size;
+}
+.capitalise {
+  text-transform: capitalize;
+}
