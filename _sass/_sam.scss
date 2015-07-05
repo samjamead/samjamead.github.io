@@ -17,9 +17,9 @@ ul, ol, dl, figure,
 }
 
 /* ========================================================
-      Blah, blah blah blah, blah blah blah. 
-      
-      Now, let's party. 
+      Blah, blah blah blah, blah blah blah.
+
+      Now, let's party.
 ======================================================== */
 html, body {
   height: 100%;
@@ -37,6 +37,12 @@ body {
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
 }
+// TEMPORARY ADJUSTMENT!
+
+.container {
+  max-width: 780px;
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -58,7 +64,7 @@ img {
 .navbar-nav {
   li {
     a {
-      padding-top: $navbar-padding; // Not dry, but that's ok in this instance. 
+      padding-top: $navbar-padding; // Not dry, but that's ok in this instance.
       padding-bottom: $navbar-padding;
       text-transform: uppercase;
     }

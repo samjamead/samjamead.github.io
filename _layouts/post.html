@@ -1,23 +1,27 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post" style="margin-top: 70px;">
+  <div class="section">
+    <div class="container">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %} • {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-  
-  <hr />
-  
-  <br />
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %} • {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
 
-  {% if page.image %}
-    <img src="/img/{{ page.image }}" />
-  {% endif %}
+      <hr />
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+      <br />
 
+      {% if page.image %}
+        <img src="/img/{{ page.image }}" />
+      {% endif %}
+
+      <article class="post-content">
+        {{ content }}
+      </article>
+
+    </div>
+  </div>
 </div>

@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-Blog bloggety blog blog
+Click a link, read an article. 

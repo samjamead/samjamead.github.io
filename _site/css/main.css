@@ -14,9 +14,9 @@ ul, ol, dl, figure {
   margin-bottom: 15px; }
 
 /* ========================================================
-      Blah, blah blah blah, blah blah blah. 
-      
-      Now, let's party. 
+      Blah, blah blah blah, blah blah blah.
+
+      Now, let's party.
 ======================================================== */
 html, body {
   height: 100%; }
@@ -33,6 +33,9 @@ body {
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
+
+.container {
+  max-width: 780px; }
 
 img {
   max-width: 100%;
