@@ -18,13 +18,13 @@ layout: default
         <div class="col-md-6 text-right">
           <ul class="list-inline">
             <li>
-              <strong>Viewing chronological</strong>
+              <strong>Viewing reverse chronological</strong>
             </li>
             <li>
               &middot;
             </li>
             <li>
-              <a href="/blog-backwards/">Reverse</a>
+              <a href="/blog/">Reverse</a>
             </li>
           </ul>
         </div>
@@ -33,7 +33,7 @@ layout: default
       <hr />
 
       <ul class="list-unstyled post-list">
-        {% for post in site.posts %}
+        {% for post in site.posts reversed %}
           <li>
 
             <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>

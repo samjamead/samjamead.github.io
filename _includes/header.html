@@ -22,9 +22,11 @@
 
         <ul class="nav navbar-nav navbar-right">
           {% for page in site.pages %}
-            {% assign current = page.title | downcase %}
-            {% if page.title %}
-              <li><a {% if location == current %} class="active" {% else %} class="page-link" {% endif %} href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% if page.menu == 'main' %}
+              {% assign current = page.title | downcase %}
+              {% if page.title %}
+                <li><a {% if location == current %} class="active" {% else %} class="page-link" {% endif %} href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>

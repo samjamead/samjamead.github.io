@@ -22,20 +22,16 @@ html, body {
   height: 100%; }
 
 body {
-  background: url("/img/forest.jpg");
+  background: url("/img/mountain_star.jpg");
   background-size: cover;
   background-attachment: fixed;
   min-height: 100%;
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
-  line-height: 1.6;
-  font-weight: 300;
+  line-height: 1.8;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
-
-.container {
-  max-width: 780px; }
 
 img {
   max-width: 100%;
@@ -43,35 +39,60 @@ img {
 
 .navbar-default {
   background-color: transparent;
-  border-color: #fff; }
+  border-color: #fff;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+  .navbar-default .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff; }
+  .navbar-default .navbar-nav li a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400; }
+  .navbar-default .navbar-nav li a:hover,
+  .navbar-default .navbar-nav li a.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3); }
 
 .navbar-fixed-top {
   position: absolute; }
 
-.navbar-brand {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 28px; }
-
-.navbar-nav li a {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-transform: uppercase; }
+.container {
+  max-width: 800px; }
 
 .hero {
   height: 100vh;
   display: -webkit-flex;
   -webkit-justify-content: center;
-  -webkit-align-items: center; }
+  -webkit-align-items: center;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
   .hero h1 {
     font-size: 80px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
     text-transform: uppercase; }
+  .hero .hero-subheading {
+    margin-top: 35px;
+    font-size: 24px; }
+
+.latest-post {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #eee; }
+  .latest-post h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .latest-post hr {
+    border-color: #fff; }
 
 .section {
   padding-top: 50px;

@@ -5,6 +5,38 @@ layout: default
 <div class="hero">
   <div class="text-center">
     <h1>Sam J A Mead</h1>
+    <p class="lead hero-subheading">Live blogging a tech startup!</p>
+  </div>
+</div>
+
+<div class="latest-post">
+  <div class="container text-center">
+    <h4>Latest Post</h4>
+    <hr>
+    <ul class="list-unstyled post-list">
+      {% for post in site.posts limit:1 %}
+        <li>
+
+          <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+
+          <ul class="list-inline post-meta">
+            <li>{{ post.author }}</li>
+            <li>&middot;</li>
+            <li>{{ post.date | date: "%b %-d, %Y" }}</li>
+            <li>&middot;</li>
+            <li class="capitalise">{{ post.categories }}</li>
+          </ul>
+
+          {{ post.excerpt }}
+
+          <br />
+
+          <a class="btn btn-info" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
+
+        </li>
+      {% endfor %}
+    </ul>
+    <hr>
   </div>
 </div>
 
@@ -19,6 +51,12 @@ layout: default
 		<p>Outside of tech startups, I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping.</p>
 
 
+  </div>
+</div>
+
+<div class="section">
+  <div class="container text-center">
+    <i class="fa fa-angle-double-down"></i>
   </div>
 </div>
 
