@@ -95,16 +95,21 @@ img {
   .hero .btn-hero:hover {
     background: rgba(0, 150, 255, 0.5); }
 
+.post-title {
+  margin-top: 0px; }
+
 .latest-post {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #eee; }
+  background-color: #f3f3f3; }
   .latest-post h4 {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px; }
   .latest-post hr {
     border-color: #fff; }
+  .latest-post .btn {
+    margin-top: 15px; }
 
 .section {
   padding-top: 50px;

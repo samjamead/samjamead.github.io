@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="post" style="margin-top: 70px;">
+  <div class="section">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+          </header>
+
+          <article class="post-content">
+            {{ content }}
+          </article>
+        </div>
+        <div class="col-md-6 text-right">
+          <ul class="list-inline">
+            <li>
+              <strong>Viewing reverse chronological</strong>
+            </li>
+            <li>
+              &middot;
+            </li>
+            <li>
+              <a href="/blog/">Reverse</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <ul class="list-unstyled post-list">
+        {% for post in site.posts reversed %}
+          <li>
+
+            <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+
+            <ul class="list-inline post-meta">
+              <li>{{ post.author }}</li>
+              <li>&middot;</li>
+              <li>{{ post.date | date: "%b %-d, %Y" }}</li>
+              <li>&middot;</li>
+              <li class="capitalise">{{ post.categories }}</li>
+            </ul>
+
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</div>
