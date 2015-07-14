@@ -1,19 +1,4 @@
 /* ========================================================
-      First, let's reset some basic elements...
-======================================================== */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul {
-  margin: 0;
-  padding: 0; }
-
-/* ========================================================
-      Set `margin-bottom` to maintain vertical rhythm
-======================================================== */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
-  margin-bottom: 15px; }
-
-/* ========================================================
       Blah, blah blah blah, blah blah blah.
 
       Now, let's party.
@@ -33,9 +18,24 @@ body {
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
+a.scroll_top {
+  opacity: 0;
+  position: fixed;
+  left: 35px;
+  bottom: 35px;
+  z-index: 5;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 12px;
+  transition: 0.5s ease; }
+
 img {
   max-width: 100%;
   vertical-align: middle; }
+
+.btn {
+  transition: 0.3s ease; }
 
 .navbar-default {
   background-color: transparent;
@@ -72,16 +72,28 @@ img {
   -webkit-justify-content: center;
   -webkit-align-items: center;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
+  color: #fff; }
   .hero h1 {
     font-size: 80px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
   .hero .hero-subheading {
-    margin-top: 35px;
+    margin-bottom: 35px;
     font-size: 24px; }
+  .hero .img-circle {
+    max-width: 100px;
+    padding: 2px;
+    background-color: #333;
+    border: 2px solid #fff; }
+  .hero .btn-hero {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff; }
+  .hero .btn-hero:hover {
+    background: rgba(0, 150, 255, 0.5); }
 
 .latest-post {
   padding-top: 100px;

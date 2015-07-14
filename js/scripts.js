@@ -6,6 +6,11 @@
     return false;
 	});
 
-	$(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
-	}).attr('target', '_blank');
+	$(document).scroll(function() {
+			var beta = $(this).scrollTop();
+			if (beta < $(window).height()) {
+				$(".scroll_top").css({"opacity":"0"});
+			} else {
+				$(".scroll_top").css({"opacity":"1"});
+			}
+	});

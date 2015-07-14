@@ -2,15 +2,23 @@
 layout: default
 ---
 
-<div class="hero">
+<a href="#hero" class="scroll_top smooth_scroll"><i class="fa fa-arrow-up fa-2x"></i></a>
+
+<div class="hero" id="hero">
   <div class="text-center">
+    <a href="#latest" class="smooth_scroll">
+      <img class="img-circle" alt="Sam Headshot" src="/img/sam_headshot8.jpg" />
+    </a>
     <h1>Sam J A Mead</h1>
     <p class="lead hero-subheading">Live blogging a tech startup!</p>
+    {% for post in site.posts limit:1 %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-lg btn-hero" >Read the latest post</a>
+    {% endfor %}
   </div>
 </div>
 
-<div class="latest-post">
-  <div class="container text-center">
+<div class="latest-post" id="latest">
+  <div class="container">
     <h4>Latest Post</h4>
     <hr>
     <ul class="list-unstyled post-list">
