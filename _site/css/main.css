@@ -7,13 +7,14 @@ html, body {
   height: 100%; }
 
 body {
+  background-color: #163762;
   background: url("/img/mountain_star.jpg");
   background-size: cover;
   background-attachment: fixed;
   min-height: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.8em;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -33,6 +34,11 @@ a.scroll_top {
 img {
   max-width: 100%;
   vertical-align: middle; }
+
+blockquote {
+  margin-top: 2.7em;
+  margin-bottom: 2.7em;
+  font-style: italic; }
 
 .btn {
   transition: 0.3s ease; }

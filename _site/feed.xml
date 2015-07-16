@@ -5,9 +5,40 @@
     <description>A blog about startups, coding, the environment, and sports.</description>
     <link>http://samjamead.com/</link>
     <atom:link href="http://samjamead.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2015 18:01:51 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 18:01:51 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2015 16:20:56 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2015 16:20:56 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>A Beginners Guide to Markdown</title>
+        <description>&lt;p&gt;It’s hard to describe Markdown any more succinctly than John Gruber himself, so here he is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then &lt;em&gt;optionally&lt;/em&gt; convert it to structurally valid HTML.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What that means is that as a content creator, your writing can be published straight on the web without needed to be rewritten (or copy and pasted!) into HTML.&lt;/p&gt;
+
+&lt;p&gt;Markdown is becoming increasingly prevalent online, with apps like Slack allowing users to format their posts using Markdown.&lt;/p&gt;
+
+&lt;p&gt;It’s dead easy to get the hang of, and you don’t need to have any code knowledge to use Markdown effectively. Here’s my beginners how-to guide to Markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;beginners-guide-to-markdown&quot;&gt;Beginners Guide to Markdown&lt;/h2&gt;
+
+&lt;p&gt;First up, you’re going to need a text editor. My favourite text editor to use when writing Markdown is &lt;a href=&quot;https://atom.io&quot;&gt;Atom&lt;/a&gt;, a text editor built by GitHub. &lt;a href=&quot;https://atom.io&quot;&gt;Download Atom here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you fire up Atom for the first time, you’ll be faced with a welcome screen with several prompts.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jul 2015 14:21:13 +0800</pubDate>
+        <link>http://samjamead.com/tutorials/2015/07/16/a-beginners-guide-to-markdown/</link>
+        <guid isPermaLink="true">http://samjamead.com/tutorials/2015/07/16/a-beginners-guide-to-markdown/</guid>
+        
+        
+        <category>tutorials</category>
+        
+      </item>
     
       <item>
         <title>On Geniuses And Lovers</title>

@@ -6,8 +6,17 @@ layout: default
     <div class="container">
 
       <header class="post-header">
+
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %} • {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+        <ul class="list-inline post-meta">
+          <li>{{ page.author }}</li>
+          <li>&middot;</li>
+          <li>{{ page.date | date: "%b %-d, %Y" }}</li>
+          <li>&middot;</li>
+          <li class="capitalise">{{ page.categories }}</li>
+        </ul>
+
       </header>
 
       <hr />
@@ -32,15 +41,13 @@ layout: default
 
       <div class="row">
         <div class="col-sm-6">
-          {% if page.previous %}
-            <span class="previous-link">
-              <a class="btn btn-success" rel="prev" href="{{ page.previous.url }}">Previous</a>
-            </span>
-
+          <p>
+            {% if page.previous %}
+              Previous post: <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
             {% else %}
               This is the oldest post!
-
-          {% endif %}
+            {% endif %}
+          </p>
         </div>
         <div class="col-sm-6 text-right">
           {% if page.next %}

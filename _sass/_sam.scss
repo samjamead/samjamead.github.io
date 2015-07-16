@@ -35,6 +35,11 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+blockquote {
+  margin-top: $base-line-height * 1.5;
+  margin-bottom: $base-line-height * 1.5;
+  font-style: italic;
+}
 .btn {
   transition: 0.3s ease;
 }
