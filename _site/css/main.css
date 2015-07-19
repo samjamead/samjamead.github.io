@@ -138,3 +138,9 @@ ul.post-meta li {
 
 .capitalise {
   text-transform: capitalize; }
+
+footer {
+  background: #163762;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #f3f3f3; }
