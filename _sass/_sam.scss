@@ -110,7 +110,7 @@ blockquote {
     color: #fff;
   }
   .btn-hero:hover {
-    background: rgba(0,150,255,0.5);
+    background: rgba(255,255,255,0.2);
   }
 }
 .post-title {
@@ -158,9 +158,21 @@ ul.post-meta {
 .capitalise {
   text-transform: capitalize;
 }
+.pre-footer {
+  background-color: #f4f5f7;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 footer {
-  background: #163762;
+  background: #23272b;
   padding-top: 70px;
   padding-bottom: 70px;
-  color: #f3f3f3;
+  color: #f4f5f7;
+  a {
+    color: #558aca;
+  }
+  a:hover {
+    color: #88BDFD;
+  }
 }
