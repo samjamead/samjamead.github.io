@@ -13,11 +13,10 @@ In no particular order, the top eight pieces of music I would want on a desert i
 
 Four down, four to go... It's not as easy a task as it seems!
 
+<br />
 _Update on 20th July_
 
-One more to add to the list: 
+More to add to the list:
 
 + A Little Piece - The Jezebels
-
-
-<!-- Track 5 - Muse -->
++ Citizen Erased - Muse
