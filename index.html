@@ -6,10 +6,10 @@ layout: default
 
 <div class="hero" id="hero">
   <div class="text-center">
-    <a href="#latest" class="smooth_scroll">
+    <!--<a href="#latest" class="smooth_scroll">
       <img class="img-circle" alt="Sam Headshot" src="/img/sam_headshot8.jpg" />
-    </a>
-    <h1>Sam J A Mead</h1>
+    </a>-->
+    <h1><a href="#latest" class="smooth_scroll">Sam J A Mead</a></h1>
     <p class="lead hero-subheading">Live blogging a tech startup!</p>
     {% for post in site.posts limit:1 %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-lg btn-hero" >Read the latest post</a>
@@ -25,7 +25,7 @@ layout: default
       {% for post in site.posts limit:1 %}
         <li>
 
-          <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
           <ul class="list-inline post-meta">
             <li>{{ post.author }}</li>
@@ -35,9 +35,11 @@ layout: default
             <li class="capitalise">{{ post.categories }}</li>
           </ul>
 
-          {{ post.excerpt }}
+          <p>
+            {{ post.excerpt }}
+          </p>
 
-          <a class="btn btn-info" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
+          <a class="btn btn-special" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
 
         </li>
       {% endfor %}
