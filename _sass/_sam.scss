@@ -1,7 +1,7 @@
 /* ========================================================
-      Blah, blah blah blah, blah blah blah.
+      Global Elements
 
-      Now, let's party.
+      Alphabetic after html and body
 ======================================================== */
 html, body {
   height: 100%;
@@ -19,6 +19,11 @@ body {
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
 }
+blockquote {
+  margin-top: $base-line-height * 1.5;
+  margin-bottom: $base-line-height * 1.5;
+  font-style: italic;
+}
 a.scroll_top {
   opacity: 0;
   position: fixed;
@@ -31,18 +36,54 @@ a.scroll_top {
   padding: 10px 12px;
   transition: 0.5s ease;
 }
+p {
+  margin-bottom: 1.8em;
+}
 img {
   max-width: 100%;
   vertical-align: middle;
 }
-blockquote {
-  margin-top: $base-line-height * 1.5;
-  margin-bottom: $base-line-height * 1.5;
-  font-style: italic;
+/* ========================================================
+      Global Classes
+======================================================== */
+.container {
+  max-width: 800px;
 }
 .btn {
   transition: 0.3s ease;
 }
+.post-title {
+  margin-top: 0px;
+}
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+}
+ul.post-list {
+  li {
+    margin-bottom: $spacing-unit * 1.5;
+  }
+}
+.post-link {
+  margin-bottom: $spacing-unit / 3;
+}
+ul.post-meta {
+  li {
+    margin-bottom: $spacing-unit / 3;
+    font-size: $small-font-size;
+    font-style: italic;
+  }
+}
+.small {
+  font-size: $small-font-size;
+}
+.capitalise {
+  text-transform: capitalize;
+}
+/* ========================================================
+      Navbar
+======================================================== */
 .navbar-default {
   background-color: transparent;
   border-color: #fff;
@@ -76,9 +117,9 @@ blockquote {
 .navbar-fixed-top {
   position: absolute;
 }
-.container {
-  max-width: 800px;
-}
+/* ========================================================
+      Homepage hero
+======================================================== */
 .hero {
   height: 100vh;
   display: -webkit-flex;
@@ -104,12 +145,6 @@ blockquote {
     margin-bottom: 35px;
     font-size: 1.5 * $base-font-size;
   }
-  .img-circle {
-    max-width: 100px;
-    padding: 2px;
-    background-color: #333;
-    border: 2px solid #fff;
-  }
   .btn-hero {
     background: transparent;
     border: 1px solid #fff;
@@ -119,9 +154,9 @@ blockquote {
     background: rgba(255,255,255,0.2);
   }
 }
-.post-title {
-  margin-top: 0px;
-}
+/* ========================================================
+      Homepage latest post highlight
+======================================================== */
 .latest-post {
   min-height: 100vh;
   padding-top: 100px;
@@ -154,32 +189,9 @@ blockquote {
     background: rgba(255,255,255,0.2);
   }
 }
-.section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: #fff;
-}
-ul.post-list {
-  li {
-    margin-bottom: $spacing-unit * 1.5;
-  }
-}
-.post-link {
-  margin-bottom: $spacing-unit / 3;
-}
-ul.post-meta {
-  li {
-    margin-bottom: $spacing-unit / 3;
-    font-size: $small-font-size;
-    font-style: italic;
-  }
-}
-.small {
-  font-size: $small-font-size;
-}
-.capitalise {
-  text-transform: capitalize;
-}
+/* ========================================================
+      Footer
+======================================================== */
 .pre-footer {
   background-color: #f4f5f7;
   border-top: 1px solid #e1e1e1;
