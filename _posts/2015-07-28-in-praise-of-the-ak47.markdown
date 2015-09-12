@@ -1,7 +1,8 @@
 ---
+layout: excerpt
 title:  "In Praise of the AK-47"
 date:   2015-07-28 13:52:00
-categories: Design 
+categories: Excerpts 
 ---
 
 _Q: I had a professor in school who went on and on about how well the AK-47 was designed. He stressed that as designers we should be able to appreciate an object’s design on a purely aesthetic level. Do you agree?_
