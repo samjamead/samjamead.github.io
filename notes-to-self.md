@@ -14,3 +14,4 @@ permalink: /notes-to-self/
 + Make quotes display quote.
 + Change links to other articles to 'excerpt' category.
 + Add a custom 404 page.
++ Force external links to open in a new tab.
