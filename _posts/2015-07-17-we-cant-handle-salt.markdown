@@ -1,8 +1,8 @@
 ---
-layout: excerpt
 title:  "We Can't Handle Salt"
 date:   2015-07-17 11:21:00
-categories: Excerpts
+permalink: blog/we-cant-handle-salt
+tags: [snippets]
 ---
 
 Why don’t whales, that live in salt water and have salt water pass through their mouths, die of thirst?

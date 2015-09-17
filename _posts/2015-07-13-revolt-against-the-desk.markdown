@@ -1,8 +1,8 @@
 ---
-layout: excerpt
 title:  "Revolt Against The Desk"
 date:   2015-07-13 13:48:00
-categories: Excerpts
+permalink: /blog/revolt-against-desks
+tags: [snippets]
 ---
 
 Many writers maintain a private writing hut. The hut has one purpose: it’s the place they go to write. They don’t do anything else there. Once they can’t write any more, they go do something else.

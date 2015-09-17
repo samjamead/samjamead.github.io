@@ -1,8 +1,8 @@
 ---
-layout: excerpt
 title:  "Never Read The Comments"
 date:   2015-09-14 09:54:31
-categories: Excerpts
+permalink: /blog/never-read-the-comments
+tags: [snippets]
 ---
 
 I’m the 24-year-old CTO of a startup that just raised $2 million. I built all of my company’s tech by myself for the first two years we existed. But, apparently, if I’m on your tech team you should [re]evaluate your life.

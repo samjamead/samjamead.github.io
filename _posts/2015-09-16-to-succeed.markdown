@@ -1,7 +1,8 @@
 ---
 title:  "Isaac Asimov"
 date:   2015-09-16 17:56:31
-categories: quotes
+permalink: /blog/isaac-asimov
+tags: [quotes, asimov]
 ---
 
 >To succeed, planning alone is insufficient. One must improvise as well.

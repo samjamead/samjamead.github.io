@@ -5,8 +5,8 @@
     <description>A blog about startups, coding, the environment, and sports.</description>
     <link>http://samjamead.com/</link>
     <atom:link href="http://samjamead.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Sep 2015 18:37:47 +0800</pubDate>
-    <lastBuildDate>Wed, 16 Sep 2015 18:37:47 +0800</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2015 15:44:15 +0800</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2015 15:44:15 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -40,11 +40,13 @@
 &lt;p&gt;Interesting side-story — “Are morals universal or relative?” was one of the original 29 &lt;a href=&quot;http://www.saberr.com&quot;&gt;Saberr&lt;/a&gt; test questions! I always used to answer ‘universal’, but now I might have to answer differently…&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Sep 2015 01:56:31 +0800</pubDate>
-        <link>http://samjamead.com/quotes/2015/09/17/to-succeed/</link>
-        <guid isPermaLink="true">http://samjamead.com/quotes/2015/09/17/to-succeed/</guid>
-        
+        <link>http://samjamead.com/blog/isaac-asimov</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/isaac-asimov</guid>
         
         <category>quotes</category>
+        
+        <category>asimov</category>
+        
         
       </item>
     
@@ -63,11 +65,11 @@
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@saraheadler/never-read-the-comments-9cba93b5712a&quot;&gt;Read Sarah Adler’s post on Medium&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 17:54:31 +0800</pubDate>
-        <link>http://samjamead.com/excerpts/2015/09/14/never-read-the-comments/</link>
-        <guid isPermaLink="true">http://samjamead.com/excerpts/2015/09/14/never-read-the-comments/</guid>
+        <link>http://samjamead.com/blog/never-read-the-comments</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/never-read-the-comments</guid>
         
+        <category>snippets</category>
         
-        <category>excerpts</category>
         
       </item>
     
@@ -76,11 +78,13 @@
         <description>&lt;p&gt;Selamat Datang panduan pemula untuk Bahasa Indonesia!&lt;/p&gt;
 </description>
         <pubDate>Sun, 13 Sep 2015 05:54:31 +0800</pubDate>
-        <link>http://samjamead.com/longs/2015/09/13/bahasa-indonesia/</link>
-        <guid isPermaLink="true">http://samjamead.com/longs/2015/09/13/bahasa-indonesia/</guid>
+        <link>http://samjamead.com/blog/bahasa-indonesia</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/bahasa-indonesia</guid>
         
+        <category>language</category>
         
-        <category>longs</category>
+        <category>indonesian</category>
+        
         
       </item>
     
@@ -89,11 +93,13 @@
         <description>&lt;p&gt;I tend to get quite addicted to books very easily. Once I start reading a book that I like, it is extremely difficult for me to put it down. Queue several late night page-smashing missions.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Aug 2015 05:14:31 +0800</pubDate>
-        <link>http://samjamead.com/books/2015/08/04/foundation/</link>
-        <guid isPermaLink="true">http://samjamead.com/books/2015/08/04/foundation/</guid>
-        
+        <link>http://samjamead.com/blog/asimov-foundation</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/asimov-foundation</guid>
         
         <category>books</category>
+        
+        <category>asimov</category>
+        
         
       </item>
     
@@ -116,11 +122,11 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 28 Jul 2015 21:52:00 +0800</pubDate>
-        <link>http://samjamead.com/excerpts/2015/07/28/in-praise-of-the-ak47/</link>
-        <guid isPermaLink="true">http://samjamead.com/excerpts/2015/07/28/in-praise-of-the-ak47/</guid>
+        <link>http://samjamead.com/blog/ak-47</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/ak-47</guid>
         
+        <category>snippets</category>
         
-        <category>excerpts</category>
         
       </item>
     
@@ -156,11 +162,11 @@
 &lt;h3 id=&quot;exit-music-for-a-film---radiohead&quot;&gt;Exit Music For a Film - Radiohead&lt;/h3&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 20:06:00 +0800</pubDate>
-        <link>http://samjamead.com/music/2015/07/19/desert-island-disks/</link>
-        <guid isPermaLink="true">http://samjamead.com/music/2015/07/19/desert-island-disks/</guid>
-        
+        <link>http://samjamead.com/blog/desert-island-disks</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/desert-island-disks</guid>
         
         <category>music</category>
+        
         
       </item>
     
@@ -175,26 +181,11 @@
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@gutbloom/five-ways-humans-were-cheated-by-evolution-5a6533e60906&quot;&gt;Read Gutbloom’s post on Medium&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Jul 2015 19:21:00 +0800</pubDate>
-        <link>http://samjamead.com/excerpts/2015/07/17/we-cant-handle-salt/</link>
-        <guid isPermaLink="true">http://samjamead.com/excerpts/2015/07/17/we-cant-handle-salt/</guid>
+        <link>http://samjamead.com/blog/we-cant-handle-salt</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/we-cant-handle-salt</guid>
         
+        <category>snippets</category>
         
-        <category>excerpts</category>
-        
-      </item>
-    
-      <item>
-        <title>On Geniuses And Lovers</title>
-        <description>&lt;p&gt;“It is very painful, I think, to be told: ‘You enchanted the world for me, you made me feel things I never knew I could, now please be normal at dinner.’ We are always saying this to people in one way or another, of course; maybe we have to.”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@annie_frankly/be-normal-at-dinner-on-geniuses-lovers-and-the-asks-we-make-of-both-ecbe29b02f35&quot;&gt;Read Annie Frankly’s post on Medium&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jul 2015 00:11:00 +0800</pubDate>
-        <link>http://samjamead.com/excerpts/2015/07/14/on-geniuses-and-lovers/</link>
-        <guid isPermaLink="true">http://samjamead.com/excerpts/2015/07/14/on-geniuses-and-lovers/</guid>
-        
-        
-        <category>excerpts</category>
         
       </item>
     
@@ -213,11 +204,26 @@
 &lt;p&gt;&lt;strong&gt;Bonus!&lt;/strong&gt; Here’s something else awesome from Justin Jackson: &lt;a href=&quot;http://justinjackson.ca/words.html&quot;&gt;Words&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jul 2015 21:48:00 +0800</pubDate>
-        <link>http://samjamead.com/excerpts/2015/07/13/revolt-against-the-desk/</link>
-        <guid isPermaLink="true">http://samjamead.com/excerpts/2015/07/13/revolt-against-the-desk/</guid>
+        <link>http://samjamead.com/blog/revolt-against-desks</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/revolt-against-desks</guid>
+        
+        <category>snippets</category>
         
         
-        <category>excerpts</category>
+      </item>
+    
+      <item>
+        <title>On Geniuses And Lovers</title>
+        <description>&lt;p&gt;“It is very painful, I think, to be told: ‘You enchanted the world for me, you made me feel things I never knew I could, now please be normal at dinner.’ We are always saying this to people in one way or another, of course; maybe we have to.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@annie_frankly/be-normal-at-dinner-on-geniuses-lovers-and-the-asks-we-make-of-both-ecbe29b02f35&quot;&gt;Read Annie Frankly’s post on Medium&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jul 2015 00:11:00 +0800</pubDate>
+        <link>http://samjamead.com/blog/on-geniuses-and-lovers</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/on-geniuses-and-lovers</guid>
+        
+        <category>snippets</category>
+        
         
       </item>
     
@@ -240,14 +246,15 @@
 &lt;p&gt;Leaving my startup helped me understand.&lt;/p&gt;
 
 &lt;p&gt;Running a program helped me understand.&lt;/p&gt;
-
 </description>
         <pubDate>Thu, 11 Jun 2015 21:27:00 +0800</pubDate>
-        <link>http://samjamead.com/startups/2015/06/11/a-lean-convert/</link>
-        <guid isPermaLink="true">http://samjamead.com/startups/2015/06/11/a-lean-convert/</guid>
-        
+        <link>http://samjamead.com/blog/lean-convert</link>
+        <guid isPermaLink="true">http://samjamead.com/blog/lean-convert</guid>
         
         <category>startups</category>
+        
+        <category>lean</category>
+        
         
       </item>
     

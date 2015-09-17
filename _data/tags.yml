@@ -1,0 +1,32 @@
+- slug: books
+  name: Books
+
+- slug: asimov
+  name: Isaac Asimov
+
+- slug: buddhism
+  name: Buddhism
+
+- slug: indonesian
+  name: Bahasa Indonesia
+
+- slug: language
+  name: Language
+
+- slug: lean
+  name: Lean
+
+- slug: music
+  name: Music
+
+- slug: musings
+  name: Musings
+
+- slug: quotes
+  name: Quotes
+
+- slug: snippets
+  name: Snippets
+
+- slug: startups
+  name: Startups
