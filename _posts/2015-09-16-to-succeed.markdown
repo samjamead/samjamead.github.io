@@ -5,6 +5,8 @@ permalink: /blog/isaac-asimov
 tags: [quotes, asimov]
 ---
 
+I could list Asimov quotes for days.
+
 >To succeed, planning alone is insufficient. One must improvise as well.
 >
 >&mdash; Salvor Hardin

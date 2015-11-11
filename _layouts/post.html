@@ -40,8 +40,6 @@ layout: default
 
       <hr />
 
-      <br />
-
       {% if page.image %}
         <img src="/img/{{ page.image }}" />
         <br />
@@ -49,7 +47,13 @@ layout: default
       {% endif %}
 
       <article class="post-content">
+
+        {% if tags_content contains 'snippets' %}
+          <p class="small"><em>Snippets are short excerpts of posts I've come across elsewhere.<br /> The link to the original article is always at the bottom.</em></p>
+        {% endif %}
+
         {{ content }}
+
       </article>
 
       <br />
