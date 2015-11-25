@@ -69,18 +69,25 @@ layout: default
   <div class="container">
 
     <h3>About</h3>
+    <hr />
+    <p>In 2011 I cofounded my first company with some friends from university. It didn't go very well, but my <a href="http://saberr.com/" target="_blank">second</a> attempt has done much better.</p>
 
-    <p>In 2011 I cofounded my first company with some friends from university. It didn't go very well, but my <a href="http://saberr.com" target="_blank">second</a> attempt has done much better.</p>
-		<p>Since moving to WA in February 2014 I've been helping other startups, entrepreneurs and small businesses avoid some of the mistakes that I’ve made along the way. Call it mentorship, advice, coaching, or whatever &mdash; I love helping others in the startup world.</p>
-		<p>If you're interested in having a chat, I'd love to hear from you, so drop me an <a href="mailto:samjamead@gmail.com?&subject=G'day%20Sam&body=I have a project you might be interested in working on..." target="_blank">email</a> and let's start the conversation.</p>
-		<p>Outside of tech startups, I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping.</p>
+    <p>I moved to WA as a love tourist in February 2014. Since then I've been helping other startups, entrepreneurs and small businesses avoid some of the mistakes that I’ve made along the way. Call it mentorship, advice, coaching, or whatever &mdash; I love collaborating with everyone here in the Perth startup scene.</p>
+
+    <p>My most recent company, <a href="http://codenamecanary.org/" target="_blank">Codename Canary</a>, is a continuation of a project that came second at the seventh Startup Weekend Perth. We're cleaning up the world's coastlines, oceans, and landscapes one Instagram hashtag at a time.</p>
+
+    <p>If you're interested in having a chat, I'd love to hear from you, so come along to <a href="http://www.meetup.com/Morning-Startup-Perth/" target="_blank">Morning Startup</a> or drop me a <a href="https://twitter.com/samjamead" target="_blank">tweet</a> and let's start the conversation!</p>
+
+    <p>Outside of tech startups, I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping. And Oxford commas, golf, and woodwork. And languages. I have too many hobbies.</p>
+
+    <p><small>P.S. This website isn't exactly finished yet. Let me know if you see something that's not quite right.</small></p>
 
   </div>
 </div>
 
 <div class="section">
   <div class="container text-center">
-    <i class="fa fa-angle-double-down"></i>
+    <i class="fa fa-heart-o fa-2x"></i>
   </div>
 </div>
 
@@ -90,41 +97,22 @@ layout: default
     <h3>Recent Posts</h3>
 
     <hr />
+    <br />
 
     <ul class="list-unstyled post-list">
-      {% for post in site.posts limit:3 %}
-
-        {% if post.tags.size > 0 %}
-          {% capture tags_content %}{% endcapture %}
-          {% for post_tag in post.tags %}
-            {% for data_tag in site.data.tags %}
-              {% if data_tag.slug == post_tag %}
-                {% assign tag = data_tag %}
-              {% endif %}
-            {% endfor %}
-            {% if tag %}
-              {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-              {% assign tags_content = tags_content_temp %}
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% assign tags_content = '' %}
-        {% endif %}
-
+      {% for post in site.posts limit:5 %}
         <li>
-
-          <p class="lead post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-
-          <ul class="list-inline post-meta">
-            <li>{{ post.author }}</li>
-            <li>&middot;</li>
-            <li>{{ post.date | date: "%b %-d, %Y" }}</li>
-            <li>&middot;</li>
-            <li>{{ tags_content }}</li>
-          </ul>
-
-          {{ post.excerpt }}
-
+          <div class="row">
+            <div class="col-sm-2 text-right">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </div>
+            <div class="col-sm-1 text-center">
+              &mdash;
+            </div>
+            <div class="col-sm-9">
+              <p class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            </div>
+          </div>
         </li>
       {% endfor %}
     </ul>

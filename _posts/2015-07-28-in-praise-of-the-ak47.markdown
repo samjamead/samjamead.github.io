@@ -11,8 +11,6 @@ A: Fuck no. Fuck him. Fuck the AK-47. Fuck all guns and the people who design th
 
 [Read Mike Monteiro's post on Medium](https://deardesignstudent.com/in-praise-of-the-ak-47-a24cc8a46c13)
 
-Two quotes from Mikhail Kalashnikov which might give some context when considering the rhetorical question at the end of the article:
+A quote from Mikhail Kalashnikov which might give some context when considering the rhetorical question at the end of the article:
 
 >"I'm proud of my invention, but I'm sad that it is used by terrorists ... I would prefer to have invented a machine that people could use and that would help farmers with their work — for example a lawn mower."
-
->"Blame the Nazi Germans for making me become a gun designer ... I always wanted to construct agriculture machinery."

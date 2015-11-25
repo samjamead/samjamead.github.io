@@ -9,10 +9,10 @@ Many writers maintain a private writing hut. The hut has one purpose: it’s the
 
 Let’s treat our desks the same way.
 
-[Read Justin Jackson's post on Medium](https://medium.com/@mijustin/things-ive-quit-doing-at-my-desk-b9cfd73d44e7)
-
 <img src="https://d262ilb51hltx0.cloudfront.net/max/1240/1*0tUbUaSSeT5KTKLHyCjbfQ.jpeg" alt="A private writers hut" style="max-width: 50%; display: block; margin: 20px 0;" />
 
-_Photo: Ralph Morse_
+<small>_Photo: Ralph Morse_</small>
+
+[Read Justin Jackson's post on Medium](https://medium.com/@mijustin/things-ive-quit-doing-at-my-desk-b9cfd73d44e7)
 
 **Bonus!** Here's something else awesome from Justin Jackson: [Words](http://justinjackson.ca/words.html)
