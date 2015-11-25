@@ -5,8 +5,8 @@
     <description>A blog about startups, coding, the environment, and sports.</description>
     <link>http://samjamead.com/</link>
     <atom:link href="http://samjamead.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Nov 2015 21:56:46 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2015 21:56:46 +0800</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2015 13:16:48 +0800</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2015 13:16:48 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -112,15 +112,15 @@
     
       <item>
         <title>Never Read The Comments</title>
-        <description>&lt;p&gt;I’m the 24-year-old CTO of a startup that just raised $2 million. I built all of my company’s tech by myself for the first two years we existed. But, apparently, if I’m on your tech team you should [re]evaluate your life.&lt;/p&gt;
+        <description>&lt;p&gt;The gender gap in the tech scene is a hot topic.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;[…]&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I’m the 24-year-old CTO of a startup that just raised $2 million. I built all of my company’s tech by myself for the first two years we existed. But, apparently, if I’m on your tech team you should [re]evaluate your life. … And, in a world where Snapchat and Facebook were built in dorm rooms and attracted great engineering teams, I’m going to guess that having a boss in their 20s isn’t cause for serious life-questioning either. I’m going to go out on a limb and say that the real problem is that I’m a woman, and I don’t look like you want a CTO to look.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;And, in a world where Snapchat and Facebook were built in dorm rooms and attracted great engineering teams, I’m going to guess that having a boss in their 20s isn’t cause for serious life-questioning either. I’m going to go out on a limb and say that the real problem is that I’m a woman, and I don’t look like you want a CTO to look.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;[…]&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I am proud to be part of a female-led company. I am proud that no one questioned my cofounder’s ability to be our CEO. Women have come very far. But we’re not there yet.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;I am proud to be part of a female-led company. I am proud that no one questioned my cofounder’s ability to be our CEO. Women have come very far. But we’re not there yet.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@saraheadler/never-read-the-comments-9cba93b5712a&quot;&gt;Read Sarah Adler’s post on Medium&lt;/a&gt;&lt;/p&gt;
 </description>
