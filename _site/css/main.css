@@ -191,3 +191,30 @@ footer {
     color: #558aca; }
   footer a:hover {
     color: #88BDFD; }
+
+/* ========================================================
+      Times Appin Was Right
+======================================================== */
+.timesappinwasright {
+  max-width: 650px;
+  margin: 100px auto 200px auto;
+  color: #3d464d;
+  font-family: 'Lora', Helvetica, Arial, sans-serif; }
+  .timesappinwasright h1 {
+    font-family: 'Merriweather', 'Lora', Georgia, serif;
+    color: #32393f;
+    font-weight: 700; }
+  .timesappinwasright p {
+    overflow: hidden; }
+  .timesappinwasright ul {
+    padding-bottom: 80px; }
+  .timesappinwasright hr {
+    border-color: #bec5cb; }
+  .timesappinwasright .heading {
+    margin-bottom: 80px; }
+  .timesappinwasright .date {
+    font-weight: bold; }
+  .timesappinwasright .footnotes {
+    padding-left: 20px; }
+    .timesappinwasright .footnotes li {
+      margin-left: 5px; }

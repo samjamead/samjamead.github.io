@@ -20,7 +20,10 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$soft-dark-gradient: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.25) 100%);
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "sam"
+        "sam",
+        "timesappinwasright"
 ;
