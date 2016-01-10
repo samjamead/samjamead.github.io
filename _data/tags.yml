@@ -1,11 +1,14 @@
-- slug: books
-  name: Books
-
 - slug: asimov
   name: Isaac Asimov
 
+- slug: books
+  name: Books
+
 - slug: buddhism
   name: Buddhism
+
+- slug: captainslog
+  name: Captain's Log
 
 - slug: indonesian
   name: Bahasa Indonesia
@@ -30,3 +33,6 @@
 
 - slug: startups
   name: Startups
+
+- slug: trips
+  name: Trips
