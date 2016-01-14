@@ -38,7 +38,7 @@ A few rules to go by:
 If you get the pronunciation wrong don't worry, they'll correct you! It's the effort that counts.
 
 **Indonesians speak really really fast.** <br />
-If you don't understand someone, ask them to slow down. All to often if you don't catch what's said first time, it will be repeated in English, which is no good for learning! So make sure you jump in quick with 'tolong bicarra lagi pelan pelan' (please say again slowly).
+If you don't understand someone, ask them to slow down. All too often if you don't catch what's said first time, it will be repeated in English, which is no good for learning! So make sure you jump in quick with 'tolong bicarra lagi pelan pelan' (please say again slowly).
 
 Similarly, if what _you've_ said isn't understood first time, try saying it again as fast as you can. Don't worry if your words mash together and you lose some accuracy in pronunciation &mdash; you're more likely to be understood if you speak fast rather than correctly!
 
