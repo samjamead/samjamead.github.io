@@ -7,19 +7,17 @@ html, body {
   height: 100%; }
 
 body {
-  background-color: #163762;
-  background: url("/img/mountain_star.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #f1f3f2;
   min-height: 100%;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.8em;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #3d464d;
+  font-weight: 400;
   -webkit-text-size-adjust: 100%; }
 
 blockquote {
+  margin-left: 1rem;
   margin-top: 2.7em;
   margin-bottom: 2.7em;
   font-style: italic; }
@@ -49,9 +47,6 @@ hr {
 /* ========================================================
       Global Classes
 ======================================================== */
-.container {
-  max-width: 800px; }
-
 .btn {
   transition: 0.3s ease; }
 
@@ -63,8 +58,7 @@ hr {
 
 .section {
   padding-top: 50px;
-  padding-bottom: 50px;
-  background: #fff; }
+  padding-bottom: 50px; }
 
 ul.post-list li {
   margin-bottom: 45px; }
@@ -87,9 +81,9 @@ ul.post-meta li {
       Navbar
 ======================================================== */
 .navbar-default {
-  background-color: transparent;
+  background-color: #23272b;
   border-color: #fff;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Montserrat, "Merriweather", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300; }
   .navbar-default .navbar-brand {
     padding-top: 25px;
@@ -116,32 +110,44 @@ ul.post-meta li {
       Homepage hero
 ======================================================== */
 .hero {
+  background: #23272b;
   height: 100vh;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #fff; }
-  .hero a {
-    color: #fff; }
-  .hero a:hover {
-    text-decoration: none; }
-  .hero h1 {
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
+  display: flex;
+  align-items: center;
+  color: #f1f3f2; }
   .hero .hero-subheading {
     margin-bottom: 35px;
     font-size: 24px; }
+  .hero a {
+    color: #58e2c3; }
   .hero .btn-hero {
     background: transparent;
     border: 1px solid #fff;
     color: #fff; }
   .hero .btn-hero:hover {
     background: rgba(255, 255, 255, 0.2); }
+
+/* ========================================================
+      Post lists
+======================================================== */
+.main-post-list {
+  margin-left: 0;
+  padding-left: 0; }
+  .main-post-list li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 30px; }
+    .main-post-list li .post-info {
+      flex-grow: 2;
+      padding: 30px; }
+    .main-post-list li .post-photo {
+      max-width: 40%; }
+      .main-post-list li .post-photo img {
+        object-fit: cover; }
 
 /* ========================================================
       Homepage latest post highlight
@@ -151,27 +157,25 @@ ul.post-meta li {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #23272B;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
   color: #F4F5F7; }
-  .latest-post h4 {
-    color: #a6A6A7;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
+  .latest-post .holder {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px; }
   .latest-post hr {
     border-color: #fff; }
   .latest-post a {
-    color: #558ACA; }
+    color: #58e2c3; }
   .latest-post .btn-special {
     margin-top: 15px;
     background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #58e2c3;
+    color: #58e2c3;
     padding: 8px 20px; }
   .latest-post .btn-special:hover {
-    background: rgba(255, 255, 255, 0.2); }
+    background: #58e2c3;
+    color: #fff; }
 
 /* ========================================================
       Specifics

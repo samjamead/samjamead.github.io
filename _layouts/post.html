@@ -23,64 +23,68 @@ layout: default
 <div class="post">
   <div class="section">
     <div class="container">
-
-      <header class="post-header">
-
-        <h1 class="post-title">{{ page.title }}</h1>
-
-        <ul class="list-inline post-meta">
-          <li>{{ page.author }}</li>
-          <li>&middot;</li>
-          <li>{{ page.date | date: "%b %-d, %Y" }}</li>
-          <li>&middot;</li>
-          <li>{{ tags_content }}</li>
-        </ul>
-
-      </header>
-
-      <hr />
-
-      {% if page.image %}
-        <img src="/img/{{ page.image }}" />
-        <br />
-        <br />
-      {% endif %}
-
-      <article class="post-content">
-
-        {% if tags_content contains 'snippets' %}
-          <p class="small"><em>Snippets are short excerpts of posts I've come across elsewhere.<br /> The link to the original article is always at the bottom.</em></p>
-        {% endif %}
-
-        {{ content }}
-
-      </article>
-
-      <br />
-
-      <hr>
-
-      <br />
-
       <div class="row">
-        <div class="col-sm-12">
-          <p>
-            {% if page.next %}
-              Next post: <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
-            {% else %}
-              This is the most recent post!
+        <div class="col-md-offset-2 col-md-8">
+
+          <header class="post-header">
+
+            <h1 class="post-title">{{ page.title }}</h1>
+
+            <ul class="list-inline post-meta">
+              <li>{{ page.author }}</li>
+              <li>&middot;</li>
+              <li>{{ page.date | date: "%b %-d, %Y" }}</li>
+              <li>&middot;</li>
+              <li>{{ tags_content }}</li>
+            </ul>
+
+          </header>
+
+          <hr />
+
+          {% if page.image %}
+            <img src="/img/{{ page.image }}" />
+            <br />
+            <br />
+          {% endif %}
+
+          <article class="post-content">
+
+            {% if tags_content contains 'snippets' %}
+              <p class="small"><em>Snippets are short excerpts of posts I've come across elsewhere.<br /> The link to the original article is always at the bottom.</em></p>
             {% endif %}
-          </p>
-          <p>
-            {% if page.previous %}
-              Previous post: <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-            {% else %}
-              This is the oldest post!
-            {% endif %}
-          </p>
+
+            {{ content }}
+
+          </article>
+
+          <br />
+
+          <hr>
+
+          <br />
+
+          <div class="row">
+            <div class="col-sm-12">
+              <p>
+                {% if page.next %}
+                  Next post: <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                {% else %}
+                  This is the most recent post!
+                {% endif %}
+              </p>
+              <p>
+                {% if page.previous %}
+                  Previous post: <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                {% else %}
+                  This is the oldest post!
+                {% endif %}
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
-
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 # Site settings
-title: Sam J A Mead
-email: samjamead@gmail.com
-description: A blog about startups, coding, the environment, and sports.
+title: Mead.fm
+email: sam@mead.fm
+description: A blog about startups, the environment, sport, Buddhism, and probably some other things.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://samjamead.com" # the base hostname & protocol for your site
 twitter_username: samjamead
@@ -12,7 +12,7 @@ paginate: 5
 markdown: kramdown
 permalink: pretty
 
-# Defaults 
+# Defaults
 defaults:
  -
     scope:

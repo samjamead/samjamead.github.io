@@ -1,69 +1,65 @@
 ---
-layout: default
+layout: index
 ---
 
 <a href="#hero" class="scroll_top smooth_scroll"><i class="fa fa-arrow-up fa-2x"></i></a>
 
 <div class="hero" id="hero">
-  <div class="text-center">
-    <!--<a href="#latest" class="smooth_scroll">
-      <img class="img-circle" alt="Sam Headshot" src="/img/sam_headshot8.jpg" />
-    </a>-->
-    <h1><a href="#latest" class="smooth_scroll">Sam J A Mead</a></h1>
-    <p class="lead hero-subheading">Namaste!</p>
-    {% for post in site.posts limit:1 %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-lg btn-hero" >Read the latest post</a>
-    {% endfor %}
-  </div>
-</div>
-
-<div class="latest-post" id="latest">
   <div class="container">
-    <h4>Latest Post</h4>
-    <hr>
-    <ul class="list-unstyled post-list">
-      {% for post in site.posts limit:1 %}
-
-        {% if post.tags.size > 0 %}
-          {% capture tags_content %}{% endcapture %}
-          {% for post_tag in post.tags %}
-            {% for data_tag in site.data.tags %}
-              {% if data_tag.slug == post_tag %}
-                {% assign tag = data_tag %}
-              {% endif %}
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h2><a href="#latest" class="smooth_scroll">Mead.fm</a></h1>
+        <p class="lead">Namaste! This is a blog about startups, the environment, sport, Buddhism, and probably some other things.</p>
+        <ul class="list-inline">
+          <li>
+            {% for post in site.posts limit:1 %}
+              <a href="#latest" class="smooth_scroll">Latest Post</a>
             {% endfor %}
-            {% if tag %}
-              {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-              {% assign tags_content = tags_content_temp %}
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% assign tags_content = '' %}
-        {% endif %}
+          </li>
+          <li>•</li>
+          <li><a href="/blog">Blog</a></li>
+          <li>•</li>
+          <li><a href="/about">About</a></li>
+          <li>•</li>
+          <li><a href="/portfolio">Portfolio</a></li>
+        </ul>
 
-        <li>
-
-          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-
-          <ul class="list-inline post-meta">
-            <li>{{ post.author }}</li>
-            <li>&middot;</li>
-            <li>{{ post.date | date: "%b %-d, %Y" }}</li>
-            <li>&middot;</li>
-            <li>{{ tags_content }}</li>
-          </ul>
-
-          <p>
-            {{ post.excerpt }}
-          </p>
-
-          <a class="btn btn-special" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
-
-        </li>
-      {% endfor %}
-    </ul>
+      </div>
+    </div>
   </div>
 </div>
+
+{% for post in site.posts limit:1 %}
+  <div class="latest-post" id="latest" style="background: url('/img/{{ post.photo }}'); background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-offset-2 col-md-8">
+          <div class="holder">
+            <h3>Latest Post</h3>
+            <hr>
+            <ul class="list-unstyled post-list">
+              {% include tags-content.html %}
+              <li>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <ul class="list-inline post-meta">
+                  <li>{{ post.author }}</li>
+                  <li>&middot;</li>
+                  <li>{{ post.date | date: "%b %-d, %Y" }}</li>
+                  <li>&middot;</li>
+                  <li>{{ tags_content }}</li>
+                </ul>
+                <p>
+                  {{ post.description }}
+                </p>
+                <a class="btn btn-special" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
 
 <div class="section" id="about">
   <div class="container">

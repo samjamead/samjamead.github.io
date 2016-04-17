@@ -7,19 +7,17 @@ html, body {
   height: 100%;
 }
 body {
-  background-color: #163762;
-  background: url('/img/mountain_star.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: $background-color;
   min-height: 100%;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
   color: $text-color;
-  background-color: $background-color;
+  font-weight: 400;
   -webkit-text-size-adjust: 100%;
 }
 blockquote {
+  margin-left: 1rem;
   margin-top: $base-line-height * 1.5;
   margin-bottom: $base-line-height * 1.5;
   font-style: italic;
@@ -49,9 +47,6 @@ hr {
 /* ========================================================
       Global Classes
 ======================================================== */
-.container {
-  max-width: 800px;
-}
 .btn {
   transition: 0.3s ease;
 }
@@ -64,7 +59,6 @@ hr {
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #fff;
 }
 ul.post-list {
   li {
@@ -91,7 +85,7 @@ ul.post-meta {
       Navbar
 ======================================================== */
 .navbar-default {
-  background-color: transparent;
+  background-color: $dark;
   border-color: #fff;
   font-family: Montserrat, $base-font-family;
   font-weight: 300;
@@ -127,29 +121,17 @@ ul.post-meta {
       Homepage hero
 ======================================================== */
 .hero {
+  background: $dark;
   height: 100vh;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  font-family: Montserrat, $base-font-family;
-  color: #fff;
-  a {
-    color: #fff;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  h1 {
-    font-size: 5 * $base-font-size;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  }
+  display: flex;
+  align-items: center;
+  color: $background-color;
   .hero-subheading {
     margin-bottom: 35px;
     font-size: 1.5 * $base-font-size;
+  }
+  a {
+    color: $alt-color;
   }
   .btn-hero {
     background: transparent;
@@ -161,6 +143,36 @@ ul.post-meta {
   }
 }
 /* ========================================================
+      Post lists
+======================================================== */
+.main-post-list {
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: $spacing-unit;
+    .post-info,
+    .post-photo {
+
+    }
+    .post-info {
+      flex-grow: 2;
+      padding: $spacing-unit;
+    }
+    .post-photo {
+      max-width: 40%;
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
+/* ========================================================
       Homepage latest post highlight
 ======================================================== */
 .latest-post {
@@ -168,31 +180,29 @@ ul.post-meta {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #23272B;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
   color: #F4F5F7;
-  h4 {
-    color: #a6A6A7;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  .holder {
+    background: rgba(0,0,0,0.4);
+    padding: $spacing-unit;
   }
   hr {
     border-color: #fff;
   }
   a {
-    color: #558ACA;
+    color: $alt-color;
   }
   .btn-special {
     margin-top: 15px;
     background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid $alt-color;
+    color: $alt-color;
     padding: 8px 20px;
   }
   .btn-special:hover {
-    background: rgba(255,255,255,0.2);
+    background: $alt-color;
+    color: #fff;
   }
 }
 /* ========================================================

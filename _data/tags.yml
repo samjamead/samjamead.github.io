@@ -1,6 +1,9 @@
 - slug: asimov
   name: Isaac Asimov
 
+- slug: basketball
+  name: Basketball
+
 - slug: books
   name: Books
 
@@ -10,8 +13,14 @@
 - slug: captainslog
   name: Captain's Log
 
+- slug: exploring
+  name: Exploring
+
 - slug: indonesian
   name: Bahasa Indonesia
+
+- slug: kobe
+  name: Kobe
 
 - slug: language
   name: Language
@@ -27,6 +36,9 @@
 
 - slug: quotes
   name: Quotes
+
+- slug: reposts
+  name: Reposts
 
 - slug: snippets
   name: Snippets
