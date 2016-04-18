@@ -1,7 +1,6 @@
 ---
 layout: blogBackwards
 title: Blog Backwards
-menu: main
 permalink: /blog-backwards/
 ---
 

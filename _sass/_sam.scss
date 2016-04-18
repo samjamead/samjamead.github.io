@@ -87,24 +87,20 @@ ul.post-meta {
 .navbar-default {
   background-color: $dark;
   border-color: #fff;
-  font-family: Montserrat, $base-font-family;
   font-weight: 300;
   .navbar-brand {
     padding-top: $navbar-padding;
     padding-bottom: $navbar-padding;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: $base-font-size * 1.75;
-    color: #fff;
+    color: $alt-color;
   }
   .navbar-nav {
     li {
       a {
         padding-top: $navbar-padding; // Not dry, but that's ok in this instance.
         padding-bottom: $navbar-padding;
-        text-transform: uppercase;
         color: #fff;
-        font-weight: 400;
       }
       a:hover,
       a.active {
