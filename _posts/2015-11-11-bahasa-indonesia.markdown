@@ -49,7 +49,7 @@ Use _Pak_ (sir) and _Ibu_ (ma'am) to address everyone you meet. You'll seem cour
 <hr />
 <br />
 
-###If you're only going to learn ten phrases, learn these ten:
+### If you're only going to learn ten phrases, learn these ten:
 
 <em>All of these translations are spelled phonetically - don't use this for written comms! This guide is designed to be spoken only...</em>
 
