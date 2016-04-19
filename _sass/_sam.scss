@@ -16,6 +16,12 @@ body {
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
 }
+a {
+  color: lighten($brand-color, 10%);
+}
+a:hover {
+  color: $brand-color;
+}
 blockquote {
   margin-left: 1rem;
   margin-top: $base-line-height * 1.5;
@@ -40,15 +46,19 @@ p {
 img {
   max-width: 100%;
   vertical-align: middle;
+  margin-bottom: $spacing-unit;
 }
 hr {
-  border-color: blue;
+  border-color: $alt-color;
 }
 /* ========================================================
       Global Classes
 ======================================================== */
 .btn {
   transition: 0.3s ease;
+}
+iframe {
+  width: 100%;
 }
 .post {
   margin-top: 70px;
@@ -152,10 +162,6 @@ ul.post-meta {
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: $spacing-unit;
-    .post-info,
-    .post-photo {
-
-    }
     .post-info {
       flex-grow: 2;
       padding: $spacing-unit;
@@ -164,6 +170,7 @@ ul.post-meta {
       max-width: 40%;
       img {
         object-fit: cover;
+        margin: 0;
       }
     }
   }

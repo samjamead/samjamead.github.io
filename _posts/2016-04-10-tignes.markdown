@@ -4,12 +4,11 @@ date:   2016-04-10 16:28:31
 permalink: /blog/tignes
 tags: [reposts, exploring]
 description: "A review of a recent ski trip to Tignes for Snowriders WA!"
+categories: photo
 photo: tignes/1.jpg
 ---
 
-<br />
-
-_This post was originally published over at [Snowriders WA](http://snowriderswa.blogspot.com.au/2016/04/tignes-france-as-snow-sure-as-it-gets.html), the largest community of skiiers and snowboarders in WA!_
+_This post was originally published over at [Snowriders WA](http://snowriderswa.blogspot.com.au/2016/04/tignes-france-as-snow-sure-as-it-gets.html), the largest community of skiiers and snowboarders in WA._
 
 ![Tignes](/img/tignes/2.jpg "Tignes")
 
@@ -96,3 +95,5 @@ My favourite part of Tignes is actually the lowest village of Les Breviaries, wh
 + Take the last lift — and have a few beers up the mountain before you come back down! Most restaurants you find on the mountain have a bar which can be an awesome place to grab a beer and enjoy an Alpine sunset. Bonus, you get the mountain to yourself on the way back down.
 + Take the first lift — and have lunch early. Obviously if you’re making first tracks you’ll have at least one run to yourself before the rest of the crowds hit the slopes. Just make sure you don’t take a run straight back to town, or you’ll be right at the back of the queue! Keep skiing away from town to stay ahead of the masses.
 + Have an early lunch — By stopping for lunch around 11.30 you can be back on the hill by the back of midday: right as most folks are heading in for their lunch. Another well timed break at around 2.30 will make sure you miss the post-lunch rush and leave you rested enough to ski for the rest of the day. For some reason lots of folks head in early, which means some of the quietest skiing of the day is in the last hour before the lifts close.
+
+_This post was originally published over at [Snowriders WA](http://snowriderswa.blogspot.com.au/2016/04/tignes-france-as-snow-sure-as-it-gets.html), the largest community of skiiers and snowboarders in WA._

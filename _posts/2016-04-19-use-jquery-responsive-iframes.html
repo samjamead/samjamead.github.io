@@ -1,0 +1,54 @@
+---
+title:  "Using jQuery to make an iFrame responsive"
+date:   2016-04-14 16:28:31
+permalink: /blog/responsiveiframes
+tags: [code, jquery]
+description: "Embedding video content from Youtube or Vimeo is easy. Making it look good is slightly harder (but still really easy)."
+---
+
+<p class="lead">In my <a href="/blog/kobegoat">last post</a> I embedded a couple of Youtube videos.</p>
+
+<p>At first they weren't full width. Then they were full width, but very short! Only 150px tall in fact, and fixed at that height. Then they were full width and had the right height, but broke out of the side of their parent containers on mobile. Not ideal!</p>
+
+<p>A comprehensive search yielded lots of solutions, but they all seemed quite convoluted and clunky. I couldn't really find anything small and elegant.</p>
+
+<p>Eventually I realised the best thing to do was to set the width of each iFrame using CSS, and then I could change the height of each iFrame using Javascript. Simple, lightweight, repeatable. Nice.</p>
+
+<p>First, the CSS.</p>
+
+<pre>
+  <code class="language-css">
+    iframe {
+      width: 100%;
+    }
+  </code>
+</pre>
+
+<p>I told you it was easy!</p>
+
+<p>Next, the Javascript. First up we set the height of the iFrame and then we repeat the function each time the screen size changes. Full width, fully responsive, good to go!</p>
+
+<pre>
+  <code class="language-javascript">
+    // Make iFrames beautifully responsive with native ratio
+
+    // Get absolute width of iFrame and set height using known ratio (for Youtube it's 0.5625)
+  	function keepRatio() {
+  		var iframeWidth = $( "iframe" ).width();
+  		$('iframe').height(iframeWidth * 0.5625);
+  	}
+
+    // Sets initial height of iFrame
+  	keepRatio();
+
+    // Update the height of your iFrame when window resizes
+  	$(window).resize(function() {
+  		keepRatio();
+  	});
+
+  </code>
+</pre>
+
+<p>In it's current state, this targets all iFrames regardless of their source, but of course it would be very easy to target individual or groups of iFrames using IDs and classes. Over to you! Enjoy.</p>
+
+<p><small><em>Shoutout to <a href="http://prismjs.com" target="_blank">Prism.js</a> for help with syntax highlighting.</em></small></p>

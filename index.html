@@ -8,7 +8,7 @@ layout: index
   <div class="container">
     <div class="row">
       <div class="col-md-offset-2 col-md-8">
-        <h2><a href="#latest" class="smooth_scroll">Mead.fm</a></h1>
+        <h2><a href="/">Mead.fm</a></h1>
         <p class="lead">Namaste! This is a blog about startups, the environment, sport, Buddhism, and probably some other things.</p>
         <ul class="list-inline">
           <li>
@@ -29,7 +29,7 @@ layout: index
   </div>
 </div>
 
-{% for post in site.posts limit:1 %}
+{% for post in site.categories.photo limit:1 %}
   <div class="latest-post" id="latest" style="background: url('/img/{{ post.photo }}'); background-size: cover;">
     <div class="container">
       <div class="row">
@@ -86,29 +86,31 @@ layout: index
 
 <div class="section">
   <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h3>Recent Posts</h3>
 
-    <h3>Recent Posts</h3>
+        <hr />
+        <br />
 
-    <hr />
-    <br />
-
-    <ul class="list-unstyled post-list">
-      {% for post in site.posts limit:5 %}
-        <li>
-          <div class="row">
-            <div class="col-sm-2 text-right">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </div>
-            <div class="col-sm-1 text-center">
-              &mdash;
-            </div>
-            <div class="col-sm-9">
-              <p class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            </div>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-
+        <ul class="list-unstyled post-list">
+          {% for post in site.posts limit:5 %}
+            <li>
+              <div class="row">
+                <div class="col-sm-2 text-right">
+                  {{ post.date | date: "%b %-d, %Y" }}
+                </div>
+                <div class="col-sm-1 text-center">
+                  &mdash;
+                </div>
+                <div class="col-sm-9">
+                  <p class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

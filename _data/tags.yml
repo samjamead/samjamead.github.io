@@ -13,11 +13,17 @@
 - slug: captainslog
   name: Captain's Log
 
+- slug: code
+  name: Code
+
 - slug: exploring
   name: Exploring
 
 - slug: indonesian
   name: Bahasa Indonesia
+
+- slug: jquery
+  name: jQuery
 
 - slug: kobe
   name: Kobe

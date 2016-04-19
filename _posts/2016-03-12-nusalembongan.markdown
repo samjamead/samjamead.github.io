@@ -4,6 +4,7 @@ date:   2016-03-12 16:28:31
 permalink: /blog/nusalembongan
 tags: [reposts, exploring]
 description: "Three weeks and two birthdays in Bali with a big group of friends."
+categories: photo
 photo: nusalembongan/2.jpg
 ---
 
