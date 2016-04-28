@@ -9,6 +9,8 @@ Good freelancers have their portfolio on hand at all times; whether they're in t
 
 [Uproute](http://uproute.io)
 
+[The Switch Electrical](http://theswitchelectrical.com.au)
+
 [Kilkenny Freerange](http://kilkennyfreerange.ie)
 
 [Sangoma](http://sangoma.com.au)
@@ -16,3 +18,5 @@ Good freelancers have their portfolio on hand at all times; whether they're in t
 [Tech Hub](http://techhub.io)
 
 [Atomic Sky](http://atomicsky.com.au)
+
+[Pro Golf Me](http://progolfme.com)
