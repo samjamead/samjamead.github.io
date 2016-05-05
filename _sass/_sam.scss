@@ -127,26 +127,24 @@ ul.post-meta {
       Homepage hero
 ======================================================== */
 .hero {
-  background: $dark;
+  background: url('/img/hero7.jpg') bottom center;
+  background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
-  color: $background-color;
+  animation: animatedBackground 100s linear 3s infinite alternate;
+  color: #fff;
   .hero-subheading {
     margin-bottom: 35px;
     font-size: 1.5 * $base-font-size;
   }
   a {
-    color: $alt-color;
-  }
-  .btn-hero {
-    background: transparent;
-    border: 1px solid #fff;
     color: #fff;
   }
-  .btn-hero:hover {
-    background: rgba(255,255,255,0.2);
-  }
+}
+@keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 0 0; }
 }
 /* ========================================================
       Post lists
