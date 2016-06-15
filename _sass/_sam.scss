@@ -22,12 +22,6 @@ a {
 a:hover {
   color: $brand-color;
 }
-blockquote {
-  margin-left: 1rem;
-  margin-top: $base-line-height * 1.5;
-  margin-bottom: $base-line-height * 1.5;
-  font-style: italic;
-}
 a.scroll_top {
   opacity: 0;
   position: fixed;
@@ -39,6 +33,12 @@ a.scroll_top {
   border-radius: 5px;
   padding: 10px 12px;
   transition: 0.5s ease;
+}
+blockquote {
+  margin-left: 1rem;
+  margin-top: $base-line-height * 1.5;
+  margin-bottom: $base-line-height * 1.5;
+  font-style: italic;
 }
 p {
   margin-bottom: 1.8em;
@@ -56,6 +56,24 @@ hr {
 ======================================================== */
 .btn {
   transition: 0.3s ease;
+}
+.btn-special {
+  margin-top: 15px;
+  background: transparent;
+  border: 1px solid $alt-color;
+  color: $alt-color;
+  padding: 8px 20px;
+  &:hover {
+    background: $alt-color;
+    color: #fff;
+  }
+}
+.btn-darker {
+  color: lighten($brand-color, 10%);
+  border-color: lighten($brand-color, 10%);
+  &:hover {
+    border-color: $alt-color;
+  }
 }
 iframe {
   width: 100%;
@@ -193,17 +211,6 @@ ul.post-meta {
   }
   a {
     color: $alt-color;
-  }
-  .btn-special {
-    margin-top: 15px;
-    background: transparent;
-    border: 1px solid $alt-color;
-    color: $alt-color;
-    padding: 8px 20px;
-  }
-  .btn-special:hover {
-    background: $alt-color;
-    color: #fff;
   }
 }
 /* ========================================================
