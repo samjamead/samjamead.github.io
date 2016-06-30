@@ -1,0 +1,20 @@
+#mina {
+  height: 100vh;
+  width: 100%;
+  div {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    .btn {
+      color: white;
+      background: transparent;
+      border: 1px solid #fff;
+      padding: 12px 25px 10px 25px;
+      transition: 0.5s ease;
+      &:hover {
+        background: $alt-color;
+      }
+    }
+  }
+}
