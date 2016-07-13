@@ -48,9 +48,6 @@ Similarly, if what _you've_ said isn't understood first time, try saying it agai
 **Lastly, call everyone sir or madam at the end of each sentence.** <br />
 Use _Pak_ (sir) and _Ibu_ (ma'am) to address everyone you meet. You'll seem courteous, polite, and culturally aware in the company of your hosts. Litter your conversation with lots of sirs and ma'ams for maximum effect!
 
-<br />
-<hr />
-<br />
 
 ### If you're only going to learn ten phrases, learn these ten:
 
@@ -97,12 +94,30 @@ Sook-sa-moor <br />
 Dimana anda tinggal? <br />
 <small>Expect to be asked this all the time! Usually, this is just small talk, so it's ok to say 'Saya tinggal di sudut' which means 'I'm staying around the corner'. </small>
 
-<br />
-<hr />
-<br />
-
 **Thus concludes the beginners guide to Bahasa Indonesia!**
 
 Hopefully that's enough to get you started. Of course it's also important to learn the numbers, and the basics of please, thank you, and the various hellos. But these are the phrases I have used most often and for some reason, phrasebooks for languages all around the world have a general reluctance to teach novice linguists anything of any actual use!
 
 Good luck...
+
+<hr />
+
+### Reader Comments
+
+_Submit comments to sam@mead.fm_
+
+**Dan says:**
+
+Loved Guide to Bahasa mate, minimalistic, educational and with the essentials well covered.
+
+Very reassuring and encouraging for those frightened to have a crack at a foreign language (biggest hurdle for most as you know) and the sprinkle of humour throughout keeps it lighthearted and fun. Very "Meadionist", as in "Sam Meadionsist" indeed, if i may say :D
+
+I like that you identified that Indos love fozzas speaking Bahasa. It Is one of, if not the best thing about their culture and obviously the best environment to attempt a new language in. Definitely the most accommodating culture for language ignorant foreigners I've met (Thais are up i there too)
+
+Love that you included tips on how to save money and get rid of hawkers (and buy Bintang!) using Bahasa. Very, very useful.
+
+Sook - sa- moor was a great addition too.
+
+Criticism - could have put "how much is this?" in there, more pictures and the contrast in font could have been greater between the two languages for better visual differentiation. But hey! Im just being extremely picky cause i loved the whole thing and Ive been praising you too much! haha
+
+Great job mate! you've inspired me yet again!
