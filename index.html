@@ -72,7 +72,7 @@ layout: index
 
         <p>I'm Sam, a front end web developer and all-round startup guy in Perth, WA.</p>
 
-        <p>Outside of tech startups, I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping. And Oxford commas, golf, and woodwork. And languages. I have too many hobbies.</p>
+        <p>Outside of tech startups I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping. And Oxford commas, golf, and woodwork. And languages. I have too many hobbies.</p>
 
         <p><a href="/about/">Read a bit more</a></p>
       </div>
@@ -80,10 +80,8 @@ layout: index
   </div>
 </div>
 
-<div class="section">
-  <div class="container text-center">
-    <i class="fa fa-heart-o fa-2x"></i>
-  </div>
+<div class="container text-center">
+  <i class="fa fa-heart-o fa-2x"></i>
 </div>
 
 <div class="section">
@@ -99,13 +97,13 @@ layout: index
           {% for post in site.posts limit:5 %}
             <li>
               <div class="row">
-                <div class="col-sm-2 text-right">
+                <div class="col-sm-3 text-right">
                   {{ post.date | date: "%b %-d, %Y" }}
                 </div>
                 <div class="col-sm-1 text-center">
                   &mdash;
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-8">
                   <p class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                 </div>
               </div>

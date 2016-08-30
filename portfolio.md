@@ -30,6 +30,4 @@ I'm a web developer working with HTML, CSS and JavaScript. My speciality is crea
 
 [Pro Golf Me](http://progolfme.com)
 
-If you want to get in contact, here are my contact details:
-
-<p><script src="/js/businesscard.js"></script></p>
+If you want to get in contact, please <a href="mailto:{{ site.email }}">email me</a>.

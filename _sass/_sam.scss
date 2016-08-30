@@ -13,7 +13,7 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   color: $text-color;
-  font-weight: 400;
+  font-weight: 300;
   -webkit-text-size-adjust: 100%;
 }
 a {
@@ -50,6 +50,13 @@ img {
 }
 hr {
   border-color: $alt-color;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+strong {
+  font-weight: 400;
 }
 /* ========================================================
       Global Classes
@@ -90,7 +97,7 @@ iframe {
 }
 ul.post-list {
   li {
-    margin-bottom: $spacing-unit * 1.5;
+    margin-bottom: 1rem;
   }
 }
 .post-link {
@@ -119,7 +126,7 @@ ul.post-meta {
   .navbar-brand {
     padding-top: $navbar-padding;
     padding-bottom: $navbar-padding;
-    font-weight: 500;
+    font-weight: 900;
     font-size: $base-font-size * 1.75;
     color: $alt-color;
   }
