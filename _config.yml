@@ -3,7 +3,7 @@ title: Mead.fm
 email: sam@mead.fm
 description: A blog about startups, the environment, sport, Buddhism, and probably some other things.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://samjamead.com" # the base hostname & protocol for your site
+url: "http://mead.fm" # the base hostname & protocol for your site
 twitter_username: samjamead
 github_username:  samjamead
 paginate: 5
