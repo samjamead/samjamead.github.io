@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="The complete ranking of table tennis players in Scarborough, WA">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <title>The Complete Scarborough Table Tennis Rankings</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="wrapper">
+        <h1><a href="./">The Great Big Meady-Reidy-Williamson Table Tennis Tournament</a></h1>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrapper">
+
+        <div id="rankingView">
+          <div class="row space-between" />
+            <h2>Current Ranking</h2>
+            <div>
+              <button class="btn newPlayerButton">Add Player</button>
+              <button class="btn btn-success" id="newResultButton">New Result</button>
+            </div>
+          </div>
+          <table id="rankingTable">
+            <thead>
+              <tr>
+                <th>Ranking</th>
+                <th>Name</th>
+                <th>Nationality</th>
+                <th>Won</th>
+                <th>Lost</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Ranking will magically appear here! -->
+            </tbody>
+          </table>
+
+          <div class="row space-between">
+            <h3>Results</h3>
+            <p id="totalGames"></p>
+          </div>
+          <table id="resultsHistory">
+            <tbody>
+              <!-- Ranking will magically appear here! -->
+            </tbody>
+          </table>
+
+        </div>
+
+        <div id="newResultView">
+          <div class="row space-between" />
+            <h2>Submit a New Result</h2>
+            <div>
+              <button class="btn newPlayerButton">Add Player</button>
+              <button class="btn btn-error cancelButton">Cancel</button>
+            </div>
+          </div>
+
+          <hr />
+
+          <h3>Who played who?</h3>
+
+          <div class="row" id="selects">
+            <div class="column text-center">
+              <p>The humble winner:</p>
+              <select class="resultSelect" id="playerOne">
+                <option value="none"></option>
+                <!-- PLayers will magically appear here! -->
+              </select>
+            </div>
+            <div class="column text-center">
+              <p><strong>Beat</strong></p>
+            </div>
+            <div class="column text-center">
+              <p>The gallant loser:</p>
+              <select class="resultSelect" id="playerTwo">
+                <option value="none"></option>
+                <!-- Players will magically appear here! -->
+              </select>
+            </div>
+          </div>
+
+          <div class="double-margins text-center">
+            <button id="submitResult" class="btn btn-success">Publish Result</button>
+          </div>
+
+        </div>
+
+        <div id="newPlayerView">
+          <div class="row space-between" />
+            <h2>Add a New Player</h2>
+            <button class="btn btn-error cancelButton">Cancel</button>
+          </div>
+          <hr />
+          <h3>Who would you like to add?</h3>
+
+          <div class="row flex-start inputRow">
+            <div class="column">
+              <label for="npName">Name:</label>
+            </div>
+            <div class="column">
+              <input type="text" id="npName" />
+            </div>
+          </div>
+
+          <div class="row flex-start inputRow">
+            <div class="column">
+              <label for="npNationality">Nationality:</label>
+            </div>
+            <div class="column">
+              <input type="text" id="npNationality"/>
+            </div>
+          </div>
+
+          <div class="row flex-start inputRow">
+            <div class="column">
+            </div>
+            <div class="column">
+              <button class="btn btn-success" id="addPlayer">Add Player</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <hr />
+        <p>By <a href="http://mead.fm" target="_blank">Sam Mead</a>, with thanks to <a href="https://metinmediamath.wordpress.com/about/" target="_blank">Metin Bektas</a></p>
+        <p>"The process of rating players can be compared to the measurement of the position of a cork bobbing up and down on the surface of agitated water with a yard stick tied to a rope and which is swaying in the wind."</p>
+        <p><em>&mdash; Arpad Elo</em></p>
+      </div>
+    </footer>
+
+  </body>
+
+  <script src="./scripts/jquery-2.2.4.min.js" ></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+  <script src="./scripts/app.js" ></script>
+
+</html>
