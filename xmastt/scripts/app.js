@@ -47,6 +47,16 @@ $(document).ready(function() {
     $("#resultsHistory tbody").empty();
     $('.playerOption').remove();
 
+    // Print the history
+    var resultsHistory = Object.keys(data.results);
+    $("#totalGames").append("Total games played: <strong>" + resultsHistory.length + "<strong>" );
+
+    var results = data.results;
+    console.log(results);
+    $.each(results, function(i, game) {
+      $("#resultsHistory tbody").append("<tr><td>" + game.date + "</td><td class=\"text-center\">&mdash;</td><td>" + game.winner + " beat " + game.loser + "</td></tr>");
+    });
+
     function updateRatingTable() {
 
       // Convert to object to array so we can sort by ranking
@@ -76,16 +86,6 @@ $(document).ready(function() {
       });
     }
     updateResultSelects();
-
-    function updateResultsList() {
-      $("#totalGames").append("Total games played: <strong>" + data.results.length + "<strong>" );
-      var results = data.results;
-      results.reverse();
-      $.each(results, function(i, result) {
-        $("#resultsHistory tbody").append("<tr><td>" + result.date + "</td><td>&mdash;</td><td>" + result.winner + " beat " + result.loser + "</td></tr>");
-      });
-    }
-    updateResultsList();
 
     $("#submitResult").click(function() {
 
@@ -132,7 +132,7 @@ $(document).ready(function() {
       var e1 = p1r1 / (p1r1 + p2r1);
       var e2 = p2r1 / (p1r1 + p2r1);
 
-      // Set result (player 1 is always the winner in this app)
+      // Set game (player 1 is always the winner in this app)
       var s1 = 1;
       var s2 = 0;
 
@@ -170,9 +170,10 @@ $(document).ready(function() {
         "loser" : p2,
         "winner" : p1
       };
-      var gameNumber = data.results.length;
 
-      firebase.database().ref('/results/' + gameNumber).set(consignment);
+      var gameNumber = resultsHistory.length + 1;
+
+      firebase.database().ref('/results/Match ' + gameNumber).set(consignment);
       firebase.database().ref().update(updates);
 
       // Prevents undiagnosed empty scores
