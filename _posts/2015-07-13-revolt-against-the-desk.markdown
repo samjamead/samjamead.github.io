@@ -2,8 +2,7 @@
 title:  "Revolt Against The Desk"
 date:   2015-07-13 13:48:00
 permalink: /blog/revolt-against-desks
-tags: [snippets]
-categories: photo
+categories: Snippets
 photo: desks.jpg
 ---
 

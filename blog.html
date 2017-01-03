@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+menu: main
+---
+<div id="pageWrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>All The Posts</h1>
+        <p>I write pretty sporadically and often repost stuff I've written for other publications.</p>
+        <ul class="list-inline">
+          {% for category in site.categories %}
+            <li><a href="/blog/category/{{ category | first }}">{{ category | first }}</a></li>
+            {% unless forloop.last %}
+              <li>//</li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+        <hr />
+      </div>
+    </div>
+    <div class="row clearfix-3">
+      {% for post in site.posts %}
+        <div class="col-md-4">
+          <a class="fancy-list" href="{{ post.url | prepend: site.github.url }}">
+            <div class="list-img"
+                 {% if post.photo %}
+                   style="background-image: url('/img/{{ post.photo | prepend: site.github.url }}');"
+                 {% endif %}>
+            </div>
+            <div class="list-meta">
+              <p>
+                {{ post.title }}
+                <br />
+                <span>Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="clear"></div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

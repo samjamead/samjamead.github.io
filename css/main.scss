@@ -3,31 +3,57 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.85;
-$base-line-height: 1.8em;
+$brand-color:      #58e2C3; // green
+$accent-color:     #6499e3; // blue
+$third-color:      #ffc563; // yellow
+$fourth-color:     #ff9f63; // orange
 
+$light-grey:       #f8f8f8;
+$grey-color:       #979797;
+$dark-grey:        #455a55;
+
+$background-color: #fff;
+$text-color:       $dark-grey;
+
+$border:           1px solid $light-grey;
 $spacing-unit:     30px;
-$navbar-padding:   25px;
 
-$text-color:       #3d464d;
-$background-color: #f1f3f2;
-$brand-color:      #1c70b3;
-$alt-color:        #58e2c3;
+$base-font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   15px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.8;
 
-$dark:             #23272b;
+$headings-font-weight: 900;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// Width of the content area
+$content-width:    800px;
 
-$soft-dark-gradient: linear-gradient(rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.25) 100%);
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "sam",
-        "mina",
-        "timesappinwasright"
+        "base",
+        "categories",
+        "footer",
+        "global",
+        "header",
+        "home",
+        "page",
+        "post",
+        "syntax-highlighting"
 ;

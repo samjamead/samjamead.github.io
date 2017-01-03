@@ -2,9 +2,8 @@
 title:  "A Beginner's Guide to Bahasa Indonesia"
 date:   2015-11-11 21:20:31
 permalink: /blog/bahasa-indonesia
-tags: [language, indonesian]
 description: "Selamat Datang panduan pemula untuk Bahasa Indonesia!"
-categories: photo
+categories: Tutorials
 photo: /nusalembongan/5.jpg
 ---
 

@@ -1,0 +1,19 @@
+// =======================================
+//  Footer
+//  Mmmmmm... Sticky. Don't forget to
+//  include scripts.js for dynamic sizing
+// =======================================
+
+.site-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f8f8f8;
+  padding-top: $spacing-unit * 2;
+  padding-bottom: $spacing-unit * 2;
+  border-top: 1px solid $fourth-color;
+  h2 {
+    color: $brand-color;
+  }
+}

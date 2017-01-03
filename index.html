@@ -1,116 +1,84 @@
 ---
-layout: index
+layout: default
+title: Homepage
 ---
 
-<a href="#hero" class="scroll_top smooth_scroll"><i class="fa fa-arrow-up fa-2x"></i></a>
+<div class="colourbar"></div>
 
-<div class="hero" id="hero">
+<section class="jumbotron">
+  <div class="text-center">
+    <img src="./img/logo.svg" alt="Sam Mead, Perth WA" />
+    <h1><span>Namaste friend!</span> Sam Mead is a web developer and startup helper in Perth, WA.</h1>
+    <p>This is a blog about startups, the environment, sport, Buddhism, and probably some other things. Enjoy!</p>
+    <nav>
+      <ul>
+        <li><a href="#latestpost" class="smooth_scroll">Latest Post</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+<section class="background" id="latestpost">
   <div class="container">
     <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <h2><a href="/">Mead.fm</a></h2>
+      <div class="col-sm-12 text-center">
+        <h2>Latest Post</h2>
         <hr />
-        <p class="lead editable">Namaste! This is a blog about startups, the environment, sport, Buddhism, and probably some other things. Enjoy!</p>
-        <hr />
-        <ul class="list-inline">
-          <li>
-            {% for post in site.posts limit:1 %}
-              <a href="#latest" class="smooth_scroll">Latest Post</a>
-            {% endfor %}
-          </li>
-          <li>•</li>
-          <li><a href="/blog">Blog</a></li>
-          <li>•</li>
-          <li><a href="/about">About</a></li>
-          <li>•</li>
-          <li><a href="/portfolio">Portfolio</a></li>
-        </ul>
-
-      </h2></div>
+      </div>
     </div>
-  </div>
-</div>
-
-{% for post in site.categories.photo limit:1 %}
-  <div class="latest-post" id="latest" style="background: url('/img/{{ post.photo }}'); background-size: cover; background-position: center;">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-offset-2 col-md-8">
-          <div class="holder">
-            <h3>Latest Post</h3>
-            <hr />
-            <ul class="list-unstyled post-list">
-              {% include tags-content.html %}
-              <li>
-                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                <ul class="list-inline post-meta">
-                  <li>{{ post.author }}</li>
-                  <li>&middot;</li>
-                  <li>{{ post.date | date: "%b %-d, %Y" }}</li>
-                  <li>&middot;</li>
-                  <li>{{ tags_content }}</li>
-                </ul>
-                <p>
-                  {{ post.description }}
-                </p>
-                <a class="btn btn-special" href="{{ post.url | prepend: site.baseurl }}">READ POST</a>
-              </li>
-            </ul>
-          </div>
+    <div class="row">
+      {% for post in site.posts limit:1 %}
+        <div class="col-md-6">
+          <a href="{{ post.url | prepend: site.github.url }}">
+            <img src="/img/{{ post.photo | prepend: site.github.url }}" alt="post.title" />
+          </a>
         </div>
-      </div>
+        <div class="col-md-6">
+          <h3><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h3>
+          <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
+          <p>{{ post.description }}</p>
+          <p><a href="{{ post.url | prepend: site.github.url }}">Read full post...</a></p>
+        </div>
+      {% endfor %}
     </div>
-  </div>
-{% endfor %}
-
-<div class="section" id="about">
-  <div class="container">
     <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <h3>About</h3>
+      <div class="col-sm-12">
         <hr />
-
-        <p>I'm Sam, a front end web developer and all-round startup guy in Perth, WA.</p>
-
-        <p>Outside of tech startups I'm passionate about making the world a little bit more environmentally conscious, as well as surfing, skiing, and camping. And Oxford commas, golf, and woodwork. And languages. I have too many hobbies.</p>
-
-        <p><a href="/about/">Read a bit more</a></p>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="container text-center">
-  <i class="fa fa-heart-o fa-2x"></i>
-</div>
-
-<div class="section">
-  <div class="container">
+<section class="background">
+  <div class="container" id="homepage">
     <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <h3>Recent Posts</h3>
-
-        <hr />
-        <br />
-
-        <ul class="list-unstyled post-list">
-          {% for post in site.posts limit:5 %}
-            <li>
-              <div class="row">
-                <div class="col-sm-3 text-right">
-                  {{ post.date | date: "%b %-d, %Y" }}
-                </div>
-                <div class="col-sm-1 text-center">
-                  &mdash;
-                </div>
-                <div class="col-sm-8">
-                  <p class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                </div>
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
+      <div class="col-sm-12 text-center margin-bottom">
+        <h2>More Blog Posts</h2>
       </div>
     </div>
+    <div class="row clearfix-3">
+      {% for post in site.posts limit:6 offset:1 %}
+        <div class="col-md-4">
+          <a class="fancy-list" href="{{ post.url | prepend: site.github.url }}">
+            <div class="list-img"
+                 {% if post.photo %}
+                   style="background-image: url('/img/{{ post.photo | prepend: site.github.url }}');"
+                 {% endif %}>
+            </div>
+            <div class="list-meta">
+              <p>
+                {{ post.title }}
+                <br />
+                <span>Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="clear"></div>
+      {% endfor %}
+    </div>
   </div>
-</div>
+</section>

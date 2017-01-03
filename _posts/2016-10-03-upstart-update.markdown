@@ -2,9 +2,8 @@
 title: 'Checking in with the 2016 Vocus Upstart Cohort'
 permalink: /blog/sam-point-road
 date: 'Mon Oct 03 2016 18:11:51 GMT+0800 (AWST)'
-tags: [startups]
 description: Only one month left to the Vocus Upstart 2016 Demo Day!
-categories: photo
+categories: Startups
 photo: '2016-09-28_Dan_and_Anna.jpg'
 ---
 

@@ -2,9 +2,8 @@
 title:  "User Stories: Tignes, France"
 date:   2016-04-10 16:28:31
 permalink: /blog/tignes
-tags: [reposts, exploring]
 description: "A review of a recent ski trip to Tignes for Snowriders WA!"
-categories: photo
+categories: Trips
 photo: tignes/1.jpg
 ---
 

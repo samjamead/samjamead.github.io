@@ -2,7 +2,7 @@
 title:  "Never Read The Comments"
 date:   2015-09-14 09:54:31
 permalink: /blog/never-read-the-comments
-tags: [snippets]
+categories: Snippets
 ---
 
 The gender gap in the tech scene is a hot topic.

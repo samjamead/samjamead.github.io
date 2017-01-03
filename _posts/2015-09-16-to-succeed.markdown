@@ -2,7 +2,7 @@
 title:  "Isaac Asimov"
 date:   2015-09-16 17:56:31
 permalink: /blog/isaac-asimov
-tags: [quotes, asimov]
+categories: Quotes
 ---
 
 I could list Asimov quotes for days.

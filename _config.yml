@@ -1,19 +1,18 @@
 # Site settings
 title: Mead.fm
 email: sam@mead.fm
-description: A blog about startups, the environment, sport, Buddhism, and probably some other things.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mead.fm" # the base hostname & protocol for your site
+description: > # this means to ignore newlines until "baseurl:"
+  Namaste friend! Sam Mead is a web developer and startup helper in Perth, WA. This is a blog about startups, the environment, sport, Buddhism, and probably some other things. Enjoy!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mead.fm/" # the base hostname & protocol for your site
 twitter_username: samjamead
 github_username:  samjamead
-paginate: 5
 gems:
   - jekyll-redirect-from
-  - jekyll-paginate
 
 # Build settings
+author: sam@mead.fm
 markdown: kramdown
-permalink: pretty
 
 # Defaults
 defaults:

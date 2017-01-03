@@ -2,7 +2,7 @@
 title:  "Desert Island Disks"
 date:   2015-07-19 12:06:00
 permalink: /blog/desert-island-disks
-tags: [music]
+categories: Music
 ---
 
 Desert Island Disks is a BBC Radio 4 programme that's been running since the 40's. From Wikipedia:

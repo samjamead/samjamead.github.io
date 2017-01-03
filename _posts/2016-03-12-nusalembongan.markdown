@@ -2,9 +2,8 @@
 title:  "Three weeks roaming in Bali"
 date:   2016-03-12 16:28:31
 permalink: /blog/nusalembongan
-tags: [reposts, exploring]
 description: "Three weeks and two birthdays in Bali with a big group of friends."
-categories: photo
+categories: Trips
 photo: nusalembongan/2.jpg
 ---
 

@@ -2,7 +2,7 @@
 title:  "On Geniuses And Lovers"
 date:   2015-07-12 16:11:00
 permalink: /blog/on-geniuses-and-lovers
-tags: [snippets]
+categories: Snippets
 ---
 
 “It is very painful, I think, to be told: ‘You enchanted the world for me, you made me feel things I never knew I could, now please be normal at dinner.’ We are always saying this to people in one way or another, of course; maybe we have to.”

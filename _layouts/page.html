@@ -1,21 +1,27 @@
----
-layout: default
----
-<div class="post" style="margin-top: 70px;">
-  <div class="section">
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id={{ page.title }}>
+
+
+    {% include header.html %}
+
     <div class="container">
       <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </header>
-          <article class="post-content">
-            {{ content }}
-          </article>
-
+        <div class="col-sm-12">
+          {{ content }}
         </div>
       </div>
     </div>
-  </div>
-</div>
+
+    {% include footer.html %}
+
+  </body>
+
+  <script src="{{ site.github.url }}/scripts/jquery-2.2.4.min.js" ></script>
+  <script src="{{ site.github.url }}/scripts/bootstrap.min.js"    ></script>
+  <script src="{{ site.github.url }}/scripts/scripts.js"          ></script>
+
+</html>

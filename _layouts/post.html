@@ -2,69 +2,50 @@
 layout: default
 ---
 
-{% include tags-content.html %}
+<div class="container" id="postWrapper">
+  <div class="row">
 
-<div class="post">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
+    <div class="col-md-8">
 
-          <header class="post-header">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <h1 class="post-title">{{ page.title }}</h1>
+        <header class="post-header">
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} &mdash; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        </header>
 
-            <ul class="list-inline post-meta">
-              <li>{{ page.author }}</li>
-              <li>&middot;</li>
-              <li>{{ page.date | date: "%b %-d, %Y" }}</li>
-              <!--
-              <li>&middot;</li>
-              <li>{{ tags_content }}</li>
-              -->
-            </ul>
-
-          </header>
-
-          <hr />
-
-          <article class="post-content">
-
-            {% if tags_content contains 'snippets' %}
-              <p class="small"><em>Snippets are short excerpts of posts I've come across elsewhere.<br /> The link to the original article is always at the bottom.</em></p>
-            {% endif %}
-
-            {{ content }}
-
-          </article>
-
-          <br />
-
-          <hr>
-
-          <br />
-
-          <div class="row">
-            <div class="col-sm-12">
-              <p>
-                {% if page.next %}
-                  Next post: <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
-                {% else %}
-                  This is the most recent post!
-                {% endif %}
-              </p>
-              <p>
-                {% if page.previous %}
-                  Previous post: <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-                {% else %}
-                  This is the oldest post!
-                {% endif %}
-              </p>
-            </div>
+        {% if page.img %}
+          <div id="postHero" style="background-image: url('{{ page.img | prepend: site.github.url }}');">
+            <!-- Image appears here! -->
           </div>
+        {% endif %}
 
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
         </div>
-      </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <hr />
+      <p>
+        {% if page.next %}
+          Read next: <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+        {% elsif page.previous %}
+          Read next: <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        {% elsif page.title == 'About' %}
+          Read my most recent blog post: {% for post in site.posts limit:1 %}<a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>{% endfor %}
+        {% elsif page.title == 'Portfolio' %}
+          Read my most recent blog post: {% for post in site.posts limit:1 %}<a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>{% endfor %}
+        {% else %}
+          Read next: This is the only post! <a href="mailto:{{ site.email }}" target="_blank">Email the author</a> and tell them to get on with more.
+        {% endif %}
+      </p>
     </div>
   </div>
 </div>

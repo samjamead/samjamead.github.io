@@ -1,17 +1,15 @@
 ---
-title:  "Tutorial: How To Send Transactional Email From Auth0 Using SendGrid"
+title:  "Tutorial Recommendation: How To Send Transactional Email From Auth0 Using SendGrid"
 date:   2016-08-28 16:00:31 +0800
 permalink: /blog/sendgridtutorial
-tags: [code]
+category: Tutorials
 description: "Thank you Ryan Chenkie for making such an easy tutorial on sending email from Auth0 via SendGrid."
 ---
-<br />
-
 ### I left it to the absolute last minute.
-<br />
+
 One month's worth of notice wasn't enough for me... So I left things till I had 12 hours!
 
-We (Uproute) uses Auth0 to authenticate our users. It's great! One less thing for us to worry about.
+We (Uproute) use Auth0 to authenticate our users. It's great! One less thing for us to worry about.
 
 But. The email template settings within Auth0 were scheduled to change; we would now need to use a 3rd party email provider to send transactional email from Auth0 to our users.
 

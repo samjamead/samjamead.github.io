@@ -1,0 +1,40 @@
+// =======================================
+//  Header SASS
+// =======================================
+
+.navbar {
+  border-radius: 0;
+  border: 0;
+  border-bottom: $border;
+  margin-bottom: 0;
+  background: $brand-color;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+  &:hover {
+    color: #fff;
+    background: $accent-color;
+  }
+}
+.navbar-nav {
+  li {
+    a {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #fff;
+      padding: 20px 15px;
+      &:hover {
+        color: #fff;
+        background: $accent-color;
+      }
+    }
+    .active {
+      background: $accent-color;
+    }
+  }
+}

@@ -2,9 +2,8 @@
 title: '6 Night Extra Long Weekend In Margaret River'
 permalink: /blog/sam-point-road
 date: 'Fri Jul 08 2016 18:11:51 GMT+0800 (AWST)'
-tags: [reposts, exploring]
 description: Camp, cook brekkie, surf, lunch at a brewery, spend the afternoon at wineries in the rain, surf again, then back to the campsite to cook dinner.
-categories: photo
+categories: Trips
 photo: 'pointRoad.jpg'
 ---
 

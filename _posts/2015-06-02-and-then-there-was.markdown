@@ -2,7 +2,7 @@
 title:  "And then, there was..."
 date:   2015-06-02 22:17:49
 permalink: /blog/and-then-there-was
-tags: [musings]
+categories: Musings
 photo: royalNorthDevon.jpg
 ---
 

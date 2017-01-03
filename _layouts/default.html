@@ -3,9 +3,11 @@
 
   {% include head.html %}
 
-  <body>
+  <body id={{ page.title }}>
 
-    {% include header.html %}
+    {% unless page.title == "Homepage" %}
+      {% include header.html %}
+    {% endunless %}
 
     {{ content }}
 
@@ -13,12 +15,8 @@
 
   </body>
 
-  <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="/js/scripts.js"></script>
-  <script src="/js/lunr.min.js"></script>
-  <script src="/js/search.js"></script>
-  <script src="/js/prism.js"></script>
+  <script src="{{ site.github.url }}/scripts/jquery-2.2.4.min.js" ></script>
+  <script src="{{ site.github.url }}/scripts/bootstrap.min.js"    ></script>
+  <script src="{{ site.github.url }}/scripts/scripts.js"          ></script>
 
 </html>
