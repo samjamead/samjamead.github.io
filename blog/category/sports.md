@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Sports
-permalink: /blog/category/Sports
+permalink: /blog/category/sports
 image:
 ---
