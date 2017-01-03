@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Politics
-permalink: /blog/category/Politics
+permalink: /blog/category/politics
 image:
 ---
