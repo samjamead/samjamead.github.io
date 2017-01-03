@@ -62,10 +62,10 @@ title: Homepage
     <div class="row clearfix-3">
       {% for post in site.posts limit:6 offset:1 %}
         <div class="col-md-4">
-          <a class="fancy-list" href="{{ post.url }}">
+          <a class="fancy-list" href="{{ post.url | prepend: site.github.url }}">
             <div class="list-img"
                  {% if post.photo %}
-                   style="background-image: url('/img/{{ post.photo | prepend: site.github.url }}');"
+                   style="background-image: url('/img/{{ post.photo }}');"
                  {% endif %}>
             </div>
             <div class="list-meta">

@@ -13,8 +13,8 @@ $("a[href^='http://']").attr("target","_blank");
 $("a[href^='https://']").attr("target","_blank");
 
 // Unless it's because of Github pages
-$("a[href^='http://mead.fm/bootstrappedJekyll/']").attr("target","_self");
-$("a[href^='https://mead.fm/bootstrappedJekyll/']").attr("target","_self");
+$("a[href^='http://mead.fm/']").attr("target","_self");
+$("a[href^='https://mead.fm/']").attr("target","_self");
 
 // Smoooooth scrolling
 $('a.smooth_scroll').click(function(){
