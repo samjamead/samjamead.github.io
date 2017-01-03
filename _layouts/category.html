@@ -15,7 +15,7 @@
             <ul class="list-inline category-subheading">
               <li>Choose a different category: </li>
               {% for category in site.categories %}
-                <li><a href="/blog/category/{{ category | first }}">{{ category | first }}</a></li>
+                <li><a href="/blog/category/{{ category | first | downcase }}">{{ category | first }}</a></li>
                 {% unless forloop.last %}
                   <li>//</li>
                 {% endunless %}
