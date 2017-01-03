@@ -33,7 +33,7 @@ title: Homepage
       {% for post in site.posts limit:1 %}
         <div class="col-md-6">
           <a href="{{ post.url | prepend: site.github.url }}">
-            <img src="/img/{{ post.photo | prepend: site.github.url }}" alt="post.title" />
+            <img src="/img/{{ post.photo }}" alt="post.title" />
           </a>
         </div>
         <div class="col-md-6">
@@ -62,7 +62,7 @@ title: Homepage
     <div class="row clearfix-3">
       {% for post in site.posts limit:6 offset:1 %}
         <div class="col-md-4">
-          <a class="fancy-list" href="{{ post.url | prepend: site.github.url }}">
+          <a class="fancy-list" href="{{ post.url }}">
             <div class="list-img"
                  {% if post.photo %}
                    style="background-image: url('/img/{{ post.photo | prepend: site.github.url }}');"
