@@ -12,7 +12,7 @@ menu: main
         <p>I write pretty sporadically and often repost stuff I've written for other publications.</p>
         <ul class="list-inline">
           {% for category in site.categories %}
-            <li><a href="/blog/category/{{ category | first }}">{{ category | first }}</a></li>
+            <li><a href="/blog/category/{{ category | first | downcase }}">{{ category | first }}</a></li>
             {% unless forloop.last %}
               <li>//</li>
             {% endunless %}
