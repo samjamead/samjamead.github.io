@@ -8,7 +8,7 @@ date: 2016-12-06 22:17:49
 
 #### Good freelancers have their portfolio on hand at all times; whether they’re in the office, on a train, or up a mountain. Here’s mine.
 
-I'm a web developer working with HTML, CSS and JavaScript. My speciality is creating static websites using Jekyll, which can be hosted for free on GitHub pages. Recently I've been working more and more with Google's Firebase, which is a powerful yet simple realtime database. It's pefect for building quick and beautiful MVPs.
+I'm a web developer working with HTML, CSS and JavaScript. My speciality is creating static websites using Jekyll, which can be hosted for free on GitHub pages. Recently I've been working more and more with Google's Firebase, which is a powerful yet simple realtime database. It's perfect for building quick and beautiful MVPs.
 
 In reverse chronolgical order, projects I've worked on:
 
