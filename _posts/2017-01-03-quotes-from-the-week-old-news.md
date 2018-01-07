@@ -6,7 +6,6 @@ description: Fidel Castro and John Major walk into a bar.
 categories: Politics
 photo: 'theweekcastro.jpg'
 ---
-
 If you don't read [The Week](http://theweek.com) you definitely should: it's a weekly magazine that rounds up news from all over the world and breaks it down into easier to digest chunks. There's a UK edition and a US edition; I get the UK edition, which is (in my opinion) a slightly left-leaning but generally impartial view on the most important news from the previous week.
 
 It's my favourite news source because it allows me to continue what I think is a good habit I have developed for consuming news. I like to wait until a story has almost blown over before I read about it. That way my opinions are more evenly weighted with the benefit of hindsight, and being able to consider the facts of what actually happened. There's no hot headed or rushed or rash or one sided arguments otherwise associated with up-to-the-minute news.

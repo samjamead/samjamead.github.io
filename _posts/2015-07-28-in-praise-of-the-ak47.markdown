@@ -4,6 +4,7 @@ date:   2015-07-28 13:52:00
 permalink: /blog/ak-47
 categories: Snippets
 ---
+A snippet from Mike Monterio:
 
 _Q: I had a professor in school who went on and on about how well the AK-47 was designed. He stressed that as designers we should be able to appreciate an object’s design on a purely aesthetic level. Do you agree?_
 

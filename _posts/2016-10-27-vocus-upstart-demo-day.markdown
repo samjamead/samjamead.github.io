@@ -6,7 +6,6 @@ description: A recording of the Vocus Upstart Perth Demo Day.
 categories: Startups
 photo: 'vocusdemoday1.jpg'
 ---
-
 I had an absolute blast as the Founder In Residence for the Vocus Upstart 2016 Cohort. We kicked things off in August down in Margaret River, and the accelerator culminates in the Perth Demo Day. All seven companies gave a really good account of themselves, and I'm looking forward to advising on their funding rounds!
 
 ![MCing the Perth Demo Day](/img/vocusdemoday1.jpg)

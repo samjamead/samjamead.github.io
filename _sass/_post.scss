@@ -1,20 +1,28 @@
 // =======================================
 //  Post SASS
 // =======================================
-#postWrapper {
-  padding-top: $spacing-unit;
-  padding-bottom: ($spacing-unit * 2);
+article {
+  padding-bottom: 1rem;
+  .post-header {
+    border-top: $border;
+    border-bottom: $border;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    p {
+      margin: 0;
+    }
+  }
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .post-content {
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
-#postHero {
-  min-height: 400px;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: $spacing-unit;
-}
-.post-header {
-  border-top: $border;
+.suggested-reading {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: $border;
-  margin-bottom: $spacing-unit * 1.5;
 }

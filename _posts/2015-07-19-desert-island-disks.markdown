@@ -4,7 +4,6 @@ date:   2015-07-19 12:06:00
 permalink: /blog/desert-island-disks
 categories: Music
 ---
-
 Desert Island Disks is a BBC Radio 4 programme that's been running since the 40's. From Wikipedia:
 
 > Guests are invited to imagine themselves cast away on a desert island, and to choose eight pieces of music, originally gramophone records, to take with them; discussion of their choices permits a review of their life.

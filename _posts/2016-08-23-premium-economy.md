@@ -6,7 +6,6 @@ description: Sam from Uproute reviews Air New Zealand's 787 Dreamliner premium e
 categories: Trips
 photo: 'premiumeconomy.jpg'
 ---
-
 _Originally posted at Uproute.co -> [uproute.co/blog/premium-economy](http://uproute.co/blog/premium-economy)_
 
 ### Premium Economy... Worth It? Sam From Uproute Reviews Air New Zealand's 787 Dreamliner Premium Economy Class

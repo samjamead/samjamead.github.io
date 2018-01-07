@@ -1,5 +1,5 @@
 ---
-title:  "Tutorial Recommendation: How To Send Transactional Email From Auth0 Using SendGrid"
+title:  "Recommendation: Send Transactional Email From Auth0 Using SendGrid"
 date:   2016-08-28 16:00:31 +0800
 permalink: /blog/sendgridtutorial
 category: Tutorials

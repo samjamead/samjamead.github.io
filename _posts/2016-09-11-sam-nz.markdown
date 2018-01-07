@@ -6,7 +6,6 @@ description: My younger sister moved to Queenstown, NZ earlier this year to work
 categories: Trips
 photo: 'queenstown.jpg'
 ---
-
 _Originally posted at Uproute.co -> [uproute.co/trips/sam-nz](http://uproute.co/trips/sam-nz)_
 
 ![Sam in Queenstown, New Zealand](https://uproute-images.s3.amazonaws.com/blogimages/2016-09-12-sam-nz/4.jpg)

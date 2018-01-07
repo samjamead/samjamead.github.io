@@ -6,7 +6,6 @@ description: Camp, cook brekkie, surf, lunch at a brewery, spend the afternoon a
 categories: Trips
 photo: 'pointRoad.jpg'
 ---
-
 _This post was originally published over at [uproute.co](http://uproute.co), a sweet startup that I just happen to work for!_
 
 ![Sam in Margaret River](https://uproute-images.s3.amazonaws.com/blogimages/2016-07-07-sam-point-road/4.jpg)

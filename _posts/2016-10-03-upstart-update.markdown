@@ -6,10 +6,9 @@ description: Only one month left to the Vocus Upstart 2016 Demo Day!
 categories: Startups
 photo: '2016-09-28_Dan_and_Anna.jpg'
 ---
+_Originally posted at Startup News_
 
-_**Originally posted at Startup News**_
-
-**Wow, has it been two months already? Seems like only recently we announced the start of the Vocus Upstart 2016 program, and we are 2/3 of the way through! In this article, program founder in residence, Sam Mead, takes us through the cohort progress.**
+Wow, has it been two months already? Seems like only recently we announced the start of the Vocus Upstart 2016 program, and we are 2/3 of the way through! In this article, program founder in residence, Sam Mead, takes us through the cohort progress.**
 
 ![Dan and Anna from Yabble](/img/2016-09-28_Dan_and_Anna.jpg)
 

@@ -3,11 +3,7 @@
 
   {% include head.html %}
 
-  <body id={{ page.title }}>
-
-    {% unless page.title == "Homepage" %}
-      {% include header.html %}
-    {% endunless %}
+  <body id={{ page.body }}>
 
     {{ content }}
 
@@ -15,8 +11,7 @@
 
   </body>
 
-  <script src="{{ site.github.url }}/scripts/jquery-2.2.4.min.js" ></script>
-  <script src="{{ site.github.url }}/scripts/bootstrap.min.js"    ></script>
-  <script src="{{ site.github.url }}/scripts/scripts.js"          ></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="{{ site.github.url }}/scripts/scripts.js"></script>
 
 </html>

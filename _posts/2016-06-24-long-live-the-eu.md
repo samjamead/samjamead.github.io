@@ -6,12 +6,7 @@ description: "An open letter to the 17,410,742 people who voted for the UK to le
 categories: Politics
 photo: euflag.png
 ---
-
-## To the 17,410,742 people who voted for the UK to leave the EU:
-
-<br />
-
-*TL;RD - I am very disappointed by how selfish just over half of the people in the UK have turned out to be.*   
+### To the 17,410,742 people who voted for the UK to leave the EU:
 
 I remember watching V for Vendetta a few years ago and thinking that I was so lucky to live in a world where it just wouldn't be possible for such a dystopian future to take hold of the UK in real life.
 

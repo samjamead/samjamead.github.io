@@ -4,9 +4,8 @@ date:   2015-11-11 21:20:31
 permalink: /blog/bahasa-indonesia
 description: "Selamat Datang panduan pemula untuk Bahasa Indonesia!"
 categories: Tutorials
-photo: /nusalembongan/5.jpg
+photo: /img/nusalembongan/5.jpg
 ---
-
 Selamat Datang panduan pemula untuk Bahasa Indonesia!
 
 <img src="/img/bali1.jpg" alt="Mopeds and temples" caption="A more Indonesian scene you'd struggle to find" />

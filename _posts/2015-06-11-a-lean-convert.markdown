@@ -4,7 +4,6 @@ date:   2015-06-11 13:27:00
 permalink: /blog/lean-convert
 categories: Startups
 ---
-
 For a long time I went around telling people how I didn't really believe in 'lean'. And I was pretty proud of that.
 
 Turns out, I just didn't understand it.

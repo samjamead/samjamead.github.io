@@ -6,7 +6,6 @@ description: "A review of a recent ski trip to Tignes for Snowriders WA!"
 categories: Trips
 photo: tignes/1.jpg
 ---
-
 _This post was originally published over at [Snowriders WA](http://snowriderswa.blogspot.com.au/2016/04/tignes-france-as-snow-sure-as-it-gets.html), the largest community of skiiers and snowboarders in WA._
 
 ![Tignes](/img/tignes/2.jpg "Tignes")

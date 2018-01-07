@@ -6,9 +6,6 @@ description: "Three weeks and two birthdays in Bali with a big group of friends.
 categories: Trips
 photo: nusalembongan/2.jpg
 ---
-
-<br />
-
 _This post was originally published over at [uproute.co](http://uproute.co), a sweet startup that I just happen to work for!_
 
 ![Nusa Lembongan](/img/nusalembongan/1.jpg "Nusa Lembongan")

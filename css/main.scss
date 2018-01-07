@@ -5,55 +5,24 @@
 
 $brand-color:      #58e2C3; // green
 $accent-color:     #6499e3; // blue
-$third-color:      #ffc563; // yellow
-$fourth-color:     #ff9f63; // orange
-
-$light-grey:       #f8f8f8;
+$light-grey:       #e7e7e7;
 $grey-color:       #979797;
 $dark-grey:        #455a55;
-
 $background-color: #fff;
 $text-color:       $dark-grey;
-
 $border:           1px solid $light-grey;
 $spacing-unit:     30px;
-
-$base-font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Avenir', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   15px;
-$base-font-weight: 300;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.8;
-
+$base-font-weight: 400;
+$small:            $base-font-size * 0.875;
 $headings-font-weight: 900;
 
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "categories",
-        "footer",
-        "global",
-        "header",
-        "home",
-        "page",
-        "post",
-        "syntax-highlighting"
+  "breakpoints",
+  "base",
+  "classes",
+  "header",
+  "footer",
+  "post"
 ;

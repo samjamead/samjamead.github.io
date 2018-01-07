@@ -1,40 +1,25 @@
-// =======================================
-//  Header SASS
-// =======================================
-
-.navbar {
-  border-radius: 0;
-  border: 0;
-  border-bottom: $border;
-  margin-bottom: 0;
-  background: $brand-color;
+@font-face {
+  font-family: "Sandman";
+  src: url('/fonts/sandman.otf') format("opentype");
 }
-.navbar-brand {
-  font-size: 1.5rem;
-  color: #fff;
-  font-weight: 900;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 60px;
-  &:hover {
-    color: #fff;
-    background: $accent-color;
-  }
-}
-.navbar-nav {
-  li {
-    a {
-      font-size: 1rem;
-      font-weight: 500;
-      color: #fff;
-      padding: 20px 15px;
+header {
+  @extend .flex;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  a {
+    display: block;
+    &:first-child {
+      font-family: "Sandman", $base-font-family;
+      font-size: 2.5rem;
+      letter-spacing: 0.5px;
+      color: #f552ed;
+      transition: 0.4s ease;
+      line-height: 0.75;
       &:hover {
-        color: #fff;
-        background: $accent-color;
+        color: $brand-color;
+        text-decoration: none;
       }
-    }
-    .active {
-      background: $accent-color;
     }
   }
 }

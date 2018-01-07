@@ -6,7 +6,6 @@ description: A recording of a talk I gave as a last minute fillin at the morning
 categories: Startups
 photo: 'ms1.jpg'
 ---
-
 ![Talking to the Morning Startup](/img/ms1.jpg)
 
 The Morning Startup ([meetup.com/Morning-Startup-Perth](http://www.meetup.com/Morning-Startup-Perth/)) had a last minute dropout, so Dave asked me to come along and rehash my talk to the Founder Institute on developing MVP experiments. This version is a little bit more detailed; I had 40 minutes instead of 20 at the Founder Institute.

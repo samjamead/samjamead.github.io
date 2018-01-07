@@ -6,7 +6,6 @@ description: I have been pretty into hiking recently, and a spare day in Denmark
 categories: Trips
 photo: 'bibbulmun.jpg'
 ---
-
 _Originally posted at Uproute.co -> [uproute.co/trips/sam-denmark](http://uproute.co/trips/sam-denmark)_
 
 ![A tree devouring a trail marker](https://s3-ap-southeast-1.amazonaws.com/uproute-images/blogimages/2016-01-27-bibbulmun-track-near-denmark/img/bibbulmun/bibbulmun2-large.jpg "A tree devouring a trail marker")

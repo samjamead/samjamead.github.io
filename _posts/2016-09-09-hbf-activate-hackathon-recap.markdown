@@ -6,7 +6,6 @@ description: An overview of the best hackathon I have ever been to!
 categories: Startups
 photo: 'hbfactivate.jpg'
 ---
-
 **Originally posted at Startup News**
 
 _The HBF Hackathon event was held on the weekend of August 27-28th. Sam Mead facilitated the event, and recaps on his experience of the event._

@@ -6,7 +6,6 @@ description: A recording of a talk I gave to the Perth chapter of the Founder In
 categories: Startups
 photo: 'fi2.jpg'
 ---
-
 ![Talking to the Founder Institute](/img/fi2.jpg)
 
 Nate from FI invited me along to give a talk on creating Minimum Viable Products to the Perth chapter of FI.
