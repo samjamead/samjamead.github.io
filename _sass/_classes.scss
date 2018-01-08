@@ -1,15 +1,18 @@
 .container {
   padding: 0 1rem;
   margin: 0 auto;
-  @include for-tablet-landscape-up {
-    max-width: 650px;
-  }
+  max-width: 650px;
 }
 .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.intro {
+  h1 {
+    font-size: 1rem;
+  }
 }
 .section-break {
   width: 20%;
@@ -19,8 +22,8 @@
 .post-list {
   @extend .flex;
   align-items: flex-start;
-  font-size: $small;
-  @include for-tablet-landscape-up {
+  font-size: 0.8rem;
+  @include for-big-phones-up {
     font-size: 0.9rem;
   }
   h2 {
@@ -28,14 +31,16 @@
     flex: 0 0 100%;
   }
   .post-list-date {
-    flex: 0 0 28%;
+    flex: 0 0 26%;
+    text-align: right;
     @include for-tablet-landscape-up {
       flex-basis: 16%;
-      text-align: right;
     }
   }
   .post-list-title {
-    flex: 0 0 75%;
+    flex: 0 0 66%;
+    @include for-tablet-landscape-up {
+      flex-basis: 76%;
+    }
   }
-
 }

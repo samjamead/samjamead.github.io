@@ -6,7 +6,7 @@ header {
   @extend .flex;
   max-width: 650px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem; // Because logo font line height is odd...
   a {
     display: block;
     &:first-child {
