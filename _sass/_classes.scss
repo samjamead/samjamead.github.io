@@ -9,6 +9,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.masthead {
+  img {
+    @include for-tablet-landscape-up {
+     margin-bottom: 30px; 
+    }
+  }
+}
 .intro {
   h1 {
     font-size: 1rem;
