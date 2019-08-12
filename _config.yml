@@ -1,17 +1,17 @@
 # Site settings
-title: Mead.fm
-email: sam@mead.fm
+title: samjamead.github.io
+email: samjamead@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Namaste friend! Sam Mead is a web developer and marketer in Perth, WA.
+  Namaste friend! Sam Mead is training to be a physics teacher.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mead.fm/" # the base hostname & protocol for your site
+url: "https://samjamead.github.io/" # the base hostname & protocol for your site
 twitter_username: samjamead
 github_username:  samjamead
 plugins:
   - jekyll-redirect-from
 
 # Build settings
-author: sam@mead.fm
+author: samjamead@gmail.com
 markdown: kramdown
 
 # Defaults
