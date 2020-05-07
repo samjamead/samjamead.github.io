@@ -27,7 +27,7 @@ This seems to be par for the course when learning Bahasa Indonesia. In fact, it'
 Part of the reason for the misunderstanding is that Bahasa Indonesia is most Indonesian's second language. They're more likely to speak the local language or dialect at home and with friends, and only use Bahasa when they're doing business or shopping or something else involving strangers. For example, in Bali, most people speak Balinese at home, which is a complicated language for a foreigner to understand. That doesn't mean we shouldn't try!
 
 **On that note, learn a couple of words from the local language.** <br />
-And by that I mean learn a little bit of Bahasa Indonesia _plus_ a little bit of, say, Balinese, or Javanese, or whatever the most prevelent language or dialect is where you're going. It might seem like extra effort, but even just learning 'thank-you' in the local language will earn you bonus brownie points in a restaurant or at your accommodation.
+And by that I mean learn a little bit of Bahasa Indonesia _plus_ a little bit of, say, Balinese, or Javanese, or whatever the most prevalent language or dialect is where you're going. It might seem like extra effort, but even just learning 'thank-you' in the local language will earn you bonus brownie points in a restaurant or at your accommodation.
 
 **Most pronunciation is phonetic, with a few notable exceptions.** <br />
 A few rules to go by:

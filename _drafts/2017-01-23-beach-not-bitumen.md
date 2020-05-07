@@ -39,7 +39,7 @@ _[Stirling City Centre Light Rail Feasibility] Study(https://beachnotbitumen.fil
 
 In fact, there are even studies that show that removing roads, not adding them, will improve the quality of life in Scarborough.
 
-_[Where will all the traffic go?](https://medium.com/@chrisjagers/where-will-all-the-traffic-go-68648bc111ae#.sd7zp2d0)_ By Chris Jagers  gives the reasons why removing roads reduces traffic, including removing traffic heading to alternative destinations; and allowing people to more effectively use methods of transport such as walking and cycling.
+_[Where will all the traffic go?](https://medium.com/@chrisjagers/where-will-all-the-traffic-go-68648bc111ae#.sd7zp2d0)_ By Chris Jagers gives the reasons why removing roads reduces traffic, including removing traffic heading to alternative destinations; and allowing people to more effectively use methods of transport such as walking and cycling.
 
 Rather than building a new road I offer the following options as more desirable alternatives:
 
