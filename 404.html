@@ -5,28 +5,23 @@ body: homepage
 permalink: /404.html
 ---
 
-{% include header.html %}
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
 
 <div class="container">
+  <h1>404</h1>
 
-  <div class="masthead">
-    <img src="/img/bodyshot.jpg" alt="A map of scientific collaborations" />
-  </div>
-  <section class="intro">
-     <h1>Hello! I'm Sam, and I'm training to be a physics teacher.</h1>
-     <p>I’m passionate about making the world a little bit more environmentally conscious. About finding an alternative to capitalism. Surfing, skiing, and camping. And Oxford commas, golf, and woodwork. Reading. And languages. I have too many hobbies.</p>
-  </section>
-  <hr class="section-break" />
-  <section class="post-list" id="allposts">
-    <h2>Notes, posts, articles, etc.</h2>
-    {% for post in site.posts %}
-      <div class="post-list-date">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </div>
-      <div class="post-list-title">
-        <p><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></p>
-      </div>
-    {% endfor %}
-  </section>
-
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found. <a href="/">Go home</a>.</p>
 </div>
