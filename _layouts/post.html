@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include header.html %}
-
 <div class="container">
 
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -14,7 +12,7 @@ layout: default
     </div>
 
     {% if page.img %}
-      <img class="post-img" src="{{ page.img | prepend: site.github.url }}" alt="{{ page.title }}" />
+      <img class="post-img" src="{{ page.img }}" alt="{{ page.title }}" />
     {% endif %}
 
     <div class="post-content" itemprop="articleBody">

@@ -3,7 +3,9 @@
 
   {% include head.html %}
 
-  <body id={{ page.body }}>
+  <body id={{ page.body_id }}>
+
+    {% include header.html %}
 
     {{ content }}
 
@@ -12,6 +14,7 @@
   </body>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="{{ site.github.url }}/scripts/scripts.js"></script>
+  <script src="/assets/js/scripts.js"></script>
+  <script src="https://kit.fontawesome.com/57fd74623e.js" crossorigin="anonymous"></script>
 
 </html>

@@ -1,0 +1,19 @@
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.inline-list {
+  list-style-type: none;
+  margin: 0;
+  li {
+    margin-right: 1.5em;
+    padding-left: 0;
+    &:last-child {
+      margin-right: 0;
+    }
+    @include for-tablet-portrait-up {
+      display: inline-block;
+    };
+  }
+}

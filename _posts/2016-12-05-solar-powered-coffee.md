@@ -3,8 +3,8 @@ title: 'Solar Powered Coffee in Anengu, PNG'
 permalink: /blog/solar-powered-coffee
 date: 'Mon Dec 05 2016 12:15:08 GMT+0800 (AWST)'
 description: The story of how an Australian kitesurfer is bringing solar power to a coffee plantation in a remote Papuan village.
-categories: Startups
-photo: 'solarpoweredcoffee.jpg'
+category: Perth2
+img: '/assets/img/posts/solarpoweredcoffee.jpg'
 ---
 I want to introduce a great friend of mine called Guy Dwyer. I am sure Guy would identify himself as a kitesurfer first and foremost, but when he's not downwinding in 35knots he's an electrician focused on sustainable energy; in particular solar. This is the story of how Guy helped a tiny village in Papua New Guinea start a sustainable coffee plantation, and how he's heading back to PNG to help Anengu keep producing solar powered coffee. I will hand things over to Guy to talk in the first person:
 

@@ -3,12 +3,10 @@ title:  "A Beginner's Guide to Bahasa Indonesia"
 date:   2015-11-11 21:20:31
 permalink: /blog/bahasa-indonesia
 description: "Selamat Datang panduan pemula untuk Bahasa Indonesia!"
-categories: Tutorials
-photo: /img/nusalembongan/5.jpg
+category: Perth1
+img: /assets/img/posts/bahasaindonesia.jpg
 ---
 Selamat Datang panduan pemula untuk Bahasa Indonesia!
-
-<img src="/img/bali1.jpg" alt="Mopeds and temples" caption="A more Indonesian scene you'd struggle to find" />
 
 I have only been to Indonesia once, but I loved it. I'm supposed to be back there right now, but Mt. Rinjani and her subjects had other ideas... Anyway, my favourite part of the whole trip was speaking the language with the locals. Indonesian (or Bahasa Indonesia, literally <em>the language of Indonesia</em>) is a pretty easy language to learn. Even for people who speak English as their first language!
 
@@ -101,8 +99,6 @@ Good luck...
 <hr />
 
 ### Reader Comments
-
-_Submit comments to sam@mead.fm_
 
 **Dan says:**
 

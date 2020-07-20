@@ -12,7 +12,8 @@ footer {
   background: #f8f8f8;
   padding: 1.5rem 0rem;
   border-top: $border;
-  h2 {
-    color: $brand-color;
-  }
+  text-align: center;
+  @include for-tablet-portrait-up {
+    text-align: left;
+  };
 }

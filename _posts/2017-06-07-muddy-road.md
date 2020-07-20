@@ -1,8 +1,8 @@
 ---
 title:  "Muddy Road"
 date:   2017-06-07 16:00:31 +0800
-permalink: /blog/muddyroad
-category: Buddhism
+permalink: /posts/muddyroad
+category: Perth B
 description: "Tanzan was such a rascal"
 ---
 From 101 Zen Stories:

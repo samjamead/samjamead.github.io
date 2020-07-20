@@ -2,9 +2,9 @@
 title:  "Never Read The Comments"
 date:   2015-09-14 09:54:31
 permalink: /blog/never-read-the-comments
-categories: Snippets
+category: Perth1
 ---
-The gender gap in the tech scene is a hot topic. Here's a snippet from Sarah Adler:
+The gender gap in the tech scene is shameful. Here's a snippet from Sarah Adler:
 
 > I’m the 24-year-old CTO of a startup that just raised $2 million. I built all of my company’s tech by myself for the first two years we existed. But, apparently, if I’m on your tech team you should [re]evaluate your life.
 >

@@ -2,7 +2,7 @@
 title:  "The Lean Convert, or, Taking Lean to its Logical Conclusion"
 date:   2015-06-11 13:27:00
 permalink: /blog/lean-convert
-categories: Startups
+category: Perth1
 ---
 For a long time I went around telling people how I didn't really believe in 'lean'. And I was pretty proud of that.
 

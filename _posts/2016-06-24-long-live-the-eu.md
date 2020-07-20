@@ -3,8 +3,7 @@ title:  "Long Live The EU"
 date:   2016-06-24 14:38:31 +0800
 permalink: /blog/longlivetheEU
 description: "An open letter to the 17,410,742 people who voted for the UK to leave the EU."
-categories: Politics
-photo: euflag.png
+categories: Perth2
 ---
 ### To the 17,410,742 people who voted for the UK to leave the EU:
 
