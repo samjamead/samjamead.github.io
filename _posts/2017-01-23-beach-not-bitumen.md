@@ -3,12 +3,9 @@ title: 'Beach Not Bitumen'
 permalink: /blog/beachnotbitumen
 date: 'Mon Jan 23 2017 16:21:08 GMT+0800 (AWST)'
 description: A letter I wrote to local politicians opposing a new road in Scarborough
-categories: Politics
-photo: 'beachnotbitumen.jpg'
+category: Perth3
+img: '/assets/img/posts/beachnotbitumen.jpg'
 ---
-
-![Beach Not Bitumen](/img/beachnotbitumen.jpg)
-
 
 #### Inspired by the excellent [Beach Not Bitumen](https://beachnotbitumen.com) website I wrote a letter to the relevant local government officials opposing the development of a new road in Scarborough. Save Scarborough Beach!
 

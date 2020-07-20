@@ -12,7 +12,7 @@ I want to introduce a great friend of mine called Guy Dwyer. I am sure Guy would
 
 ### Solar Powered Coffee: The story of how an Australian kitesurfer is bringing solar power to a coffee plantation in a remote Papuan village.
 
-![Guy with the Village Chief](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/2.jpg)
+![Guy with the Village Chief](/assets/img/posts/solarpoweredcoffee/2.JPG)
 
 This is a rundown of how I came to be in Anengu village and how that village is doing something unique in PNG. They are trying to bring themselves out of a purely subsistence way of life and into modern world. I say 'bring themselves' deliberately, because that is exactly what they are doing.
 
@@ -22,7 +22,7 @@ With every PNG government department rotten to the core and no money reaching it
 
 They still live in bush material houses and cook only by fire but they do have some small glimpses of the modern world and what it has to offer. Every weekend they send around a collection and put in what small money they have from selling their garden produce, then send someone the four hour walk to the highway junction to buy fuel. The fuel is used to run a generator that powers a TV, so they can beam in the NRL footy games and watch trash Hollywood action DVD's. It's entertaining, but the NRL also comes with loads of ads trying to sell them all sorts of crap they 'need' like dishwashers, holidays and tin fish (which is literally cat food grade in PNG).
 
-![Guy with the Anengu future](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/3.jpg)
+![Guy with the Anengu future](/assets/img/posts/solarpoweredcoffee/3.JPG)
 
 Unfortunately this picture of the outside world is what they use as their basis for comparison. Because they don't have a dishwasher and can't buy new clothes they really do get the sense of being incredibly poor. This is true to an extent but only in terms of cash. They are not poor like a huge amount of Papuans who have left their land looking for jobs and cash (and dishwashers) in the city. Those Papuan's end up with nowhere to live, no garden to grow food, and no access to clean water &mdash; leaving them with few options other than begging or crime to survive.
 
@@ -34,7 +34,7 @@ I guess my biggest hope is that they will get an understanding of what parts of 
 
 Before I go into the coffee project I'll just give an explaination of how I came to be in PNG and the village. If you're already bored and just want to know how the project works then skip this paragraph.
 
-![Guy with the lads...](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/24.jpg)
+![Guy with the lads...](/assets/img/posts/solarpoweredcoffee/24.JPG)
 ​
 
 ### The Backstory
@@ -47,7 +47,7 @@ I guess naively, like most young backpackers, I thought I'd being going to exoti
 
 I wanted to really test my comfort zone and PNG seemed like the spot. It turned out to be just that and much more. On landing in Port Moresby and leaving the airport into what seemed like a war zone I arrived at my security gated and guarded hotel. I was definitely a bit nervous and after three days of not seeing another tourist I was starting to think maybe I'd bitten off more than I could chew. The only thing I had booked for the whole three months was a stay at the alternative technologies center in the highland town of Garoka and was pretty glad to be on my way out of Moresby four days after arrival.
 
-![Guy with Wilson](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/5.jpg)
+![Guy with Wilson](/assets/img/posts/solarpoweredcoffee/5.JPG)
 
 On the flight to Garoka I was lucky enough to be seated next to a PNG local whose English was better than mine. He told me he was on the way back to his village for the first time in three years. His village was called **Anengu** which is a two-hour drive from Garoka when it's dry, or a one-hour drive followed by a four-hour uphill walk to the edge of the jungle if it's been raining and the road is to muddy to drive.
 
@@ -55,19 +55,19 @@ He told me he was the only person from his village to ever be university educate
 
 I was a little nervous and did think that maybe no more white fellas go there cause the last one was eaten. Still, it sounded like an awesome opportunity to see how the locals _really_ live. Worth the risk I thought.
 
-![Guy with Wilson](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/6.jpg)
+![Guy with Wilson](/assets/img/posts/solarpoweredcoffee/6.JPG)
 
 It turned out to be the best risk I've ever taken. The village was amazingly beautiful and the people were unbelievably welcoming. After spending three days eating what they eat (which included a traditional feast of a whole pig cooked in the traditional way) sleeping on bamboo platforms next to them and learning Pidgin English, I felt very comfortable there. They were also very comfortable with me and before I was about to leave many of the village men came up to me and offered to give me some land and build me a bush material hut so I could come back whenever I wanted. I thanked them for the offer but told them I wanted to go and see a bit more of PNG.
 
 After going away that night and thinking about it, I realised this was exactly the kind of traveling experience I'd always wanted. In the end I went back to the village and spent a month there building my own bush material hut.
 
-![Guy with building his house](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/7.jpg)
+![Guy with building his house](/assets/img/posts/solarpoweredcoffee/7.JPG)
 
-![Guy with building his house](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/8.jpg)
+![Guy with building his house](/assets/img/posts/solarpoweredcoffee/8.JPG)
 
-![Guy with building his house](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/9.jpg)
+![Guy with building his house](/assets/img/posts/solarpoweredcoffee/9.JPG)
 
-![Guy with building his house](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/10.jpg)
+![Guy with building his house](/assets/img/posts/solarpoweredcoffee/10.JPG)
 _^ Photos of Guys house, before, during, and after!_<br />
 ​
 
@@ -83,7 +83,7 @@ I had many conversations with Wilson about how he could help bring a better life
 
 I don't believe in unconditional handouts, I think it fosters laziness and creates dependency and I think he was setting himself up for a long struggle. About six months after that email I received another email from Wilson, this time with a completely different tone. I'm not sure who he had been talking to and how he got the idea but he had decided to put his life savings into a coffee project so he could get the whole village involved and teach them how to help themselves.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/11.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/11.JPG)
 
 Wilson's entire life savings was a total of about $7,000 &mdash; which might not sound like much, but it is a huge sum for the average Papuan. He used that money to buy 100,000 coffee seedlings and planter bags, then had the village people build a huge bush material nursery so that the seedlings could be looked after until they were strong enough to plant. At this point he had run out of money so contacted me to see if I could help with some small money to buy fertilizer to ensure the seedlings had the best start possible. After seeing the pictures of nursery and knowing what it could mean to the village I talked to Dad and we both decided to help them purchase the needed fertilizer.
 
@@ -95,7 +95,7 @@ Even more Impressive though was the structure of the project itself which was wh
 
 Wilson had also considered this and decided to set up a charter and a committee to administer the funds of the project. The main focus of the charter is to bring basic services to the village in a sustainable way. The main things he's identified are looking into some basic health care in the form of a clinic visited periodically by a nurse.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/12.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/12.JPG)
 
 He also included subsidised education for the younger generation and getting some form of electricity in the village that isn't a petrol generator, among other things. All these things we in developed countries consider the responsibility of Government. In Anengu, they don't have any meaningful access to these basic things so must work together to bring it to themselves.
 ​
@@ -105,7 +105,7 @@ Wilson also launched the project and registered it with the provincial governmen
 
 Basically how the project will work is that Wilson will give each village family a share of the seedlings free of charge, which they will have to plant on their land. Wilson studied agriculture at university and is teaching the villagers how to tend their plots and plants to get the maximum yield. He will periodically inspect them and give prizes for the best plots.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/13.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/13.JPG)
 
 This has already been done since I left. It takes 3 years for the seedlings to mature and fruit. In the meantime he is trying to get all the villagers to start pooling some money to take the project to the next level. This is where the project will either succeed and start producing revenue, or it will fail.
 
@@ -114,11 +114,11 @@ At the moment the villagers only process the coffee to parchment stage which mea
 Instead of the villagers selling the parchment beans in town they would now sell them back to the Anengu Coffee
 Project to process. The project pays the villagers the same 4 kina/kg for the parchment they harvest, then processes it to green bean, and sells it to the exporters in bulk for 7 kina/kg. The 3 kina profit they make goes directly into the project account.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/14.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/14.JPG)
 
 This way the villagers each get money to do with what they please in return for their hard work, and the project also starts getting an independent revenue stream which will cover operational costs and hopefully have plenty left over to fulfill the aims of the project charter.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/15.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/15.JPG)
 
 Since the last visit all the seedlings have been planted and the last email I received this week showed them standing in front of 47 x 60 kg bags from this years harvest of the existing trees. As coffee is seasonal, Wilson has encouraged the villagers to use the money to buy vegetable seeds and chickens. The reason for this is to diversify the crop and to produce some income all year round with the vegetables and to use the chickens to keep down pests and reduce or eliminate the need for any manufactured fertilizers. It is already an incredible achievement for a man who grew up in one of the remotest places on earth.
 
@@ -126,7 +126,7 @@ Since the last visit all the seedlings have been planted and the last email I re
 
 They still have a long way to go but they have some very strong leaders on the project and if they all pull together I think they will create a better life for the entire village and set an example to other Papuans.
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/17.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/17.JPG)
 
 <hr />
 
@@ -144,6 +144,6 @@ He's currently raising funds to back the installation, and true to form, it's no
 
 Thank you in advance &mdash; from Guy, Wilson, and all of the Anengu villagers!
 
-![The Anengu Coffee Project](https://uproute-images.s3.amazonaws.com/final-call/solar-powered-coffee/16.jpg)
+![The Anengu Coffee Project](/assets/img/posts/solarpoweredcoffee/16.JPG)
 
 <br />
