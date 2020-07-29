@@ -16,7 +16,9 @@ $base-font-size:        16px;
 $base-font-family:      -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 $base-font-weight:      normal;
 $small:                 $base-font-size * 0.875;
-$paragraph-width:       600px;
+
+$column-width:          710px;
+$paragraph-width:       650px;
 
 $headings-font-family:  $base-font-family;
 $headings-font-weight:  600;
@@ -33,5 +35,6 @@ $spacing-unit:          2rem;
   "footer",
   "components",
   "post",
-  "yearbook"
+  "yearbook",
+  "animatedbackground"
 ;

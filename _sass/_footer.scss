@@ -10,10 +10,14 @@ footer {
   bottom: 0;
   width: 100%;
   background: #f8f8f8;
-  padding: 1.5rem 0rem;
   border-top: $border;
   text-align: center;
   @include for-tablet-portrait-up {
     text-align: left;
   };
+  .footer-inner {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: $column-width;
+  }
 }

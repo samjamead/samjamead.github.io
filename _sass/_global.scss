@@ -1,7 +1,13 @@
 .container {
-  padding: 0 1rem;
+  padding: 0 2rem;
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: $column-width;
+}
+.container-dropped {
+  // margin-top: 6rem;
+}
+.section-heading {
+  margin-top: 1rem;
 }
 .inline-list {
   list-style-type: none;

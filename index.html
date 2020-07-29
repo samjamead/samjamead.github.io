@@ -3,62 +3,73 @@ layout: default
 body_id: homepage
 ---
 
-<div class="container">
-
-  <div class="masthead">
-    <h1>Samuel Mead</h1>
-    <p>Hello &ndash; I'm Sam, a physics teacher in Cornwall. I share things I'm working on, which at the moment is mainly things to do with education in the UK. In particular I'm interested in the <a href="#">big issues facing education</a>.</p>
-    <p>Before teaching I lived in Perth, Western Australia, and worked in <a href="#">web development</a>, <a href="#">marketing</a>, and <a href="#">startups</a>. Technically I'm an oceanographer by training, but haven't used those skills in practice. Yet. </p>
-    <p>I'm interested in social justice, the environment, and politics. Surfing, skiing, and running. And Oxford commas, golf, and woodwork. Reading. And languages. I have too many hobbies.</p>
+<!--
+<div class="linebox">
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
   </div>
+</div> -->
 
-  <section class="teaching">
-    <h2>2019 – </h2>
-    <p>Career change, PGCE, teaching, etc. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    {% for post in site.posts %}
-      {% if post.category == 'Teaching' %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      {% endif %}
-    {% endfor %}
+<div class="container container-dropped">
+
+  <section class="masthead">
+    <p>Hello! <span class="wave">&#128075;</span> </p>
+    <p>I'm Sam, a physics teacher in Cornwall.</p>
+    <p><a href="/posts">I share things I'm working on</a>, which at the moment is mainly things to do with education in the UK. In particular I'm interested in the <a href="/posts/whatnext">big issues facing education</a>.</p>
+    <p>Every week I also summarise a journal article in education research &mdash; you can find them piling up over at <a href="https://52papers.org/">52papers.org</a>.
+    <p>Before teaching, I lived in Perth, Western Australia, and worked in web development and marketing. And before <em>that</em> I <a href="/posts/aboutsaberr/">cofounded a startup called Saberr</a>. Technically I'm an oceanographer by training, but haven't used those skills in practice. Yet. </p>
+    <p>I'm interested in social justice, the environment, and politics. Surfing, skiing, and running. And Oxford commas, golf, and woodwork. Reading. And languages.</p>
+    <p>I have too many hobbies.</p>
   </section>
 
-  <section class="">
-    <h2>2017 – 2018</h2>
-    <p>Marketing and ting.</p>
-    {% for post in site.posts %}
-      {% if post.category == 'Perth3' %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      {% endif %}
-    {% endfor %}
+
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      {% unless forloop.first %}
+            </div>
+          </div>
+        </section>
+      {% endunless %}
+        <section>
+          <div class="post-list">
+            <div class="date-column">
+              <p id="y{{post.date | date: "%Y"}}">{{ currentdate }}</p>
+            </div>
+            <div class="posts-column">
+      {% assign date = currentdate %}
+    {% endif %}
+              <div class="post">
+                <div class="post-date">
+                  <p>{{ post.date | date: "%b %-d" }}</p>
+                </div>
+                <div class="post-title">
+                  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                </div>
+              </div>
+    {% if forloop.last %}
+            </div>
+          </div>
+        </section>
+    {% endif %}
+  {% endfor %}
+
+  <section>
+    <ul class="inline-list social-icons">
+      <li><a href="https://twitter.com/samjamead"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a href="https://github.com/samjamead"><i class="fab fa-github-square"></i></a></li>
+      <li><a href="https://linkedin.com/in/samjamead"><i class="fab fa-linkedin"></i></a></li>
   </section>
 
-  <section class="">
-    <h2>2016</h2>
-    <p>Freelance and ting.</p>
-    {% for post in site.posts %}
-      {% if post.category == 'Perth2' %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      {% endif %}
-    {% endfor %}
-  </section>
-
-  <section class="">
-    <h2>2015</h2>
-    <p>Startups.</p>
-    {% for post in site.posts %}
-      {% if post.category == 'Perth1' %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      {% endif %}
-    {% endfor %}
-  </section>
-
-  <section class="">
-    <h2>2012 – early 2015</h2>
-    <p><a href="https://saberr.com">Saberr</a>.</p>
+  <section class="text-center">
+    <p class="small">Thanks to <a href="https://codepen.io/333397406">Osorina Irina</a> and <a href="">Piet Terheyden</a> for the CSS inspiration.</p>
   </section>
 
 </div>

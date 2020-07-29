@@ -1,15 +1,71 @@
 // =======================================
 //  Components! Global-ish
 // =======================================
-
+.post-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  p {
+    margin-bottom: 0;
+  }
+  .date-column {
+    position: sticky;
+    top: 2rem;
+    flex: 0 0 15%;
+  }
+  .posts-column {
+    flex: 1 1 85%;
+  }
+  .post {
+    border-bottom: $border;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+    .post-title {
+      flex-grow: 1;
+    }
+    .post-date {
+      flex: 0 0 15%;
+    }
+  }
+}
+.social-icons {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 auto;
+  li {
+    margin: 0 1rem;
+  }
+  a {
+    color: $soft-grey;
+    transition: 0.4s ease;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
 // =======================================
 //  Homepage
 // =======================================
 #homepage {
-  .site-header {
-    display: none;
+  .masthead {
+    border-bottom: 2px solid #000;
+    background: #fff;
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
-}
-.masthead {
-  margin-top: 5rem;
+  .wave {
+    font-size: 1.7rem;
+    line-height: 0.9;
+    margin: 0 5px;
+  }
 }

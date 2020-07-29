@@ -1,22 +1,25 @@
 .site-header {
-  background: $dark-grey;
-  width: 100%;
-  z-index: 1001;
   .container {
     margin-top: -127px; // This is an inexact science
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    transition: 0.3s ease;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     @include for-tablet-landscape-up {
       margin-top: 0;
     }
   }
   .menu-open {
     margin-top: 0;
+  }
+  .navbar {
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    @include for-tablet-landscape-up {
+      padding-top: 5rem;
+    }
   }
   .main {
     flex: 0 0 100%;
@@ -28,13 +31,13 @@
     }
   }
   .brand {
-    font-size: 1.4rem;
-    font-weight: 900;
-    font-family: 'Merriweather', $base-font-family;
-    transition: 0.4s ease;
+    background: $brand-color;
     color: #fff;
+    padding: 1rem;
+    font-size: 1.125rem;
+    transition: 0.4s ease;
     &:hover {
-      color: $accent-color;
+      background: lighten($brand-color, 12%);
       text-decoration: none;
     }
   }
@@ -57,12 +60,12 @@
     }
     a, span {
       display: block;
-      font-family: $headings-font-family;
-      padding: 15px 10px;
-      font-weight: normal;
-      text-align: center;
+      padding: 1rem;
+      color: $text-color;
       transition: 0.4s ease;
-      color: #fff;
+      &:last-child {
+        padding-right: 0;
+      }
       &:hover {
         color: $accent-color;
         text-decoration: none;
@@ -71,12 +74,12 @@
         font-size: 16px;
         margin-left: 10px;
         text-align: left;
-        display: inline;
+        display: inline-block;
       }
     }
-  }
-  @include for-tablet-landscape-up {
-    // position: fixed;
+    .fas {
+      transform: rotate(-45deg);
+    }
   }
 }
 

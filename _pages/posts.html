@@ -1,0 +1,76 @@
+---
+layout: default
+body_id: homepage
+permalink: /posts/
+---
+
+<div class="container">
+
+  <div class="column">
+
+    <section class="teaching" id="posts">
+      <h2 class="section-heading">2019 – Present</h2>
+      <div class="post-sublist">
+        <p>Things I've written since becoming a teacher:</p>
+        {% for post in site.posts %}
+          {% if post.category == 'Teaching' %}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="">
+      <h2 class="section-heading">2017 – 2018</h2>
+      <div class="post-sublist">
+        <p>Written while working in marketing:</p>
+        {% for post in site.posts %}
+          {% if post.category == 'Perth3' %}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="">
+      <h2 class="section-heading">2016</h2>
+      <p>Freelance and ting.</p>
+      {% for post in site.posts %}
+        {% if post.category == 'Perth2' %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    <section class="">
+      <h2 class="section-heading">2015</h2>
+      <p>Startups.</p>
+      {% for post in site.posts %}
+        {% if post.category == 'Perth1' %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    <section class="">
+      <h2 class="section-heading">2012 – early 2015</h2>
+      <p>Towards the end of my undergrad (BSc Oceanography), I founded a company with two friends at university. <a href="https://saberr.com">Saberr</a> was born in May 2012 with a mission to radically improve the way teams work together.</p>
+      {% for post in site.posts %}
+        {% if post.category == 'Saberr' %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    <section>
+      <p class="small">Thanks to <a href="https://codepen.io/333397406">Osorina Irina</a> and <a href="">Piet Terheyden</a> for the CSS inspiration.</p>
+    </section>
+
+  </div>
+
+</div>
