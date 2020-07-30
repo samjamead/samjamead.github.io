@@ -1,5 +1,9 @@
 jQuery(document).ready(function($){
 
+  // Active page highlight
+  var bodyid = $("body").attr('id');
+  $("#nav-" + bodyid).addClass('active');
+
   // Dynamically set bottom margin of body for sticky footer
   stickyFooter();
 
@@ -15,7 +19,7 @@ jQuery(document).ready(function($){
   var $hamburger = $('.hamburger');
   $hamburger.on("click", function(){
     $hamburger.toggleClass("is-active");
-    $('.navbar').toggleClass("menu-open");
+    $('.nav-container').toggleClass("menu-open");
   });
 
 });

@@ -3,21 +3,9 @@ layout: default
 body_id: homepage
 ---
 
-<!--
-<div class="linebox">
-  <div class="lines">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
-</div> -->
+{% include linebox.html %}
 
-<div class="container container-dropped">
+<div class="container container-dropped white-bg">
 
   <section class="masthead">
     <p>Hello! <span class="wave">&#128075;</span> </p>
@@ -38,12 +26,12 @@ body_id: homepage
           </div>
         </section>
       {% endunless %}
-        <section>
+        <section class="post-section">
           <div class="post-list">
             <div class="date-column">
               <p id="y{{post.date | date: "%Y"}}">{{ currentdate }}</p>
             </div>
-            <div class="posts-column">
+            <div class="post-column">
       {% assign date = currentdate %}
     {% endif %}
               <div class="post">
@@ -66,10 +54,11 @@ body_id: homepage
       <li><a href="https://twitter.com/samjamead"><i class="fab fa-twitter-square"></i></a></li>
       <li><a href="https://github.com/samjamead"><i class="fab fa-github-square"></i></a></li>
       <li><a href="https://linkedin.com/in/samjamead"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
   </section>
 
-  <section class="text-center">
-    <p class="small">Thanks to <a href="https://codepen.io/333397406">Osorina Irina</a> and <a href="">Piet Terheyden</a> for the CSS inspiration.</p>
+  <section class="pre-footer text-center">
+    <p class="small">Thanks to <a href="https://codepen.io/333397406">Osorina Irina</a> and <a href="https://some.studio/">Piet Terheyden</a> for the CSS inspiration.</p>
   </section>
 
 </div>

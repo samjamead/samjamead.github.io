@@ -1,7 +1,10 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin: 0 auto;
   max-width: $column-width;
+  @include for-tablet-landscape-up {
+    padding: 0 2rem;
+  }
 }
 .container-dropped {
   // margin-top: 6rem;
@@ -9,17 +12,20 @@
 .section-heading {
   margin-top: 1rem;
 }
+.pre-footer {
+  border-top: $border;
+}
 .inline-list {
   list-style-type: none;
   margin: 0;
   li {
     margin-right: 1.5em;
     padding-left: 0;
-    &:last-child {
-      margin-right: 0;
-    }
     @include for-tablet-portrait-up {
       display: inline-block;
+      &:last-child {
+        margin-right: 0;
+      }
     };
   }
 }
