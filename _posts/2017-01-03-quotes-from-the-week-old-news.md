@@ -3,8 +3,8 @@ title: 'Quotes from The Week: Old news.'
 permalink: /blog/old-news
 date: 'Tue Jan 03 2017 12:08:08 GMT+0800 (AWST)'
 description: Fidel Castro and John Major walk into a bar.
-categories: Politics
-photo: 'theweekcastro.jpg'
+category: Perth3
+img: '/assets/img/posts/theweekcastro.jpg'
 ---
 If you don't read [The Week](http://theweek.com) you definitely should: it's a weekly magazine that rounds up news from all over the world and breaks it down into easier to digest chunks. There's a UK edition and a US edition; I get the UK edition, which is (in my opinion) a slightly left-leaning but generally impartial view on the most important news from the previous week.
 
@@ -34,4 +34,4 @@ In fact there are several other excellent examples on the same page, so I will p
 
 Gives the phrase 'old news' a whole new meaning.
 
-![A great page of reading](/img/theweek2.jpg)
+![A great page of reading](/assets/img/posts/theweek2.jpg)

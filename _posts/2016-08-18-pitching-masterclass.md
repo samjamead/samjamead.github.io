@@ -5,12 +5,12 @@ permalink: /talks/hbf
 redirect_from:
   - /hbf
   - /hbf/
-category: Startups
+category: Perth2
 description: "Or, how to deliver a killer pitch and get your audience over the line in Q&A."
-photo: hbfmasterclass.png
+img: /assets/img/posts/hbfmasterclass.png
 ---
+Or, how to deliver a killer pitch and get your audience over the line in Q&A.  
+
 A 40 minute masterclass as part of HBF Activate, Spacecubed, August '16.
 
-Here's the slide deck: [mead.fm/downloads/hbfPitchingMasterclass.pdf](/downloads/hbfPitchingMasterclass.pdf)
-
-A blog post writeup version will follow. Maybe...
+Here's the slide deck: [HBF Pitching Masterclass](/assets/downloads/hbfPitchingMasterclass.pdf)

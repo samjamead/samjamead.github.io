@@ -3,14 +3,12 @@ title: 'Checking in with the 2016 Vocus Upstart Cohort'
 permalink: /blog/sam-point-road
 date: 'Mon Oct 03 2016 18:11:51 GMT+0800 (AWST)'
 description: Only one month left to the Vocus Upstart 2016 Demo Day!
-categories: Startups
-photo: '2016-09-28_Dan_and_Anna.jpg'
+category: Perth2
+img: '/assets/img/posts/Dan_and_Anna.jpg'
 ---
 _Originally posted at Startup News_
 
-Wow, has it been two months already? Seems like only recently we announced the start of the Vocus Upstart 2016 program, and we are 2/3 of the way through! In this article, program founder in residence, Sam Mead, takes us through the cohort progress.**
-
-![Dan and Anna from Yabble](/img/2016-09-28_Dan_and_Anna.jpg)
+**Wow, has it been two months already? Seems like only recently we announced the start of the Vocus Upstart 2016 program, and we are 2/3 of the way through! In this article, program founder in residence, Sam Mead, takes us through the cohort progress.**
 
 With only one month to go until the Perth demo day, things are hotting up on Level 9 at Spacecubed. All seven startups have been making excellent progress and are really driving each other on to do more work in less hours. Weekends have become a thing of the past, a distant memory, and there’s always a light on in the office well after midnight. Props to Dylan from Veri.vote who doesn’t seem to need food or sleep to survive. Just sweet, sweet Red Bull.
 

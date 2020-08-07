@@ -3,14 +3,12 @@ title: 'HBF Activate hackathon recap'
 permalink: /blog/hbf-activate-hackathon-recap
 date: 'Fri Sep 09 2016 18:11:51 GMT+0800 (AWST)'
 description: An overview of the best hackathon I have ever been to!
-categories: Startups
-photo: 'hbfactivate.jpg'
+category: Perth2
+img: '/assets/img/posts/hbfactivate.jpg'
 ---
 **Originally posted at Startup News**
 
 _The HBF Hackathon event was held on the weekend of August 27-28th. Sam Mead facilitated the event, and recaps on his experience of the event._
-
-![Running the HBF Activate Hackathon](/img/hbfactivate.jpg)
 
 It might be a big statement, but this could have been the best Hackathon I have ever been involved with! That’s out of more hackathons than I can count on both hands, and from the various perspectives of a participant, a mentor, an organiser and a facilitator. It was very well organised, the catering was delicious, and the mentors managed to strike a fine balance between being helpful enough without interfering too much. A perfect recipe for success!
 
@@ -28,7 +26,7 @@ Saturday morning and 12 of the 13 teams managed to come back for a delicious bre
 
 Saturday evening brought some unusual excitement as two teams sitting on adjacent tables both invalidated what they were working on within about half an hour of each other. They combined forces to work on something new, but quickly split up into two new teams, each mixed up with members of the original teams. If you’re confused trying to play along at home don’t worry — it was just as confusing on the night!
 
-![Running the HBF Activate Hackathon](/img/hbf2.jpg)
+![Running the HBF Activate Hackathon](/assets/img/posts/hbf2.jpg)
 
 With a bit of yoga and mindfulness to break things up on Saturday afternoon — it was a health focused hackathon after all! — the teams arrived back in the building on Sunday morning looking an awful lot fresher than you usually see at your average hackathon.
 
@@ -36,15 +34,15 @@ The teams started working on their pitches a lot earlier than usual too, which p
 
 As the accelerator applications were open to anyone, regardless of hackathon performance, the three prizes were mainly restricted to how the teams performed over the weekend. And the winners were…
 
-![Running the HBF Activate Hackathon](/img/hbf3.jpg)
+![Running the HBF Activate Hackathon](/assets/img/posts/hbf3.jpg)
 
 Best Pitch: Care Collective — who provide a better way to navigate the National Disability Scheme. It offers a platform for support workers to list their availability and skills online for free. Families can search for support according to their preferences, taking into consideration gender, language and culture.
 
-![Running the HBF Activate Hackathon](/img/hbf4.jpg)
+![Running the HBF Activate Hackathon](/assets/img/posts/hbf4.jpg)
 
 Best Pivot: Sortable — half of the team had worked on virtual reality and the other half on elective surgery tenders, before bending to the will of their prospective customers and working on providing an online storage platform for medical records.
 
-![Running the HBF Activate Hackathon](/img/hbf5.jpg)
+![Running the HBF Activate Hackathon](/assets/img/posts/hbf5.jpg)
 
 Mentors Choice: Mindset — Who scanned folks brainwaves to tell them when they were in (or out!) of a state of focus. The mentors were almost unanimous with their decision, a testiment to the team’s ability to ask for help and then impliment the advice.
 

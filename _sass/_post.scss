@@ -2,27 +2,84 @@
 //  Post SASS
 // =======================================
 article {
-  padding-bottom: 1rem;
-  .post-header {
-    border-top: $border;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #000;
+}
+.post-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+  };
+  .post-title {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  .post-meta p {
+    margin-bottom: 0;
+    @include for-tablet-landscape-up {
+      line-height: 2;
+    };
+  }
+  .post-meta {
+    flex: 0 0 100%;
+    margin-bottom: 5px;
+    @include for-tablet-landscape-up {
+      flex: 0 0 20%;
+      margin-bottom: 0;
+      text-align: right;
+    };
+  }
+}
+.featured-image {
+  margin-bottom: 2rem;
+  .caption {
+    padding-top: 1rem;
+    font-size: 0.85rem;
     border-bottom: $border;
-    padding: 1rem 0;
-    margin-bottom: 1rem;
+  }
+}
+.faux-border {
+  height: 2px;
+  background: #000;
+  margin-bottom: 2rem;
+}
+.suggested-reading {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  .read-next, .read-previous {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex: 0 0 100%;
+    text-align: center;
+    @include for-tablet-portrait-up {
+      flex: 0 0 50%;
+      text-align: left;
+    };
     p {
-      margin: 0;
-    }
-  }
-  img {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .post-content {
-    p:last-child {
       margin-bottom: 0;
     }
   }
-}
-.suggested-reading {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .read-next {
+    @include for-tablet-portrait-up {
+      padding-left: 2rem;
+    };
+  }
+  .read-previous {
+    border-bottom: $border;
+    @include for-tablet-portrait-up {
+      border-bottom: 0;
+      border-right: 2px solid #000;
+      padding-right: 2rem;
+    };
+  }
 }

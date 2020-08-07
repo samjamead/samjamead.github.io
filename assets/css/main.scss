@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$brand-color:           #6499e3;
+$accent-color:          $brand-color; // Not used
+$light-grey:            #e7e7e7; // Borders, lines
+$soft-grey:             #9da5b4; // Text on dark backgrounds
+$dark-grey:             #24272d; // For dark backgrounds and text
+$background-color:      #fff; // Guardian cream
+
+$text-color:            #4a4a4a;
+$text-color-alt:        rgb(69, 102, 131); // Bluish
+$text-color-alt-2:      #15403d; // Needs opacity .92
+
+$base-font-size:        16px;
+$base-font-family:      -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+$base-font-weight:      normal;
+$small:                 $base-font-size * 0.875;
+
+$column-width:          710px;
+$paragraph-width:       650px;
+
+$headings-font-family:  $base-font-family;
+$headings-font-weight:  600;
+
+$border:                1px solid $light-grey;
+$spacing-unit:          2rem;
+
+@import
+  "breakpoints",
+  "base",
+  "helpers",
+  "global",
+  "header",
+  "footer",
+  "components",
+  "post",
+  "yearbook",
+  "animatedbackground"
+;

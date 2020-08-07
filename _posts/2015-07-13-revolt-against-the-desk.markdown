@@ -2,8 +2,8 @@
 title:  "Revolt Against The Desk"
 date:   2015-07-13 13:48:00
 permalink: /blog/revolt-against-desks
-categories: Snippets
-img: /img/desks.jpg
+category: Perth1
+img: /assets/img/posts/desks.jpg
 ---
 <small>_Photo: Ralph Morse_</small>
 

@@ -2,7 +2,7 @@
 title:  "Recommendation: Send Transactional Email From Auth0 Using SendGrid"
 date:   2016-08-28 16:00:31 +0800
 permalink: /blog/sendgridtutorial
-category: Tutorials
+category: Perth2
 description: "Thank you Ryan Chenkie for making such an easy tutorial on sending email from Auth0 via SendGrid."
 ---
 ### I left it to the absolute last minute.

@@ -2,7 +2,7 @@
 title:  "We Can't Handle Salt"
 date:   2015-07-17 11:21:00
 permalink: blog/we-cant-handle-salt
-categories: Snippets
+category: Perth1
 ---
 A snippet from Gutbloom:
 

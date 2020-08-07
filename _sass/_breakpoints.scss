@@ -22,3 +22,11 @@
 @mixin for-big-desktop-up {
   @media (min-width: 1800px) { @content; }
 }
+
+// Old iPhones    :     320x568
+// iPhone 6, 7, 8 :     375x667
+// iPhone +       :     414x736
+// iPhone x       :     375x812
+// iPhone 11      :     414x896
+// iPhone 11 Pro  :     375x812
+// iPhone 11 Max  :     414x896
