@@ -7,14 +7,13 @@ description: "Punishment is not the answer."
 img:
 ---
 
+Behaviour management is often cited as a something. With that in mind I did this course. Five key things stuck in my mind:
 
+1. It's important to **recognise** student progress and positive behaviour. [Frequently recognising 'micro-behaviours'](https://www.notion.so/samjamead/Week-3-Intelligent-Use-of-Recognition-to-Motivate-Students-d8acc0b5286640d3b33969c392352f37#5806e36e51384363aa8314d5f4d70435) is a powerful way to reinforce positive behaviour. [Avoid using extrinsic reward](https://www.notion.so/samjamead/Managing-Behaviour-for-Learning-Future-Learn-a3e7facebc1b4344a1a13090a47a7adc), which can be inconsistent, unfair, and counterproductive (and maybe even a version of unethical behaviourism, too...).
+2. Two
+3. Three
+4. Four
+5. Five
 
-  <section class="intro">
-     <p>This is an essay on being proactive when dealing with typically reactive situations. This essay compliments an earlier essay on <a href="/pedagogy/">lesson pedagogy</a>.</p>
-  </section>
-
-  <section>
-    <h2>Reacting </h2>
-    <p>Important to think about potential disruptions / bad behaviour, and how those situations will be dealt with. Much like planning what questions to ask in advance, plan how to deal with behaviour in advance.</p>
-    <p>Make notes, ask colleagues (science specific and non-science specific). </p>
-  </section>
+All of my notes from the course are available here:  
+[Notes on Managing Behaviour for Learning](https://www.notion.so/Managing-Behaviour-for-Learning-a3e7facebc1b4344a1a13090a47a7adc)

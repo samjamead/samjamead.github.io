@@ -2,7 +2,24 @@
 layout: default
 ---
 
-<div class="container">
+<div class="linebox no-animation">
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+</div>
+
+<div class="container white-bg">
 
   <article itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -43,7 +60,7 @@ layout: default
       {% if page.previous %}
         <p>Read previous:<br /> <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
       {% else %}
-        <p class="text-center">--</p>
+        <p>"No, sir. Scientific truth is beyond loyalty and disloyalty"<br />&mdash; Dr. Hari Seldon </p>
       {% endif %}
     </div>
 
@@ -51,7 +68,7 @@ layout: default
       {% if page.next %}
         <p>Read next:<br /> <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></p>
       {% else %}
-        <p class="text-center">--</p>
+        <p>Read next:<br /> <a class="" rel="next" href="https://52papers.org">52 Papers<i class="fas fa-arrow-right icon-right-tight icon-rotate-45"></i></a></p>
       {% endif %}
     </div>
 

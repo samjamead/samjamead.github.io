@@ -162,6 +162,13 @@
     }
   }
 }
+.no-animation {
+  .lines {
+    .line::after {
+      animation: none;
+    }
+  }
+}
 
 @keyframes run {
   0% {

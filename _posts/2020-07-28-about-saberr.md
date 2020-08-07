@@ -8,6 +8,10 @@ img: /assets/img/posts/algorithm.png
 caption: "Writing out the first version of the algorithm in long form. Summer 2012."
 ---
 
+Much like the Queen, Saberr has two birthdays, and from the perspective of the July one, she just turned eight (eight!). Here's a short origin story, with a link to what's coming next at the end.  
+
+<hr />
+
 Towards the end of my undergrad (BSc Oceanography), I founded a company with two friends at university. It's a quintessential startup story. We even worked out of my parents' garage.
 
 Originally, our idea was to run flotilla sailing holidays for graduates, similar to [The Yacht Week](https://theyachtweek.com/how-it-works).

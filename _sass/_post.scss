@@ -12,21 +12,25 @@ article {
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column-reverse;
-  @include for-tablet-portrait-up {
+  @include for-tablet-landscape-up {
     flex-direction: row;
   };
   .post-title {
-    font-size: 1.125rem;
-  }
-  h1, .post-meta p {
+    font-size: 1.25rem;
     line-height: 1.6;
     margin-bottom: 0;
+  }
+  .post-meta p {
+    margin-bottom: 0;
+    @include for-tablet-landscape-up {
+      line-height: 2;
+    };
   }
   .post-meta {
     flex: 0 0 100%;
     margin-bottom: 5px;
-    @include for-tablet-portrait-up {
-      flex: 0 0 18%;
+    @include for-tablet-landscape-up {
+      flex: 0 0 20%;
       margin-bottom: 0;
       text-align: right;
     };
@@ -61,6 +65,9 @@ article {
       flex: 0 0 50%;
       text-align: left;
     };
+    p {
+      margin-bottom: 0;
+    }
   }
   .read-next {
     @include for-tablet-portrait-up {

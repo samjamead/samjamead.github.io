@@ -18,14 +18,22 @@
     position: sticky;
     top: 2rem;
     flex: 0 0 10%;
+    padding-bottom: 28px;
     @include for-tablet-landscape-up {
+      padding-bottom: 0;
       flex: 0 0 12%;
     };
     p {
       transform: rotate(-90deg) translate(-100%, 0);
       transform-origin: top left;
       line-height: 1;
+      display: inline-block;
+      @include for-tablet-portrait-up{
+        padding-right: 3px;
+      };
       @include for-tablet-landscape-up {
+        display: block;
+        padding-right: 0;
         transform: rotate(0deg) translate(0);
         line-height: 1.7;
       };

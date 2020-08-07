@@ -33,6 +33,17 @@
 .space-above {
   margin-top: 2em;
 }
+.padding-left {
+  padding-left: 1rem;
+}
+.hr-narrow {
+  width: 20%;
+}
+.hr-narrow-center {
+  @extend .hr-narrow;
+  margin-left: auto;
+  margin-right: auto;
+}
 .icon-left {
   margin-right: 8px;
 }
