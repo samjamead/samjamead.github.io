@@ -10,7 +10,7 @@ caption: "Writing out the first version of the algorithm in long form. Summer 20
 
 Much like the Queen, Saberr has two birthdays, and from the perspective of the July one, she just turned eight (eight!). Here's a short origin story, with a link to what's coming next at the end.  
 
-<hr />
+<hr class="hr-narrow-center" />
 
 Towards the end of my undergrad (BSc Oceanography), I founded a company with two friends at university. It's a quintessential startup story. We even worked out of my parents' garage.
 
