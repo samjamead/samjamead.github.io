@@ -1,0 +1,33 @@
+// =======================================
+//  Components! Global-ish
+// =======================================
+
+$gridline-blue: #0097ff;
+
+.gridlines {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  hr {
+    position: fixed;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px dashed $gridline-blue;
+  }
+  .vertical-gridline {
+    display: inline-block;
+    width: 8%;
+    height: 100vh;
+    border-right: 1px dashed #0097ff;
+    text-align: center;
+    &:first-child {
+      border-left: 1px dashed #0097ff;
+    }
+  }
+}
