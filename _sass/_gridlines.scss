@@ -2,32 +2,37 @@
 //  Components! Global-ish
 // =======================================
 
-$gridline-blue: #0097ff;
+$gridline-blue: rgba(0, 151, 255, 30%);
+
+.topline {
+  position: fixed;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid $gridline-blue;
+}
 
 .gridlines {
+  z-index: -5;
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  hr {
-    position: fixed;
-    top: 15px;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    border-bottom: 1px dashed $gridline-blue;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   .vertical-gridline {
-    display: inline-block;
-    width: 8%;
+    flex: 1 0 8.32%;
+    padding-top: 30px;
     height: 100vh;
-    border-right: 1px dashed #0097ff;
+    border-right: 1px solid $gridline-blue;
     text-align: center;
     &:first-child {
-      border-left: 1px dashed #0097ff;
+      border-left: 1px solid $gridline-blue;
     }
   }
 }

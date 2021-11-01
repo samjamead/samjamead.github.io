@@ -1,13 +1,9 @@
 .container {
-  padding: 0 1rem;
-  margin: 0 auto;
-  max-width: $column-width;
+  padding: 0 10px;
+  width: 100%;
   @include for-tablet-landscape-up {
-    padding: 0 2rem;
+    padding: 0 15px;
   }
-}
-.container-dropped {
-  // margin-top: 6rem;
 }
 .section-heading {
   margin-top: 1rem;

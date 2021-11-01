@@ -1,6 +1,6 @@
 .site-header {
   @include for-tablet-landscape-up {
-    padding-top: 5rem;
+    padding-top: 45px;
   }
   .container {
     margin-top: -125px; // This is an inexact science
@@ -21,8 +21,8 @@
     align-items: center;
     flex-wrap: wrap-reverse;
     @include for-tablet-landscape-up {
-      padding-top: 2rem;
-      padding-bottom: 1rem;
+      padding-top: 20px;
+      padding-bottom: 15px;
     }
     a {
       display: block;

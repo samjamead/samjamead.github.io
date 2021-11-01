@@ -104,9 +104,25 @@
 #homepage {
   .masthead {
     border-bottom: 2px solid #000;
-    background: #fff;
-    p:last-child {
-      margin-bottom: 0;
+    display: flex;
+    .box-1 {
+      margin-left: 8.32%;
+      flex: 0 0 41.6%;
+      columns: 2 200px;
+    }
+    .box-2 {
+      background: yellow;
+      margin-left: 8.32%;
+      flex: 0 0 24.96%;
+    }
+    .box-3 {
+      background: blue;
+      margin-left: 8.32%;
+      flex: 0 0 8.32%;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #000;
     }
   }
   .wave {
