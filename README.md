@@ -1,7 +1,6 @@
 # samjamead.github.io
-Sam Mead's personal website, [Version VII](https://samjamead.github.io)
+Sam Mead's personal website, [Version VIII](https://sjam.studio)
 
 Todo:  
 
-- [ ] Lists should be `<ul>` not `<div>`  
-- [ ] Refactor animations 
+- [ ] Brett Victor highlights on the masthead  

@@ -1,55 +1,74 @@
 .site-header {
-  .fake-border {
-    margin-top: -15px;
-    width: 100%;
-    border-top: $border;
-  }
   .navbar {
-    display: flex;
-    justify-content: space-between;
+    border-bottom: $border;
     @include for-tablet-landscape-up {
       align-items: stretch;
-    }
-    .brand {
-      border-right: $border;
-      a {
-        display: block;
-        padding: 2rem 3rem 3rem;
-      }
-    }
-    .menu-toggle {
+    };
+    .left-col, .middle-col, .right-col {
+      @extend .flexbox;
       @include for-tablet-landscape-up {
-        display: none;
-      }
+        align-items: center;
+      };
     }
-    nav.nav-links {
-      flex: 0 0 100%; // Flex child as well as flex container
-      padding-right: 10px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-direction: column;
+    .middle-col, .right-col {
+      border-left: $border;
+    }
+    .left-col {
       @include for-tablet-landscape-up {
-        flex: 0 0 auto;
-        flex-direction: row;
-        justify-content: space-between;
-        // align-items: stretch;
-        text-align: right;
+        justify-content: flex-end;
+        padding-right: 1rem;
+      };
+      .brand {
+        padding: 1rem;
+        a {
+          display: block;
+        }
       }
-      a, span {
-        padding: 42px 30px 45px;
-        flex: 0 0 auto;
+      .menu-toggle {
         @include for-tablet-landscape-up {
-          border-left: $border;
+          display: none;
         }
-
-        &:hover {
-          text-decoration: none;
+      }
+    }
+    nav.middle-col {
+      ul, li {
+        margin: 0;
+        padding: 0;
+      }
+      .nav-links {
+        @extend .flexbox;
+      }
+      @include for-tablet-landscape-up {
+        align-items: flex-start;
+        li {
+          display: inline-block;
+          border-right: $border;
         }
+        a {
+          display: block;
+          padding: 2rem 2rem calc(2rem - 4px);
+          border-bottom: 4px solid transparent;
+          color: $text-color;
+          transition: 0.5s;
+          &:hover {
+            text-decoration: none;
+            border-color: $brand-color;
+            // background: linear-gradient(to top, #03375E, #03375E 5%, transparent 5%);
+          }
+        }
+      };
+    }
+    .right-col {
+      justify-content: flex-start;
+      padding-left: 2rem;
+      border-left: $border;
+      .onepercent {
+        max-width: 50px;
       }
     }
   }
 }
+
 
 // Hamburger with thanks to Jonathon Suh
 .hamburger {

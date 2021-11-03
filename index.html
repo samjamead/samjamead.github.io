@@ -3,49 +3,52 @@ layout: default
 body_id: homepage
 ---
 
-<section class="masthead">
-  <div class="container">
-    <p class="counter">00.</p>
-    <p class="lead">Hey – I'm Sam, a freelance web developer and copywriter in Jersey. I also tutor in secondary physics, chemistry, and biology.</p>
-    <p>Crypto? In the last 10 years I've done some other things, too: cofounded a SaaS tech startup; lead B2B marketing at a C-Series healthcare startup; and taught physics at high-school level.</p>
-  </div>
-</section>
+<div class="one-col-middle">
 
-<section>
-  <div class="container">
-    <p class="counter">01.</p>
-    <h2 class="lead">I'm currently working on:</h2>
-    <p>Jersea</p>
-    <p>Otio</p>
-    <p>Third thing</p>
-  </div>
-</section>
+  <section class="masthead">
+    <div class="container">
+      <p class="counter">00.</p>
+      <p class="lead">Hey – I'm Sam, a freelance web developer and copywriter in Jersey. I also tutor in secondary physics, chemistry, and biology.</p>
+      <p>In the last 10 years I've done some other things, too: cofounded a SaaS tech startup; lead B2B marketing at a C-Series healthcare startup; and taught physics at high-school level.</p>
+    </div>
+  </section>
 
-<section class="post-list-section">
-  <div class="container">
-    <p class="counter">02.</p>
-    <h2 class="lead">Some things I have written:</h2>
-    <ul>
-    {% assign featured_posts = site.posts | where: "featured", "true" %}
+  <section>
+    <div class="container">
+      <p class="counter">01.</p>
+      <h2 class="lead">I'm currently working on:</h2>
+      <p>Raijin – [App, Website] A Solana blockchain app that executes smart contracts based on real-time weather data.</p>
+      <p>Jersea – [Website] A campaign helping to protect Jersey's unique marine environment, and the livelihoods that depend upon it.</p>
+      <p>Otio – [Website, Community] A [something] collective exploring new modes of working towards the UN's Sustainable Development Goals.</p>
+    </div>
+  </section>
 
-    {% for post in featured_posts limit: 5 %}
-      <li>{{ post.date | date: "%b %-d" }} | <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    <p><a href="/posts/">See more writing<i class="fas fa-arrow-right icon-right"></i></a></p>
-  </div>
-</section>
+  <section class="post-list-section">
+    <div class="container">
+      <p class="counter">02.</p>
+      <h2 class="lead">Some things I have written:</h2>
+      <ul>
+      {% assign featured_posts = site.posts | where: "featured", "true" %}
 
-<section>
-  <div class="container">
-    <p class="counter">03.</p>
-    <h2 class="section-header">Get in touch:</h2>
-    <p>Call me up</p>
-  </div>
-</section>
+      {% for post in featured_posts limit: 5 %}
+        <li>{{ post.date | date: "%b %-d" }} | <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+      <p><a href="/posts/">See more writing<i class="fas fa-arrow-right icon-right"></i></a></p>
+    </div>
+  </section>
 
-<section>
-  <div class="container">
-    <p class="small">Design inspired by <a href="https://some.studio/">Piet Terheyden</a>.</p>
-  </div>
-</section>
+  <section>
+    <div class="container">
+      <p class="counter">03.</p>
+      <h2 class="section-header">Get in touch:</h2>
+      <p>Call me up</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="small">Design inspired by <a href="https://some.studio/">Piet Terheyden</a>.</p>
+    </div>
+  </section>
+</div>
