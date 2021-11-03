@@ -3,107 +3,49 @@ layout: default
 body_id: homepage
 ---
 
-<hr class="topline" />
+<section class="masthead">
+  <div class="container">
+    <p class="counter">00.</p>
+    <p class="lead">Hey – I'm Sam, a freelance web developer and copywriter in Jersey. I also tutor in secondary physics, chemistry, and biology.</p>
+    <p>Crypto? In the last 10 years I've done some other things, too: cofounded a SaaS tech startup; lead B2B marketing at a C-Series healthcare startup; and taught physics at high-school level.</p>
+  </div>
+</section>
 
-<div class="gridlines">
-  <div class="vertical-gridline">
-    <code>01</code>
+<section>
+  <div class="container">
+    <p class="counter">01.</p>
+    <h2 class="lead">I'm currently working on:</h2>
+    <p>Jersea</p>
+    <p>Otio</p>
+    <p>Third thing</p>
   </div>
-  <div class="vertical-gridline">
-    <code>02</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>03</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>04</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>05</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>06</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>07</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>08</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>09</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>10</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>11</code>
-  </div>
-  <div class="vertical-gridline">
-    <code>12</code>
-  </div>
-</div>
+</section>
 
+<section class="post-list-section">
+  <div class="container">
+    <p class="counter">02.</p>
+    <h2 class="lead">Some things I have written:</h2>
+    <ul>
+    {% assign featured_posts = site.posts | where: "featured", "true" %}
 
-<div class="container">
-
-  <section class="masthead">
-    <div class="box-1">
-      <p>Hello! I'm Sam, a freelance web developer and marketer in Jersey</p>
-      <p>Until recently I was a physics teacher in Cornwall, with an interest in <a href="/posts/whatnext">big issues facing education</a> and <a href="https://52papers.org/">education research<i class="fas fa-arrow-right icon-right-tight icon-rotate-45"></i></a>.
-      <p>Before teaching, I lived in Perth, Western Australia, and worked in web development and marketing. And before <em>that</em> I <a href="/posts/aboutsaberr/">cofounded a startup called Saberr</a>. Technically I'm an oceanographer by training, but haven't used those skills in practice. Yet. </p>
-      <p>It seems it needs a little more content, great is the mystery of columns...</p>
-    </div>
-    <div class="box-2">
-
-    </div>
-    <div class="box-3">
-
-    </div>
-  </section>
-
-
-  {% for post in site.posts %}
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-      {% unless forloop.first %}
-            </div>
-          </div>
-        </section>
-      {% endunless %}
-        <section class="post-section">
-          <div class="post-list">
-            <div class="date-column">
-              <p id="y{{post.date | date: "%Y"}}">{{ currentdate }}</p>
-            </div>
-            <div class="post-column">
-      {% assign date = currentdate %}
-    {% endif %}
-              <div class="post">
-                <div class="post-date">
-                  <p>{{ post.date | date: "%b %-d" }}</p>
-                </div>
-                <div class="post-title">
-                  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                </div>
-              </div>
-    {% if forloop.last %}
-            </div>
-          </div>
-        </section>
-    {% endif %}
-  {% endfor %}
-
-  <section>
-    <ul class="inline-list social-icons">
-      <li><a href="https://twitter.com/samjamead"><i class="fab fa-twitter-square"></i></a></li>
-      <li><a href="https://github.com/samjamead"><i class="fab fa-github-square"></i></a></li>
-      <li><a href="https://linkedin.com/in/samjamead"><i class="fab fa-linkedin"></i></a></li>
+    {% for post in featured_posts limit: 5 %}
+      <li>{{ post.date | date: "%b %-d" }} | <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
     </ul>
-  </section>
+    <p><a href="/posts/">See more writing<i class="fas fa-arrow-right icon-right"></i></a></p>
+  </div>
+</section>
 
-  <section class="pre-footer text-center">
-    <p class="small">Thanks to <a href="https://codepen.io/333397406">Osorina Irina</a> and <a href="https://some.studio/">Piet Terheyden</a> for the CSS inspiration.</p>
-  </section>
+<section>
+  <div class="container">
+    <p class="counter">03.</p>
+    <h2 class="section-header">Get in touch:</h2>
+    <p>Call me up</p>
+  </div>
+</section>
 
-</div>
+<section>
+  <div class="container">
+    <p class="small">Design inspired by <a href="https://some.studio/">Piet Terheyden</a>.</p>
+  </div>
+</section>

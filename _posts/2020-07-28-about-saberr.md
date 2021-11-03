@@ -6,6 +6,7 @@ category: Saberr
 description: "The story of a successful pivot"
 img: /assets/img/posts/algorithm.png
 caption: "Writing out the first version of the algorithm in long form. Summer 2012."
+featured: true
 ---
 
 Much like the Queen, Saberr has two birthdays, and from the perspective of the July one, she just turned eight (eight!). Here's a short origin story, with a link to what's coming next at the end.  

@@ -1,0 +1,18 @@
+.container {
+  max-width: 1020px;
+  margin: 0px 186px;
+}
+.counter {
+  font-family: $monospace-font-family;
+}
+.masthead {
+  padding: 5rem 0 3rem;
+}
+.lead {
+  font-weight: $base-font-weight;
+  font-size: 24px;
+  max-width: 730px;
+}
+.section-header {
+  @extend .lead;
+}
