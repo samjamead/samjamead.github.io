@@ -10,9 +10,6 @@
         align-items: center;
       };
     }
-    .middle-col, .right-col {
-      border-left: $border;
-    }
     .left-col {
       @include for-tablet-landscape-up {
         justify-content: flex-end;
@@ -30,7 +27,9 @@
         }
       }
     }
-    nav.middle-col {
+    .middle-col {
+      border-left: $border;
+      border-right: $border;
       ul, li {
         margin: 0;
         padding: 0;
@@ -61,7 +60,6 @@
     .right-col {
       justify-content: flex-start;
       padding-left: 2rem;
-      border-left: $border;
       .onepercent {
         max-width: 50px;
       }

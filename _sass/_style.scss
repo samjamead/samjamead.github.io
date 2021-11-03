@@ -38,8 +38,9 @@
 .one-col-middle {
   max-width: $column-width;
   margin: 0px auto;
-  padding-left: 2rem;
+  padding: 0 2rem;
   border-left: $border;
+  border-right: $border;
 }
 .counter {
   font-family: $monospace-font-family;
@@ -54,4 +55,16 @@
 }
 .section-header {
   @extend .lead;
+}
+.webhero {
+  height: 450px;
+  background: url('/assets/img/colour2.jpg') center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 120px;
+    color: #fff;
+  }
 }
