@@ -14,34 +14,15 @@
     align-items: flex-start;
   };
 }
-.three-col {
-  @extend .flexbox;
-  .left-col, .middle-col, .right-col {
-    flex: 0 0 100%;
-  }
-  .left-col {
-    @include for-tablet-landscape-up {
-      flex: 1 1 min-content;
-    };
-  }
-  .middle-col {
-    @include for-tablet-landscape-up {
-      flex: 1 1 auto;
-      max-width: $column-width;
-    };
-  }
-  .right-col {
-    @include for-tablet-landscape-up {
-      flex: 1 1 min-content;
-    };
-  }
-}
 .one-col-middle {
-  max-width: $column-width;
-  margin: 0px auto;
-  padding: 0 2rem 5rem;
-  border-left: $border;
-  border-right: $border;
+  padding: 0 10px;
+  @include for-tablet-portrait-up {
+    max-width: $column-width;
+    margin: 0px auto;
+    padding: 0 2rem 5rem;
+    border-left: $border;
+    border-right: $border;
+  };
 }
 .counter {
   font-family: $monospace-font-family;
