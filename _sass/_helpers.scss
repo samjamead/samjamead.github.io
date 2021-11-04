@@ -18,6 +18,12 @@
 .text-right {
   text-align: right;
 }
+.inline-list {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
 .img-50 {
   max-width: 50%;
 }
@@ -41,14 +47,12 @@
 }
 .hr-narrow-center {
   @extend .hr-narrow;
-  margin-left: auto;
-  margin-right: auto;
 }
 .icon-left {
   margin-right: 8px;
 }
 .icon-right {
-  margin-left: 8px;
+  padding-left: 8px;
 }
 .icon-right-tight {
   margin-left: 3px;

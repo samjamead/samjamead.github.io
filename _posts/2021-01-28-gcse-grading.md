@@ -3,9 +3,10 @@ title:  "On determining GCSE grade boundaries"
 date:   2021-01-28 09:00:31 +0800
 permalink: /posts/gcseboundaries
 category: Teaching
-description: "How GCSE grade boundaries are determined, and an unexpected ethics position."
+description: "How GCSE grade boundaries are determined, and the unexpected ethics question that results."
 img:
 caption:
+featured: true
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spent some time last night looking through the Ofqual doc on grading GCSE and A Level exams this summer. Realised I didn&#39;t really know how these exams are graded usually... No prizes for guessing that it&#39;s not exactly straightforward. <br><br>Here&#39;s a thread on what I found.</p>&mdash; Sam Mead (@samjamead) <a href="https://twitter.com/samjamead/status/1351831886641983491?ref_src=twsrc%5Etfw">January 20, 2021</a></blockquote>

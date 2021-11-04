@@ -1,108 +1,72 @@
 .site-header {
-  @include for-tablet-landscape-up {
-    padding-top: 5rem;
-  }
-  .container {
-    margin-top: -125px; // This is an inexact science
-    transition: 0.4s ease;
-    @include for-tablet-landscape-up {
-      margin-top: 0;
-    }
-  }
-  .menu-open {
-    margin-top: 0;
-  }
   .navbar {
-    margin: 0 auto;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+    border-bottom: $border;
     @include for-tablet-landscape-up {
-      padding-top: 2rem;
-      padding-bottom: 1rem;
-    }
-    a {
-      display: block;
-      padding: 1rem;
-      color: $text-color;
-      transition: 0.4s ease;
-      &:hover {
-        color: $accent-color;
-        text-decoration: none;
-      }
+      align-items: stretch;
+    };
+    .left-col, .middle-col, .right-col {
+      @extend .flexbox;
       @include for-tablet-landscape-up {
-        font-size: 1.125rem;
-        margin-left: 10px;
-        text-align: left;
-        display: inline-block;
-        width: auto;
-        &:last-child {
-          padding-right: 0;
+        align-items: center;
+      };
+    }
+    .left-col {
+      @include for-tablet-landscape-up {
+        justify-content: flex-end;
+      };
+      .brand {
+        padding: 2rem;
+        a {
+          display: block;
+        }
+      }
+      .menu-toggle {
+        @include for-tablet-landscape-up {
+          display: none;
         }
       }
     }
-    .brand {
-      margin-left: 0;
-      padding-left: 0;
+    .middle-col {
+      border-left: $border;
+      border-right: $border;
+      ul, li {
+        margin: 0;
+        padding: 0;
+      }
+      .nav-links {
+        @extend .flexbox;
+      }
+      @include for-tablet-landscape-up {
+        align-items: flex-start;
+        min-width: $column-width;
+        li {
+          display: inline-block;
+          border-right: $border;
+        }
+        a {
+          display: block;
+          padding: 2rem 2rem calc(2rem - 4px);
+          border-bottom: 4px solid transparent;
+          color: $text-color;
+          transition: 0.5s;
+          &:hover {
+            text-decoration: none;
+            border-color: $brand-color;
+            // background: linear-gradient(to top, #03375E, #03375E 5%, transparent 5%);
+          }
+        }
+      };
     }
-    .active {
-      background: $brand-color;
-      color: #fff;
-      padding: 1rem;
-      transition: 0.4s ease;
-      &:hover {
-        background: lighten($brand-color, 12%);
-        color: #fff;
-        text-decoration: none;
+    .right-col {
+      justify-content: flex-start;
+      padding-left: 2rem;
+      .onepercent {
+        max-width: 50px;
       }
     }
   }
-  .main {
-    flex: 0 0 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5px;
-    @include for-tablet-portrait-up {
-      padding-top: 1rem;
-    }
-    @include for-tablet-landscape-up {
-      flex: 0 0 25%;
-      padding-top: 0;
-    }
-  }
-  button {
-    @include for-tablet-landscape-up {
-      display: none;
-    }
-  }
-  nav {
-    flex: 0 0 100%;
-    padding: 15px 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    @include for-tablet-landscape-up {
-      padding: 0;
-      margin: 0;
-      flex: 0 0 74%;
-      display: inline-block;
-      text-align: right;
-    }
-    a {
-      flex: 0 0 100%;
-      width: 100%;
-      text-align: center;
-    }
-  }
-  #nav-posts {
-    order: 2;
-  }
 }
+
 
 // Hamburger with thanks to Jonathon Suh
 .hamburger {
