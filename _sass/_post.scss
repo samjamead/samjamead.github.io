@@ -3,7 +3,7 @@
 // =======================================
 article {
   padding-bottom: 2rem;
-  border-bottom: 2px solid #000;
+  border-bottom: $border;
 }
 .post-header {
   padding-top: 2rem;
@@ -45,15 +45,15 @@ article {
   }
 }
 .faux-border {
-  height: 2px;
-  background: #000;
-  margin-bottom: 2rem;
+  height: 1px;
+  border-bottom: $border;
+  margin-bottom: 3rem;
 }
 .suggested-reading {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  border-bottom: 2px solid #000;
+  border-bottom: $border;
   margin-bottom: 2rem;
   flex-wrap: wrap;
   .read-next, .read-previous {
@@ -78,7 +78,7 @@ article {
     border-bottom: $border;
     @include for-tablet-portrait-up {
       border-bottom: 0;
-      border-right: 2px solid #000;
+      border-right: $border;
       padding-right: 2rem;
     };
   }

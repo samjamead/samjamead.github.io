@@ -13,9 +13,9 @@ $base-font-size:        15px;
 $base-font-family:      'Inter', -apple-system,Helvetica,Arial,sans-serif,apple color emoji;
 $base-font-weight:      normal;
 $headings-font-family:  $base-font-family;
-$headings-font-weight:  600;
+$headings-font-weight:  $base-font-weight;
 $monospace-font-family: 'DM Mono', 'Courier', monospace;
-$small:                 $base-font-size * 0.875;
+$small:                 $base-font-size * 0.8;
 $text-color:            #4a4a4a;
 $text-color-alt:        rgb(69, 102, 131); // Bluish
 

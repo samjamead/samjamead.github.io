@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $headings-font-weight;
   margin-bottom: 1rem;
   max-width: 700px;
+  color: #000;
 }
 h1 {
   font-size: 26px;
@@ -57,22 +58,30 @@ h1 {
     font-size: 32px;
   };
 }
+h2 {
+  font-size: 20px;
+  @include for-tablet-portrait-up {
+    font-size: 24px;
+  };
+}
+h3 {
+  font-size: 18px;
+  @include for-tablet-portrait-up {
+    font-size: 21px;
+  };
+}
 a {
-  color: $accent-color;
-  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
+  transition: 0.4s ease;
   &:hover {
-    color: $accent-color;
+    color: lighten(#000, 20%);
     text-decoration: underline;
   }
 }
-ul, ol, dl {
-  @extend p;
-  max-width: 570px;
-  margin-left: 2rem;
-}
 li, dd, dt {
   margin-bottom: 1rem;
-  padding-left: 7px;
+  padding-left: 0;
   > ul,
   > ol {
     margin-bottom: 0;

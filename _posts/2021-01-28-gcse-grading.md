@@ -3,7 +3,7 @@ title:  "On determining GCSE grade boundaries"
 date:   2021-01-28 09:00:31 +0800
 permalink: /posts/gcseboundaries
 category: Teaching
-description: "How GCSE grade boundaries are determined, and an unexpected ethics position."
+description: "How GCSE grade boundaries are determined, and the unexpected ethics question that results."
 img:
 caption:
 featured: true

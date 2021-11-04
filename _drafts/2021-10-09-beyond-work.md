@@ -6,7 +6,7 @@ category: Career
 description: "Fixing big problems"
 img:
 caption:
-featured: true
+featured: 
 ---
 
 Finding a way to contribute to society in an impactful, meaningful way.

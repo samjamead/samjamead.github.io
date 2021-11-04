@@ -13,10 +13,9 @@
     .left-col {
       @include for-tablet-landscape-up {
         justify-content: flex-end;
-        padding-right: 1rem;
       };
       .brand {
-        padding: 1rem;
+        padding: 2rem;
         a {
           display: block;
         }
@@ -39,6 +38,7 @@
       }
       @include for-tablet-landscape-up {
         align-items: flex-start;
+        min-width: $column-width;
         li {
           display: inline-block;
           border-right: $border;
