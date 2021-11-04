@@ -1,68 +1,58 @@
 .site-header {
-  .navbar {
-    border-bottom: $border;
-    @include for-tablet-landscape-up {
-      align-items: stretch;
+  border-bottom: $border;
+}
+.navbar {
+  @extend .flexbox;
+  align-items: stretch;
+  justify-content: space-between;
+  max-width: $column-width;
+  margin: 0px auto;
+  border-left: $border;
+  border-right: $border;
+  @media (min-width: 1260px) {
+    margin: 0;
+    border: 0;
+    max-width: 100%;
+    justify-content: center;
+  };
+  .brand {
+    padding: 2rem 10px;
+    @include for-tablet-portrait-up {
+      padding: 2rem;
     };
-    .left-col, .middle-col, .right-col {
-      @extend .flexbox;
-      @include for-tablet-landscape-up {
-        align-items: center;
-      };
-    }
-    .left-col {
-      @include for-tablet-landscape-up {
-        justify-content: flex-end;
-      };
-      .brand {
-        padding: 2rem;
-        a {
-          display: block;
-        }
-      }
-      .menu-toggle {
-        @include for-tablet-landscape-up {
-          display: none;
-        }
-      }
-    }
-    .middle-col {
+    @media (min-width: 1260px) {
+      padding-left: 1rem;
+    };
+    @media (min-width: 1290px) {
+      padding: 2rem;
+    };
+  }
+  .middle {
+    display: none;
+    @media (min-width: 1260px) {
+      display: block;
+      width: $column-width;
       border-left: $border;
       border-right: $border;
-      ul, li {
-        margin: 0;
-        padding: 0;
-      }
-      .nav-links {
-        @extend .flexbox;
-      }
-      @include for-tablet-landscape-up {
-        align-items: flex-start;
-        min-width: $column-width;
-        li {
-          display: inline-block;
-          border-right: $border;
-        }
-        a {
-          display: block;
-          padding: 2rem 2rem calc(2rem - 4px);
-          border-bottom: 4px solid transparent;
-          color: $text-color;
-          transition: 0.5s;
-          &:hover {
-            text-decoration: none;
-            border-color: $brand-color;
-            // background: linear-gradient(to top, #03375E, #03375E 5%, transparent 5%);
-          }
-        }
-      };
-    }
-    .right-col {
-      justify-content: flex-start;
-      padding-left: 2rem;
-      .onepercent {
-        max-width: 50px;
-      }
+    };
+  }
+  .badge {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    @include for-tablet-portrait-up {
+      padding-right: 2rem;
+    };
+    @media (min-width: 1260px) {
+      padding: 1rem 1rem 1rem 2rem;
+      width: 140px;;
+    };
+    @media (min-width: 1290px) {
+      width: 155px;
+      padding: 1rem 1rem 1rem 2rem;
+    };
+    .onepercent {
+      max-width: 60px;
     }
   }
 }
