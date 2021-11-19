@@ -1,0 +1,40 @@
+.sandbox-wrapper {
+  background: #acf4ff;
+  width: 100%;
+  min-height: 600px;
+  padding: 1px;
+}
+
+.sandbox-hero {
+  margin: 4rem auto;
+  padding: 4rem 0;
+  width: $column-width;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sandbox-hero-fixed {
+  width: 300px;
+  height: 500px;
+  background: #000;
+}
+
+.sandbox-hero-hscroll {
+  flex: 0 0 50%;
+  border: 1px solid #000;
+  padding: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg);
+  transform-origin: 65% 50%;
+  height: 400px;
+}
+
+.sandbox-hero-picture {
+  width: 200px;
+  height: 200px;
+  background: url('/assets/img/colour3.jpg') center center;
+  background-size: cover;
+}
