@@ -1,135 +1,55 @@
 .site-header {
-  border-bottom: $border;
+  padding-top: 1rem;
 }
-.navbar {
+
+.navbar-inner {
   @extend .flexbox;
-  align-items: stretch;
   justify-content: space-between;
-  max-width: $column-width;
-  margin: 0px auto;
-  border-left: $border;
-  border-right: $border;
-  @media (min-width: 1260px) {
-    margin: 0;
-    border: 0;
-    max-width: 100%;
-    justify-content: center;
-  };
-  .brand {
-    padding: 2rem 10px;
-    @include for-tablet-portrait-up {
-      padding: 2rem;
-    };
-    @media (min-width: 1260px) {
-      padding-left: 1rem;
-    };
-    @media (min-width: 1290px) {
-      padding: 2rem;
-    };
-  }
-  .middle {
-    display: none;
-    @media (min-width: 1260px) {
-      display: block;
-      width: $column-width;
-      border-left: $border;
-      border-right: $border;
-    };
-  }
-  .badge {
-    display: flex;
+
+  @include for-tablet-landscape-up {
     align-items: center;
-    padding-right: 10px;
-    @include for-tablet-portrait-up {
-      padding-right: 2rem;
+  };
+
+  img {
+    margin: 5px 0 0;
+  }
+}
+
+nav {
+  text-align: right;
+  font-family: $monospace-font-family;
+
+  ol {
+    margin: 0;
+    list-style-type: none;
+    max-width: 100%;
+  }
+
+  li {
+    margin: 0 0.5rem 0.5rem;
+
+    @include for-tablet-landscape-up {
+      display: inline-block;
+      margin-bottom: 0;
+      &:last-child {
+        margin-right: 0;
+
+        a {
+          padding-right: 0;
+        }
+      }
     };
-    @media (min-width: 1260px) {
-      padding: 1rem 1rem 1rem 2rem;
-      width: 140px;;
-    };
-    @media (min-width: 1290px) {
-      width: 155px;
-      padding: 1rem 1rem 1rem 2rem;
-    };
-    .onepercent {
-      max-width: 60px;
+
+    a {
+      padding: 5px 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
-}
 
-
-// Hamburger with thanks to Jonathon Suh
-.hamburger {
-  padding: 15px 0 10px;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  overflow: visible; }
-  .hamburger:hover {
-    opacity: 0.7; }
-  .hamburger:focus {
-    outline: none;
+  a {
+    text-decoration: none;
   }
-  .hamburger.is-active:hover {
-    opacity: 0.7; }
-  .hamburger.is-active .hamburger-inner,
-  .hamburger.is-active .hamburger-inner::before,
-  .hamburger.is-active .hamburger-inner::after {
-    background-color: #000; }
-
-.hamburger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative; }
-
-.hamburger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px; }
-  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
-    height: 3px;
-    background-color: #000;
-    border-radius: 4px;
-    position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease; }
-  .hamburger-inner::before, .hamburger-inner::after {
-    content: "";
-    display: block; }
-  .hamburger-inner::before {
-    top: -10px; }
-  .hamburger-inner::after {
-    bottom: -10px; }
-
-// Spin
-.hamburger--spin .hamburger-inner {
-  transition-duration: 0.22s;
-  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
-  .hamburger--spin .hamburger-inner::before {
-    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
-  .hamburger--spin .hamburger-inner::after {
-    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
-
-.hamburger--spin.is-active .hamburger-inner {
-  transform: rotate(225deg);
-  transition-delay: 0.12s;
-  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
-  .hamburger--spin.is-active .hamburger-inner::before {
-    top: 0;
-    opacity: 0;
-    transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
-  .hamburger--spin.is-active .hamburger-inner::after {
-    bottom: 0;
-    transform: rotate(-90deg);
-    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+}

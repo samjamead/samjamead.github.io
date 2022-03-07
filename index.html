@@ -3,81 +3,30 @@ layout: default
 body_id: homepage
 ---
 
-<div class="one-col-middle">
-
+<main>
   <section class="masthead">
     <div class="container">
-      <p class="counter">00.</p>
-      <p class="lead">Hey – I'm Sam, a freelance web developer and copywriter in Jersey. I also tutor in secondary physics, chemistry, and biology.</p>
+      <p class="counter">00. A brief introduction</p>
+      <p class="big-lead">Hello – I'm Sam, a freelance web developer and copywriter in Jersey. I also tutor in secondary maths and physics.</p>
+      <p>I write copy and build websites for all kinds of clients. I work with JavaScript and CSS, and use a wide variety of front-end platforms, including Jamstack, Wordpress and Squarespace.</p>
+    </div>
+  </section>
+
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <p class="counter">01. A selection of recent work</p>
+      {% include portfolio-list.html %}
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="container">
+      <p class="counter">02. A bit more about me</p>
+      <p class="lead">I write copy and build websites for all kinds of clients &mdash;</p>
+      <p>&mdash; this year I've worked with a marine conversation charity, artists, an electrical engineer, nutritionists, and a blockchain company.</p>
       <p>In the last 10 years I've done some other things, too: cofounded a SaaS tech startup; lead B2B marketing at a C-Series healthcare startup; and taught physics at high-school level.</p>
+      <p>I'm committed to helping those who are less fortunate than I am (as well as the planet). To that end I'm a member of Giving What We Can, One Percent for the Planet, and since September 2020 I've planted 875 trees with Ecologi.</p>
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <p class="counter">01.</p>
-      <h2 class="section-heading">I'm currently working on:</h2>
-      <div class="flexbox">
-        <div class="project-highlight">
-          <a href="https://jersea.je/" target="_blank"><img src="/assets/img/jersea.png" /></a>
-          <p class="project-tags"><span class="project-tag">WEBSITE</span></p>
-          <h3><a href="https://jersea.je/" target="_blank">Jersea<i class="fas fa-arrow-right icon-right"></i></a></h3>
-          <p>A campaign helping to protect Jersey's unique marine environment, and the livelihoods that depend upon it.</p>
-        </div>
-        <div class="project-highlight">
-          <a href="https://otio.work/" target="_blank"><img src="/assets/img/seneca.jpeg" /></a>
-          <p class="project-tags"><span class="project-tag">WEBSITE</span><span class="project-tag">COMMUNITY</span></p>
-          <h3><a href="https://otio.work/" target="_blank">Otio</a></h3>
-          <p>A distributed collective exploring new modes of working towards the UN's Sustainable Development Goals.</p>
-        </div>
-        <div class="project-highlight">
-          <img src="/assets/img/raijin.jpg" />
-          <p class="project-tags"><span class="project-tag">APP</span><span class="project-tag">WEBSITE</span></p>
-          <h3>Raijin</h3>
-          <p>A Solana blockchain app that executes smart contracts based on real-time weather data.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="post-list-section">
-    <div class="container">
-      <p class="counter">02.</p>
-      <h2 class="section-heading">Some things I have written:</h2>
-      <ul class="post-list">
-      {% assign featured_posts = site.posts | where: "featured", "true" %}
-      {% for post in featured_posts limit: 5 %}
-        <li>
-          <div class="post-date">
-            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-          </div>
-          <div class="post-content">
-            <h3><a href="{{ post.url }}">{{ post.title }}<i class="fas fa-arrow-right icon-right"></i></a></h3>
-            <p>{{ post.description }}</p>
-          </div>
-        </li>
-      {% endfor %}
-        <li>
-          <div class="post-date">
-            <span>2015 &ndash; 2021</span>
-          </div>
-          <div class="post-content">
-            <h3><a href="/posts/">See more writing<i class="fas fa-arrow-right icon-right"></i></a></h3>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <p class="counter">03.</p>
-      <h2 class="section-header">Get in touch:</h2>
-      <p>I'm on <a href="https://twitter.com/samjamead">Twitter</a> and <a href="https://linkedin.com/in/samjamead">LinkedIn</a> as <a href="https://twitter.com/samjamead">@samjamead</a>, or, for the time being, you can email me directly on <a href="mailto:samjamead@gmail.com">samjamead@gmail.com</a></p>
-    </div>
-  </section>
-
-  <section>
-    <p class="small">Design inspired by <a href="https://some.studio/">Piet Terheyden</a>.</p>
-  </section>
-</div>
+</main>

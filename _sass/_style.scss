@@ -1,142 +1,150 @@
 // ------------
-// THE DEFAULT FLEXBOX
-// Columns on mobile, rows on desktop
-// Desktop rows are space-between justified and flex-start aligned
+// Global styles
 // ------------
+.container {
+  position: relative;
+  max-width: $column-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  @include for-desktop-up {
+    padding: 0;
+  };
+}
+
 .flexbox {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 1rem;
+
   @include for-tablet-landscape-up {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
   };
+
+  .flex-half {
+    flex: 0 0 100%;
+
+    @include for-tablet-landscape-up {
+      flex: 1 1 34%;
+      max-width: 50%;
+    };
+  }
+
+  .flex-third {
+    flex: 0 0 100%;
+
+    @include for-tablet-landscape-up {
+      flex: 1 1 26%;
+      max-width: 33%;
+    };
+  }
 }
-.one-col-middle {
-  padding: 0 10px;
-  @include for-tablet-portrait-up {
-    max-width: $column-width;
-    margin: 0px auto;
-    padding: 0 2rem 5rem;
-    border-left: $border;
-    border-right: $border;
-  };
-}
+
 .counter {
   font-family: $monospace-font-family;
 }
-.masthead {
-  padding: 5rem 0 5rem;
-}
+
 .lead {
-  font-weight: $base-font-weight;
-  font-size: 24px;
-  max-width: 730px;
+  font-size: 1.2em;
 }
-.section-heading {
-  margin-bottom: 2rem;
-  @include for-tablet-landscape-up {
-    margin-bottom: 3rem;
-  };
+
+.big-lead {
+  max-width: 42rem;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
 }
-h3 {
-  a {
-    i {
-      transition: 0.4s ease;
-      color: #fff;
-      font-size: 1rem;
+
+// ////////////////////////////////
+// ================================
+// Sections
+// ================================
+// ////////////////////////////////
+
+.masthead {
+  padding-bottom: 0;
+}
+
+.portfolio-list {
+  @extend .flexbox;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+
+  .portfolio-title {
+    background: $alt-color;
+    background-size: cover;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  .portfolio-description {
+    line-height: 200px;
+
+    p {
+      line-height: 1.8;
+      display: inline-block;
       vertical-align: middle;
+      margin: 0;
     }
-    &:hover {
-      i {
-        color: $brand-color;
+  }
+
+  li {
+    flex: 1 1 100%;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    @include for-tablet-portrait-up {
+      flex: 1 1 45%;
+    };
+
+    @include for-tablet-landscape-up {
+      flex: 1 1 30%;
+    };
+
+    a {
+      display: block;
+      position: relative;
+      border: 1px solid transparent;
+      border-radius: 2px;
+
+      &:hover {
+        border-color: #000;
+
+        h2 {
+          background: rgba(0, 0, 0, 0.3);
+        }
       }
     }
-  }
-}
-.webhero {
-  height: 450px;
-  background: url('/assets/img/colour2.jpg') center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  h1 {
-    font-size: 120px;
-    color: #fff;
-  }
-}
-.project-highlight {
-  flex: 0 0 100%;
-  padding-bottom: 2rem;
-  &:last-child {
-    padding-bottom: 0;
-  }
-  @include for-tablet-portrait-up {
-    flex: 0 1 31%;
-    min-width: 284px;
-    padding-bottom: 0;
-  };
-  img {
-    margin-bottom: 10px;
-  }
-  .project-tags {
-    margin-bottom: 20px;
-  }
-  .project-tag {
-    background: $brand-color;
-    color: #fff;
-    border-radius: 4px;
-    padding: 5px 10px;
-    font-size: $small;
-    font-family: $monospace-font-family;
-    letter-spacing: 1px;
-    margin-right: 10px;
-  }
-}
-.post-list {
-  list-style-type: none;
-  margin: 2rem 0;
-  li {
-    padding-left: 0;
-    margin-bottom: 3rem;
-    .post-date, .post-content {
-      flex: 0 0 100%;
+
+    img {
+      margin: 0;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
     }
-    @include for-tablet-landscape-up {
-      display: flex;
-      justify-content: flex-start;
-      align-items: stretch;
-    }
-    .post-date {
-      display: inline-block;
-      border: $border;
-      padding: 10px 1rem;
-      margin-bottom: 1rem;
-      @include for-tablet-landscape-up {
-        max-width: none;
-        flex: 0 0 120px;
-        padding: 0;
-        margin-bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      };
-    }
-    .post-content {
-      @include for-tablet-landscape-up {
-        padding: 1rem 2rem;
-        flex: 0 0 80%;
-        h3, p {
-          margin: 0;
-          padding: 0;
-        }
-        h3 {
-          margin-bottom: 10px;
-        }
-      };
+
+    h2 {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      font-size: 2.8125rem;
+      line-height: 200px;
+      text-align: center;
+      margin: 0;
+      color: #fff;
     }
   }
+} // End .portfolio-list
+
+.about-section {
+  border-top: $border;
+  background: #f3f2ef;
 }

@@ -2,63 +2,73 @@
 layout: default
 ---
 
-<div class="one-col-middle">
+<article class="">
 
-  <article itemscope itemtype="http://schema.org/BlogPosting">
+  <section class="post-hero">
+    <div class="container">
 
-    <div class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <div class="post-meta">
-        <p>
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
+      <p class="post-lead">{{ page.project-lead }}</p>
+
+      <div class="post-hero-img">
+        <img src="/assets/img/projects/{{ page.img-website }}" alt="{{ post.title }}" />
       </div>
-      <!-- {% if page.author %} &mdash; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} -->
+
     </div>
-
-    {% if page.img %}
-      <div class="featured-image">
-        <img class="post-img" src="{{ page.img }}" alt="{{ page.title }}" />
-        {% if page.caption %}
-          <div class="caption">
-            <p><i class="fas fa-chevron-up icon-right icon-left"></i>{{ page.caption }}</p>
-          </div>
-        {% endif %}
-      </div>
-    {% else %}
-      <div class="faux-border"></div>
-    {% endif %}
-
-    <div class="post-content" itemprop="articleBody">
-      {{ content }}
-    </div>
-
-  </article>
-
-  <div class="suggested-reading">
-
-    <div class="read-previous">
-      {% if page.previous %}
-        <p>Read previous:<br /> <a class="" rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-      {% else %}
-        <p>"No, sir. Scientific truth is beyond loyalty and disloyalty"<br />&mdash; Dr. Hari Seldon </p>
-      {% endif %}
-    </div>
-
-    <div class="read-next">
-      {% if page.next %}
-        <p>Read next:<br /> <a class="" rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></p>
-      {% else %}
-        <p>Read next:<br /> <a class="" rel="next" href="https://52papers.org">52 Papers<i class="fas fa-arrow-right icon-right-tight icon-rotate-45"></i></a></p>
-      {% endif %}
-    </div>
-
-  </div>
-
-  <section>
-    <p>Like what you read?<br class="phones-only" /> I also share stuff on <a href="https://twitter.com/samjamead">Twitter</a>.</p>
   </section>
 
-</div>
+  <section class="post-section">
+    <div class="container">
+      <div class="portfolio-feature">
+        <div class="feature-text flex-half">
+          <p>{{ page.project-intro }}</p>
+
+          {% if page.project-stack %}
+            <p>{{ page.project-stack }}</p>
+          {% endif %}
+
+          {% if page.project-quote %}
+          <figure class="quote">
+            <blockquote>
+              {{ page.project-quote }}
+            </blockquote>
+            <figcaption>
+              &mdash; {{ page.project-quoter }}
+            </figcaption>
+          </figure>
+          {% endif %}
+
+          <p><a href="{{ page.project-link }}" target="_blank">{{ page.title }} website</a> &#8594;</p>
+
+        </div>
+
+        <div class="flex-half post-detail-images">
+          <img src="/assets/img/projects/{{ page.img-detail[0] }}" alt="{{ post.title }} detail image" />
+          {% if page.img-detail[1] %}
+            <img src="/assets/img/projects/{{ page.img-detail[1] }}" alt="{{ post.title }} detail image" />
+          {% endif %}
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section class="post-outro">
+    <div class="container">
+
+      <div class="post-hero-img">
+        <img src="/assets/img/projects/{{ page.img-feature }}" alt="{{ post.title }}" />
+      </div>
+
+    </div>
+  </section>
+
+</article>
+
+<section class="portfolio-section">
+  <div class="container">
+
+    {% include portfolio-list.html %}
+
+  </div>
+</section>

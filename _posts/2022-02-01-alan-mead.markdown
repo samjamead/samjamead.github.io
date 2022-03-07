@@ -1,0 +1,14 @@
+---
+layout:         post
+body_id:        post
+title:          "Alan Mead"
+permalink:      /work/alanmead
+date:           2022-02-01 08:00:00 +0000
+img-feature:    alanmead/alanMeadFeatured.jpeg
+img-website:    alanmead/screenshot.jpeg
+img-detail:     [alanmead/detail.png]
+project-lead:  "It's just .co"
+project-intro:  "Alan wanted his website to be a reflection of his qualities as a coach: trustworthy, sympathetic, and welcoming.  "
+project-stack:  "The website was designed by a separate designer, in keeping with Alan's branding. and handed to us to build and release."
+project-link:   https://alanmead.co/
+---

@@ -1,40 +1,83 @@
 // =======================================
 //  Footer
-//  Mmmmmm... Sticky. Don't forget to
-//  include scripts.js for dynamic sizing
 // =======================================
 
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #f8f8f8;
+.contact-section {
   border-top: $border;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background: #f8bebe;
+  color: #303030;
+
+  .contact-inner {
+    @extend .flexbox;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .contact-card {
+    flex: 0 0 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+
+    @include for-tablet-landscape-up {
+      flex: 0 0 50%;
+    };
+
+    &:first-child {
+      border: $border;
+      border-radius: 4px;
+      padding: 1rem;
+      text-align: left;
+
+      .lead {
+        margin: 0;
+
+        span {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 100%;
+  background: $alt-color;
+  color: #e6ded1;
   text-align: center;
-  .footer-inner {
-    margin: 0 auto;
-    padding: 7rem 0 2rem;
-    max-width: $column-width;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
+
+  a, img, p, ul {
+    display: block;
+    color: #e6ded1;
+    margin: 2rem auto;
   }
-  img {
-    margin-bottom: 2rem;
+
+  a:hover {
+    color: $alt-light;
   }
-  p, .social-icons {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   .social-icons {
+    padding-left: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: $brand-color;
+    color: $third-color;
+
     @include for-tablet-portrait-up {
       li:first-child {
         margin-left: 0;
       }
     };
+
+    a:hover {
+      color: $alt-light;
+    }
   }
+
   .last-word {
     margin-top: 3rem;
   }

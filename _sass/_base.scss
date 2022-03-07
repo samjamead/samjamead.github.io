@@ -4,13 +4,15 @@
 
 html, body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, span, a {
     margin: 0;
     padding: 0;
+    transition: ease 0.5s;
 }
 
 html, body {
   font-size: $base-font-size;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -22,6 +24,7 @@ body {
   font-family: $base-font-family;
   font-weight: $base-font-weight;
   color: $text-color;
+  background: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -31,13 +34,13 @@ body {
 }
 
 section {
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  padding-top: 2 * $spacing-unit;
+  padding-bottom: 2 * $spacing-unit;
 }
 
 p {
   font-size: $base-font-size;
-  line-height: 1.7;
+  line-height: 1.8;
   margin-bottom: 1rem;
   max-width: $paragraph-width;
   @include for-tablet-portrait-up {
@@ -48,78 +51,105 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
-  margin-bottom: 1rem;
-  max-width: 700px;
-  color: #000;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
+
 h1 {
-  font-size: 26px;
+  font-size: 2rem;
   @include for-tablet-portrait-up {
-    font-size: 32px;
+    font-size: 2.5rem;
   };
 }
+
 h2 {
-  font-size: 20px;
+  font-size: 1.5rem;
   @include for-tablet-portrait-up {
-    font-size: 24px;
+    font-size: 1.75rem;
   };
 }
+
 h3 {
-  font-size: 18px;
+  font-family: $base-font-family;
+  font-size: 1.125rem;
   @include for-tablet-portrait-up {
-    font-size: 21px;
+    font-size: 1.3125rem;
   };
 }
+
+h4 {
+  font-size: 1rem;
+}
+
 a {
-  color: #000;
+  color: $link-color;
   text-decoration: underline;
-  transition: 0.4s ease;
   &:hover {
-    color: lighten(#000, 20%);
+    color: scale-color($link-color, $lightness: 30%);
     text-decoration: underline;
   }
 }
+
+ol, ul, dl {
+  @extend p;
+  padding-left: 1.5rem;
+
+  li {
+    padding-left: 5px;
+  }
+}
+
 li, dd, dt {
   margin-bottom: 1rem;
-  padding-left: 0;
   > ul,
   > ol {
     margin-bottom: 0;
   }
 }
+
 dt {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+// Blockquotes are wrapped in <figure> to please the semantic deities
+figure.quote {
+  @extend p;
+  border-left: 3px solid $brand-color;
+  padding: 0.625rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  figcaption {
+    font-size: $small;
+  }
+
+  cite {
+    font-style: italic;
+  }
+}
+
 blockquote {
   @extend p;
-  color: darken($soft-grey, 20%);
-  border-left: 3px solid $light-grey;
-  padding-left: 1rem;
-  padding-right: 0.6rem;
+  color: $text-color-alt;
   font-style: italic;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  border: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
 }
+
 hr {
-  margin: 2rem 0;
+  margin: 3rem 0;
   border: 0;
   border-bottom: $border;
 }
-figure {
-  margin-bottom: 2rem;
-}
-figcaption {
-  max-width: 100%;
-  margin-top: 5px;
-  font-size: $small;
-  font-style: italic;
-}
+
 img, video {
   max-width: 100%;
   vertical-align: middle;
   display: block;
-  margin: 0 auto;
+  margin: 0 0 1rem;
 }
 iframe {
   width: 100%;
