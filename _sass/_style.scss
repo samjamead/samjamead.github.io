@@ -43,10 +43,6 @@
   }
 }
 
-.counter {
-  font-family: $monospace-font-family;
-}
-
 .lead {
   font-size: 1.2em;
 }
@@ -64,7 +60,82 @@
 // ////////////////////////////////
 
 .masthead {
-  padding-bottom: 0;
+  background: #fff;
+  border-bottom: $border;
+  max-height: 400px;
+  overflow: hidden;
+
+  h1 {
+    margin-top: 1rem;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.intro-copy {
+  flex: 0 1 60%;
+}
+
+.logos-wrapper {
+  margin-top: -4rem;
+  flex: 1 1 30%;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+
+  @keyframes column-animation {
+    0%   {top: -100px;}
+    100% {top: 100px;}
+  }
+
+  .logo-column {
+    flex: 1 1 26%;
+    position: relative;
+
+    &:first-child {
+      top: -100px;
+      animation: column-animation 15s linear 0s infinite alternate;
+    }
+
+    &:nth-child(2) {
+      animation: column-animation 25s linear 0s infinite alternate;
+    }
+
+    &:last-child {
+      top: 100px;
+      animation: column-animation 12s linear 0s infinite alternate-reverse;
+    }
+
+    .logo-tile {
+      background: #f5f5f7;
+      border-radius: 5px;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      height: 128px;
+    }
+  }
+}
+
+.hero-img {
+  img {
+    max-width: 60%;
+    border-radius: 6px;
+    margin-left: auto;
+    box-shadow:
+      0 1px 1px hsla(0deg, 0%, 0%, 0.075),
+      0 2px 2px hsla(0deg, 0%, 0%, 0.075),
+      0 4px 4px hsla(0deg, 0%, 0%, 0.075),
+      0 8px 8px hsla(0deg, 0%, 0%, 0.075),
+      0 16px 16px hsla(0deg, 0%, 0%, 0.075)
+    ;
+  }
 }
 
 .portfolio-list {
