@@ -7,12 +7,16 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure, span, a {
     margin: 0;
     padding: 0;
-    transition: ease 0.5s;
+    transition: ease 0.6s;
 }
 
 html, body {
-  font-size: $base-font-size;
+  font-size: $mobile-font-size;
   scroll-behavior: smooth;
+
+  @include for-tablet-portrait-up {
+    font-size: $base-font-size
+  };
 }
 
 html {
@@ -39,43 +43,30 @@ section {
 }
 
 p {
-  font-size: $base-font-size;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.7;
   margin-bottom: 1rem;
   max-width: $paragraph-width;
-  @include for-tablet-portrait-up {
-    font-size: $base-font-size;
-  };
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 1.75rem;
-  @include for-tablet-portrait-up {
-    font-size: 2.5rem;
-  };
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  @include for-tablet-portrait-up {
-    font-size: 1.75rem;
-  };
+  font-size: 1.8125rem;
 }
 
 h3 {
-  font-family: $base-font-family;
-  font-size: 1.125rem;
-  @include for-tablet-portrait-up {
-    font-size: 1.3125rem;
-  };
+  font-size: 1.3125rem;
 }
 
 h4 {
@@ -84,10 +75,16 @@ h4 {
 
 a {
   color: $link-color;
+  text-decoration: none;
   &:hover {
     color: scale-color($link-color, $lightness: 30%);
     text-decoration: underline;
   }
+}
+
+button {
+  font-size: 1rem;
+  font-weight: $base-font-weight;
 }
 
 ol, ul, dl {

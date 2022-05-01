@@ -1,0 +1,16 @@
+
+
+    <div class="main-portfolio">
+
+      <ul class="portfolio-list">
+        {% for post in site.sideprojects limit: 3 %}
+          <li>
+            <a href="{{ post.url }}" >
+              <img src="/assets/img/projects/{{ post.img-feature }}" alt="post.title" />
+              <h2>{{ post.title }}</h2>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
