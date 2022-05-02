@@ -1,8 +1,18 @@
 .site-header {
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
   padding: 1rem 0;
   border-bottom: $border;
-  background: #f5f5f7;
+  background: transparent;
+  background: linear-gradient(to top, rgba(255,255,255,0.85), rgba(255, 255, 255, 0.05) 80%);
+  backdrop-filter: blur(15px);
+
+  @include for-tablet-landscape-up {
+    background: linear-gradient(to right, rgba(255,255,255,1) 35%, rgba(255, 255, 255, 0.15));
+  };
 }
 
 .navbar-inner {
@@ -17,7 +27,7 @@
     font-weight: 400;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
   span {
@@ -120,7 +130,7 @@
               padding-right: 0;
 
               i {
-                color: $alt-lighter;
+                // color: $alt-lighter;
               }
             }
           }

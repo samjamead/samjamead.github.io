@@ -8,6 +8,7 @@ date:           2022-02-15 11:46:59 +0000
 img-feature:    otio/otioFeatured.jpeg
 img-website:    otio/screenshot.jpeg
 img-detail:     [otio/detail.jpeg]
+snippet:        "Manifesto-hosting static site powered by Jekyll and GitHub pages"
 project-lead:   "The Otio Collective wanted a clean, light website to host their new manifesto and publicly available project briefs."
 project-intro:  "As well as showcasing their manifesto, Otio wanted their website to integrate directly with their project management boards in Airtable. The aim of the website is to get the target audience to join their Slack channel as smoothly as possible."
 project-stack:  "Another great use case for a high-performance Jamstack website, the Jekyll static site generator makes the Otio website search-engine friendly. The lightweight web build loads quickly, even on dodgy 3G internet connections, and looks great on mobile, tablet, and desktop. "

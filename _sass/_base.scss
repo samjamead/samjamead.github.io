@@ -39,7 +39,8 @@ body {
 
 section {
   padding-top: 2 * $spacing-unit;
-  padding-bottom: 2 * $spacing-unit;
+  padding-bottom: 2.5 * $spacing-unit;
+  border-bottom: $border;
 }
 
 p {
@@ -63,6 +64,7 @@ h1 {
 
 h2 {
   font-size: 1.8125rem;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -77,7 +79,7 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover {
-    color: scale-color($link-color, $lightness: 30%);
+    color: $alt-lighter;
     text-decoration: underline;
   }
 }

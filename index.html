@@ -10,50 +10,56 @@ body_id: homepage
         <h1>Design, develop, deploy. Repeat.</h1>
         <p>Hello – I'm Sam, a freelance web developer and copywriter in Jersey.</p>
         <p>I write copy and build websites for all kinds of clients. I work with JavaScript and CSS, and use a wide variety of front-end platforms, including Jamstack, Wordpress and Squarespace.</p>
+        <p><a href="#portfolio">Take a look at my portfolio</a> <i class="fas fa-arrow-right"></i></p>
+        <p><a href="#about">Read more about me</a> <i class="fas fa-arrow-right"></i></p>
+        <p><a href="#contact">Get in touch to start a project</a> <i class="fas fa-arrow-right"></i></p>
       </div>
 
-      <div class="logos-wrapper">
-        <div class="logo-column">
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/react.svg" alt="React JS logo" />
-          </div>
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/tailwind.svg" alt="Tailwind CSS logo" />
-          </div>
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/squarespace.svg" alt="Squarespace logo" />
-          </div>
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-          </div>
+      <div class="stack-logos">
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/react.svg" alt="React JS logo" />
         </div>
-        <div class="logo-column">
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/firebase.svg" alt="Firebase logo" />
-          </div>
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/jekyll.svg" alt="Jekyll logo" />
-          </div>
-          <div class="logo-tile">
-          </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/firebase.svg" alt="Firebase logo" />
         </div>
-        <div class="logo-column">
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-          </div>
-          <div class="logo-tile">
-            <img src="/assets/img/stack-logos/github.svg" alt="GitHub logo" />
-          </div>
-          <div class="logo-tile">
-          </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/sketch.svg" alt="Sketch logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/js.svg" alt="JavaScript logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/squarespace.svg" alt="Squarespace logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/npm.svg" alt="NPM logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/github.svg" alt="GitHub logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/jekyll.svg" alt="Jekyll logo" />
+        </div>
+        <div class="logo-tile tile-hidden-mobile">
+          <img src="/assets/img/stack-logos/tailwind.svg" alt="Tailwind CSS logo" />
+        </div>
+        <div class="logo-tile tile-hidden-mobile">
+          <img src="/assets/img/stack-logos/html.svg" alt="HTML 5 logo" />
+        </div>
+        <div class="logo-tile tile-hidden-mobile">
+          <img src="/assets/img/stack-logos/wordpress.svg" alt="Wordpress logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/css.svg" alt="CSS 3 logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/figma.svg" alt="Figma logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/sass.svg" alt="Sasslang logo" />
+        </div>
+        <div class="logo-tile">
+          <img src="/assets/img/stack-logos/shopify.svg" alt="Shopify logo" />
         </div>
       </div>
 
@@ -63,14 +69,14 @@ body_id: homepage
   <section class="portfolio-section" id="portfolio">
     <div class="container">
       <h2>Portfolio highlights</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p>In the last eight years I've been lucky to work with clients from all kinds of industries. Most recently, I've been working with a marine conservation charity, an NFT artist, a group of healthcare professionals, and an electrical engineer. </p>
       {% include portfolio-list.html %}
     </div>
   </section>
 
   <section class="portfolio-section" id="sideprojects">
     <div class="container">
-      <h2>Side Projects</h2>
+      <h2>Side projects</h2>
       <p>Alongside my main portfolio, I usually have a couple of side projects on the go.  </p>
       {% include sideprojects-list.html %}
     </div>
@@ -78,9 +84,9 @@ body_id: homepage
 
   <section class="about-section" id="about">
     <div class="container">
-      <p class="counter">02. A bit more about me</p>
+      <h2>A bit more about me</h2>
       <p class="lead">I write copy and build websites for all kinds of clients &mdash;</p>
-      <p>&mdash; this year I've worked with a marine conversation charity, artists, an electrical engineer, nutritionists, and a blockchain company.</p>
+      <p>&mdash; this year I've been working with a marine conservation charity, an NFT artist, a group of healthcare professionals, and an electrical engineer.</p>
       <p>In the last 10 years I've done some other things, too: cofounded a SaaS tech startup; lead B2B marketing at a C-Series healthcare startup; and taught physics at high-school level.</p>
       <p>I'm committed to helping those who are less fortunate than I am (as well as the planet). To that end I'm a member of Giving What We Can, One Percent for the Planet, and since September 2020 I've planted <span class="treespan">875</span> trees with Ecologi.</p>
       <div class="hero-img">

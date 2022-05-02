@@ -1,18 +1,15 @@
 
 
-    <div class="main-portfolio">
+    <div class="project-list-wrapper">
 
-      <ul class="portfolio-list">
-        {% for post in site.portfolio limit: 5 %}
-          <li>
-            <a href="{{ post.url }}" >
-              <img src="/assets/img/projects/{{ post.img-feature }}" alt="post.title" />
-              <h2>{{ post.title }}</h2>
-            </a>
-          </li>
+      <ul class="project-list">
+        {% for post in site.portfolio reversed limit: 5 %}
+
+          {% include project-tile.html %}
+
         {% endfor %}
 
-        <li class="portfolio-description">
+        <li class="project-tile portfolio-description">
           <p>If you want your website to be about more than struggling to close an annoying popup, you've come to the right place.<br /><strong>&mdash; &nbsp;Audiofix</strong> &nbsp;<span class="small">(happy customer)</span></p>
         </li>
 

@@ -8,6 +8,7 @@ collection:     sideprojects
 img-feature:    arpadio/feature.png
 img-website:    arpadio/feature2.png
 img-detail:     
+snippet:        "jQuery model–view–controller app using the Firebase real-time database"
 project-lead:   '"The process of rating players can be compared to the measurement of the position of a cork bobbing up and down on the surface of agitated water with a yard stick tied to a rope and which is swaying in the wind."
 — Arpad Elo.'
 project-intro:  "A little jQuery web app, built to experiment with the Google Firebase real-time database. I used a different instance of the app to rank friends playing table-tennis over the course of an Australian summer. "

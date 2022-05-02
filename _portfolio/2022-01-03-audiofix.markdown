@@ -1,0 +1,18 @@
+---
+layout:         post
+body_id:        post
+title:          "Audiofix"
+permalink:      /work/audiofix
+collection:     portfolio
+date:           2022-01-03 10:46:59 +0000
+img-feature:    audiofix/audiofixFeatureImg.jpeg
+img-website:    audiofix/screenshot.jpeg
+img-detail:     [audiofix/detail.png]
+snippet:        "Jekyll website with a custom Typeform CMS integration, hosted by GitHub Pages"
+project-lead:   "After interviewing Jamie on location at Audiofix HQ in Bristol, it was clear the web copy needed to suit his detail-oriented to his customers. "
+project-intro:  "Jamie wanted a simple one-page design, which would load fast and look good on mobile. He also wanted a low-touch way to manage new booking enquiries."
+project-stack:  "After weighing up several options, we went with Typeform in the final build, which is a great user experience for the customer. It also integrates straight into Jamie's CRM. A full calendar = more in the kitty for annual Employee of the Year party, an important tradition at Audiofix."
+project-quote:  "My customers always mention how tidy my website is, and they love the Typeform. If you want your website to be about more than struggling to close an annoying popup, you've come to the right place."
+project-quoter: "Jamie @ Audiofix"
+project-link:   https://audiofix.co
+---
