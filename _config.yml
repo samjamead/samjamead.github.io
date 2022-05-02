@@ -15,6 +15,12 @@ github: [metadata]
 include:
  - _pages
 
+collections:
+  portfolio:
+    output: true
+  sideprojects:
+    output: true
+
 defaults:
  -
     scope:
