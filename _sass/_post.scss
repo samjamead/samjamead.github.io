@@ -48,7 +48,9 @@ article {
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background: #f3f2e6;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.85), rgba(255, 255, 255, 0.85)), url('/assets/img/blur-bg3.jpeg');
+  background-size: cover;
+  border-radius: 6px;
 
   @include for-tablet-landscape-up {
     padding-top: 3rem;
@@ -60,7 +62,15 @@ article {
     width: 90%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    box-shadow:
+      0.8px 1.4px 2.8px -3px rgba(0, 0, 0, 0.02),
+      2px 3.3px 6.7px -3px rgba(0, 0, 0, 0.028),
+      3.8px 6.3px 12.5px -3px rgba(0, 0, 0, 0.035),
+      6.7px 11.2px 22.3px -3px rgba(0, 0, 0, 0.042),
+      12.5px 20.9px 41.8px -3px rgba(0, 0, 0, 0.05),
+      30px 50px 100px -3px rgba(0, 0, 0, 0.07)
+    ;
+
 
     @include for-tablet-portrait-up {
       width: 75%;
