@@ -1,8 +1,8 @@
 title: Samuel Mead
 email: samjamead@gmail.com
-description: Physics teacher in Cornwall, editor of 52papers.org
+description: I'm an independent web developer and copywriter in Jersey, working with JavaScript and a wide range of front-end frameworks.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://samjamead.github.io" # the base hostname & protocol for your site.
+url: "https://sjam.studio" # the base hostname & protocol for your site.
 
 # Build settings
 author: samjamead@gmail.com
