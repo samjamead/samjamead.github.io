@@ -7,6 +7,14 @@
   };
 }
 
+.exclude-on-mobile {
+  display: none;
+
+  @include for-tablet-portrait-up {
+    display: inline-block;
+  };
+}
+
 .small {
   font-size: $small;
 }

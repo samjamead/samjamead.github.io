@@ -40,7 +40,6 @@ body {
 section {
   padding-top: 2 * $spacing-unit;
   padding-bottom: 2.5 * $spacing-unit;
-  border-bottom: $border;
 }
 
 p {
@@ -76,7 +75,7 @@ h4 {
 }
 
 a {
-  color: $link-color;
+  color: #000;
   text-decoration: none;
   &:hover {
     color: $alt-lighter;

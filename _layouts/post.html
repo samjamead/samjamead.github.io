@@ -2,7 +2,15 @@
 layout: default
 ---
 
-<article class="">
+<article>
+
+  <div class="container">
+
+    <nav class="breadcrumbs">
+      <p><a href="/">Home</a> &nbsp;>&nbsp; {% if page.collection == "portfolio" %}<a href="/#portfolio">Portfolio highlights</a> {% elsif page.collection == "sideprojects" %}<a href="/#portfolio">Side projects</a>{% endif %} &nbsp;>&nbsp; {{ page.title }}</p>
+    </nav>
+
+  </div>
 
   <section class="post-hero">
     <div class="container">
@@ -47,7 +55,7 @@ layout: default
             <img src="/assets/img/projects/{{ page.img-detail[1] }}" alt="{{ post.title }} detail image" />
           {% endif %}
         </div>
-        
+
       </div>
 
     </div>
