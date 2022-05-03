@@ -7,11 +7,11 @@ permalink:      /work/arpadio
 collection:     sideprojects
 img-feature:    arpadio/feature.png
 img-website:    arpadio/feature2.png
-img-detail:     
+img-detail:     [arpadio/detail.png]
 snippet:        "jQuery model–view–controller app using the Firebase real-time database"
 project-lead:   '"The process of rating players can be compared to the measurement of the position of a cork bobbing up and down on the surface of agitated water with a yard stick tied to a rope and which is swaying in the wind."
 — Arpad Elo.'
-project-intro:  "A little jQuery web app, built to experiment with the Google Firebase real-time database. I used a different instance of the app to rank friends playing table-tennis over the course of an Australian summer. "
-project-stack:  "The project uses jQuery to create a basic MVC application. Using Google Firebase, the app uses two JSON blobs as database, and view updates for all web users in real-time when new players or results are added to the blobs."
+project-intro:  "A JavaScript web app, built to experiment with the Google Firebase real-time database. Arpadio uses a slight variation of the Elo rating algorithm to rate players against each other based on the expected outcome of head-to-head matches."
+project-stack:  "The project uses jQuery to create a basic MVC application. Using Google Firebase, the app uses two JSON blobs as database, and data is updated for all web users in real-time when new players or results are added to the blobs."
 project-link:   https://arpadio.github.io/eloRatingApp/
 ---

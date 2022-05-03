@@ -53,6 +53,18 @@
   margin-bottom: 1em;
 }
 
+.big-link {
+  a {
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  i {
+    margin-left: 5px;
+  }
+}
+
+
 // ////////////////////////////////
 // ================================
 // Sections
@@ -68,7 +80,7 @@
 
 .hero {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   gap: 2rem;
 
   @include for-tablet-landscape-up {
@@ -84,15 +96,14 @@
 
 .intro-copy {
   flex: 0 0 100%;
-  padding-bottom: 4rem;
+  padding-top: 7rem;
 
-  a {
-    font-weight: 400;
-    text-decoration: underline;
-  }
+  h1 {
+    text-align: center;
 
-  i {
-    margin-left: 5px;
+    @include for-tablet-landscape-up {
+      text-align: left;
+    };
   }
 
   @include for-tablet-landscape-up {
@@ -103,7 +114,6 @@
 }
 
 .stack-logos {
-  padding-top: 6rem;
   flex: 0 0 100%;
   display: flex;
   align-items: flex-start;
@@ -115,7 +125,6 @@
     max-height: 550px;
     overflow: visible;
     flex: 1 1 30%;
-    padding: 0;
   };
 
   @keyframes column-animation {
@@ -183,10 +192,18 @@
   }
 }
 
+.mobile-intro {
+  @extend .phones-only;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
 // Portfolio bit
 
 .portfolio-section {
   background: #edf2f6;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.875), rgba(255, 255, 255, 0.975)), url('/assets/img/blur-bg2.jpeg');
+  background-size: cover;
 }
 
 .project-list {
@@ -288,18 +305,25 @@
   }
 } // End .project-list
 
-
-// About bit
-
-.about-section {
-  background: #f3f2ef;
+// Side projects bit
+.sideprojects-section {
+  background: #edf2f6;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255, 255, 255, 0.975)), url('/assets/img/blur-bg1.jpeg');
+  background-size: cover;
 }
 
-.hero-img {
+// About bit
+.about-section {
+  background: #edf2f6;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.875), rgba(255, 255, 255, 0.975)), url('/assets/img/blur-bg3.jpeg');
+  background-size: cover;
+}
+
+.portrait-img {
   img {
-    max-width: 60%;
-    border-radius: 6px;
+    max-width: 90%;
     margin-left: auto;
+    border-radius: 6px;
     box-shadow:
       0.2px 0.4px 0.7px -3px rgba(0, 0, 0, 0.016),
       0.4px 1px 1.7px -3px rgba(0, 0, 0, 0.022),

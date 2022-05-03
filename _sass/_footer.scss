@@ -3,42 +3,15 @@
 // =======================================
 
 .contact-section {
-  border-top: $border;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background: #f8bebe;
-  color: #303030;
+  padding: 6rem 0;
+  background: #edf2f6;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.825), rgba(255, 255, 255, 1) 80%), url('/assets/img/blur-bg4.jpeg');
+  background-size: cover;
 
-  .contact-inner {
-    @extend .flexbox;
-    align-items: stretch;
-    justify-content: space-between;
+  a {
+    color: $alt-lighter;
   }
 
-  .contact-card {
-    flex: 0 0 100%;
-    padding: 3rem 1rem;
-    text-align: center;
-
-    @include for-tablet-landscape-up {
-      flex: 0 0 50%;
-    };
-
-    &:first-child {
-      border: $border;
-      border-radius: 4px;
-      padding: 1rem;
-      text-align: left;
-
-      .lead {
-        margin: 0;
-
-        span {
-          color: #000;
-        }
-      }
-    }
-  }
 }
 
 footer {
@@ -46,39 +19,68 @@ footer {
   padding-bottom: 6rem;
   width: 100%;
   background: $alt-color;
-  color: #e6ded1;
-  text-align: center;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
+  color: #f7ffde; // Lemon?
 
-  a, img, p, ul {
-    display: block;
-    color: #e6ded1;
-    margin: 2rem auto;
+  .flexbox {
+    flex-direction: column-reverse;
+
+    @include for-tablet-portrait-up {
+      flex-direction: row;
+    };
   }
 
-  a:hover {
-    color: $alt-light;
+  .brand {
+    margin-bottom: 2.5rem;
+
+    a {
+      color: #f7ffde; // Lemon?
+    }
+
+    span {
+      color: #b1b1b1;
+    }
   }
 
   .social-icons {
     padding-left: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 2rem;
-    color: $third-color;
 
     @include for-tablet-portrait-up {
+      margin-top: 0;
+
       li:first-child {
         margin-left: 0;
       }
     };
 
-    a:hover {
-      color: $alt-light;
+    a {
+      color: #f7ffde;
+
+      &:hover {
+        color: $alt-lighter;
+      }
+
+      i {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .nav-links > ul > li {
+    a {
+      background: transparent;
+      color: #f7ffde;
+      border: 1px solid #f7ffde;
+
+      &:hover {
+        color: #f7ffde;
+      }
     }
   }
 
   .last-word {
-    margin-top: 3rem;
+    margin: 3rem auto;
+    text-align: center;
   }
 }
