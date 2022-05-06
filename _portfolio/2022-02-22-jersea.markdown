@@ -10,7 +10,7 @@ img-website:    jersea/jerseaScreenshot.jpeg
 img-detail:     [jersea/jerseaDetail1.jpeg, jersea/jerseaDetail2.jpeg]
 snippet:        "Squarespace website with a custom JavaScript fish sellers map"
 project-lead:   "After partnering with British charity Blue Marine Foundation, Jersea needed an online home for their Fish of The Month campaign."
-project-intro:  "The Jersea project started with a copywriting brief. Their team wanted the new website to invoke the deep sense of connection that islanders feel for their coastline and waters."
+project-intro:  "The Jersea project started with a copywriting brief. Their team wanted the new website to invoke the deep sense of connection that islanders feel for Jersey's coastline and waters."
 project-stack:  "In designing and building the website, it was important to make it easy for the Jersea team to add a new fish page each month, in line with their ongoing marketing campaign. Using Squarespace gives Jersea maximum flexibility for updating the website in the future. We built a bespoke Squarespace theme to compliment their excellent existing branding."
 project-link:   https://jersea.je
 ---
