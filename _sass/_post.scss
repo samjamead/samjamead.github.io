@@ -105,3 +105,47 @@ article {
     margin-bottom: 2rem;
   }
 }
+
+.big-button {
+  flex: 1 1 34%;
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+    max-width: 300px;
+
+    &:hover {
+      color: #000;
+      border-color: $alt-lighter;
+
+      .link-icon {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .link-text {
+    line-height: 1.3;
+  }
+
+  .link-icon {
+    line-height: 1;
+    padding-right: 10px;
+    transition: ease 0.8s;
+
+    i {
+      font-size: 1.5em;
+      color: #e3e3e3;
+    }
+  }
+}

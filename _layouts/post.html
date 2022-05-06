@@ -45,7 +45,16 @@ layout: default
           </figure>
           {% endif %}
 
-          <p><a href="{{ page.project-link }}" target="_blank">{{ page.title }} website</a> &#8594;</p>
+          <div class="big-button">
+            <a href="{{ page.project-link }}" target="_blank">
+              <div class="link-text">
+                {{ page.title }} website
+              </div>
+              <div class="link-icon">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </a>
+          </div>
 
         </div>
 
