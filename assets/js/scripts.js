@@ -1,19 +1,17 @@
 jQuery(document).ready(function($){
 
   // Open the menu – thanks Jonathon Suh
-  var $hamburger = $('.hamburger');
-  $('.menu-toggle').on("click", function(){
-    $hamburger.toggleClass("is-active");
+  $('.menu-toggle').on("click", () => {
+    $('.hamburger').toggleClass("is-active");
     $('.nav-container').toggleClass("menu-open");
-  });
+  })
 
-  var $shakee = $('.shakee');
-  $('.shaker').on("click", function(){
-    console.log("Clicked!");
-    $shakee.addClass("shakeX").delay(1500).queue(function(next){
-      $(this).removeClass("shakeX");
-      next();
-    });
+  $('.shaker').on("click", () => {
+    $('.shakee').addClass("shakeX").delay(2000).queue( () => $('.shakee').removeClass("shakeX").dequeue())
+  })
+
+  $("#div").addClass("error").delay(1000).queue(function(){
+
   });
 
   const settings = {
@@ -26,9 +24,6 @@ jQuery(document).ready(function($){
     }
   };
 
-  $.ajax(settings).done(function (response) {
-    console.log(response);
-    $(".treespan").html(response.total);
-  });
+  $.ajax(settings).done((response) => $(".treespan").html(response.total));
 
 });

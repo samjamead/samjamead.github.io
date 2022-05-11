@@ -10,7 +10,7 @@ img-website:    alanmead/screenshot.jpeg
 img-detail:     [alanmead/detail.png]
 snippet:        "Blazing-fast page loads thanks to Jekyll static site generator"
 project-lead:   "It's just .co"
-project-intro:  "Designed in to be in-keeping with his existing brand, Alan wanted his website to be a reflection of his qualities as a coach: trustworthy, sympathetic, and welcoming.  "
+project-intro:  "Designed to be in-keeping with his existing brand, Alan wanted his website to be a reflection of his qualities as a coach: trustworthy, sympathetic, and welcoming.  "
 project-stack:  
 project-link:   https://alanmead.co/
 ---
