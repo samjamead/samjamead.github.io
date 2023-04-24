@@ -1,0 +1,154 @@
+// main: ../main.scss
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+li,
+figure,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  margin: 0;
+  scroll-behavior: smooth;
+  background: $background-color;
+  color: $text-color;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: $text-color;
+}
+
+h1 {
+  font-size: 28px;
+
+  @include for-tablet-portrait-up {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+  max-width: $paragraph-width;
+}
+
+h5 {
+  max-width: $paragraph-width;
+}
+
+h6 {
+  font-size: 12px;
+  max-width: $paragraph-width;
+}
+
+p {
+  line-height: $base-line-height;
+  margin: 0 0 1rem;
+  max-width: $paragraph-width;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  transition: 0.5s ease;
+  text-decoration: underline;
+  color: $link-color;
+
+  &:hover {
+    text-decoration: underline;
+    color: scale-color($link-color, $lightness: -20%);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 0 0 1rem;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+}
+
+button,
+input[button] {
+  border: 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+canvas {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+code {
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #132547;
+  color: #fff;
+  font-size: 0.875rem;
+}
