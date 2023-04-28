@@ -1,0 +1,34 @@
+// Main: ../main.scss
+
+.container {
+  max-width: $column-width;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.flex-third {
+  flex: 1 1 26%;
+  max-width: 33%;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-double {
+  margin-bottom: 2rem;
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.light-text {
+  color: #777;
+}

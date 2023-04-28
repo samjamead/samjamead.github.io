@@ -113,11 +113,14 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 hr {
-  margin: 0 0 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-bottom: $border;
 }
 
 input,
@@ -139,6 +142,10 @@ input[button] {
 
 canvas {
   margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li {

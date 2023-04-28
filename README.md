@@ -6,6 +6,8 @@ This is Version 9: A Next.js app.
 
 - `sass` (17 packages)
 - `@supabase/supabase-js` (31 packages)
+- `gray-matter` (10 packages)
+- `remark remark-html` (83 packages)
 
 ### Might try...
 

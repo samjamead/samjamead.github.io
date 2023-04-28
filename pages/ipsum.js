@@ -35,13 +35,14 @@ export default function Ipsum({ data, error }) {
             out somewhat and the sun lay hot on a windless calm. (Firsoff)
           </p>
 
-          {data.map((row) => {
-            return (
-              <p key={row.id}>
-                {row.content}. ({row.quote_attribution})
-              </p>
-            );
-          })}
+          {data &&
+            data.map((row) => {
+              return (
+                <p key={row.id}>
+                  {row.content}. ({row.quote_attribution})
+                </p>
+              );
+            })}
 
           <hr />
 
