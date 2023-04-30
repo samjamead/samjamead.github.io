@@ -1,3 +1,5 @@
+import Footer from "./app/footer";
+
 export default function Layout({ children }) {
   return (
     <>
@@ -11,13 +13,7 @@ export default function Layout({ children }) {
       <main>
         <div className="container">{children}</div>;
       </main>
-      <footer>
-        <div className="container">
-          <div className="footer-inner">
-            <p>Bottom</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

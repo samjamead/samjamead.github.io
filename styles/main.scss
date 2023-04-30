@@ -51,5 +51,8 @@ $easy-shadow: 0.3px 0.5px 0.7px $shadow-colour,
 // Import components
 @import "./components/app/Header", "./components/app/Footer";
 
-// Import components
-@import "./components/ui/MainPostList";
+// Import blog
+@import "./components/blog/MainPostList", "./components/blog/ListItem";
+
+// Import UI
+@import "./components/ui/hero";

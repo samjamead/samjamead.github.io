@@ -1,0 +1,11 @@
+.list-item-wrapper {
+  border-left: $border;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.list-item-content {
+  border: $border;
+  border-radius: 4px;
+  padding: 10px;
+}
