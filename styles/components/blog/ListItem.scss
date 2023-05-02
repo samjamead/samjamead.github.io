@@ -1,7 +1,32 @@
 .list-item-wrapper {
-  border-left: $border;
+  display: flex;
+  border-left: 1px solid #000;
+  margin-bottom: 0;
   padding-left: 1rem;
   padding-top: 2rem;
+  width: 100%;
+  max-width: 650px;
+}
+
+.list-item-icon {
+  position: relative;
+  padding: 5px 5px;
+  top: -5px;
+  right: 2rem;
+  background: $background-color;
+  width: 30px;
+  height: 30px;
+}
+
+.list-item-inner {
+  width: 100%;
+}
+
+.list-item-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  color: $alt-text-color;
 }
 
 .list-item-content {
