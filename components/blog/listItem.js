@@ -1,12 +1,10 @@
 import Image from "next/image";
-import SnowIcon from "../../public/img/cloud-snow.svg";
-import CalendarIcon from "../../public/img/calendar-range.svg";
 
-export default function ({ data, children }) {
+export default function ({ data, icon, children }) {
   return (
     <li key={data.id} className="list-item-wrapper">
       <div className="list-item-icon">
-        <Image src={CalendarIcon} alt="Weather at the time of posting" />
+        <Image src={icon} alt="New post" />
       </div>
       <div className="list-item-inner">
         <div className="list-item-header">
@@ -17,7 +15,7 @@ export default function ({ data, children }) {
             <p>{data.type ? data.type : "Post"}</p>
           </div>
         </div>
-        <div className="list-item-content">{children}</div>
+        {children}
       </div>
     </li>
   );

@@ -1,9 +1,9 @@
 ---
-title: "Quoting Cunliffe"
-date: "2023-03-14"
+title: "Quoting Asimov"
+date: "2016-03-12"
 type: "Quote"
-quote: "We are all brothers and sisters, because we are all the children of the tide. "
-attribution: "Tom Cunliffe"
+quote: "Never let your sense of morals prevent you from doing what is right."
+attribution: "Salvor Hardin"
 ---
 
-We are all brothers and sisters, because we are all the children of the tide.
+Never let your sense of morals prevent you from doing what is right.

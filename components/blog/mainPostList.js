@@ -2,6 +2,12 @@ import Link from "next/link";
 import DefaultListItem from "./defaultListItem";
 import ListItem from "./listItem";
 import QuoteListItem from "./quoteListItem";
+import BookListItem from "./bookListItem";
+
+// Icons
+import CommitIcon from "../../public/img/icons/git-commit.svg";
+import activity from "../../public/img/icons/activity.svg";
+import BookIcon from "../../public/img/icons/calendar-range.svg";
 
 export default function MainPostList({ data }) {
   return (
@@ -11,18 +17,28 @@ export default function MainPostList({ data }) {
 
         if (!type) {
           return (
-            <ListItem data={post}>
+            <ListItem key={post.id} data={post} icon={CommitIcon}>
               <DefaultListItem data={post} />
             </ListItem>
           );
         } else if (type === "Quote") {
           return (
-            <ListItem data={post}>
+            <ListItem key={post.id} data={post} icon={activity}>
               <QuoteListItem data={post} />
             </ListItem>
           );
+        } else if (type === "Book") {
+          return (
+            <ListItem key={post.id} data={post} icon={BookIcon}>
+              <BookListItem data={post} />
+            </ListItem>
+          );
         } else {
-          return <DefaultListItem />;
+          return (
+            <ListItem key={post.id} data={post} icon={CommitIcon}>
+              <DefaultListItem data={post} />
+            </ListItem>
+          );
         }
       })}
     </ul>
