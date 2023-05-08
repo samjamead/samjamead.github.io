@@ -9,10 +9,12 @@ export default function ({ data, icon, children }) {
       <div className="list-item-inner">
         <div className="list-item-header">
           <div>
-            <p>{data.date}</p>
+            <p className="list-item-date monospaced">{data.date}</p>
           </div>
           <div>
-            <p>{data.type ? data.type : "Post"}</p>
+            <span className="list-item-type">
+              {data.type ? data.type : "Post"}
+            </span>
           </div>
         </div>
         {children}

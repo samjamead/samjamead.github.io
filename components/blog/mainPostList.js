@@ -6,8 +6,8 @@ import BookListItem from "./bookListItem";
 
 // Icons
 import CommitIcon from "../../public/img/icons/git-commit.svg";
-import activity from "../../public/img/icons/activity.svg";
-import BookIcon from "../../public/img/icons/calendar-range.svg";
+import QuoteIcon from "../../public/img/icons/chevrons-right.svg";
+import BookIcon from "../../public/img/icons/library.svg";
 
 export default function MainPostList({ data }) {
   return (
@@ -23,7 +23,7 @@ export default function MainPostList({ data }) {
           );
         } else if (type === "Quote") {
           return (
-            <ListItem key={post.id} data={post} icon={activity}>
+            <ListItem key={post.id} data={post} icon={QuoteIcon}>
               <QuoteListItem data={post} />
             </ListItem>
           );

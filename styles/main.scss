@@ -17,6 +17,9 @@ $base-line-height: 1.6rem;
 $headings-font-family: $base-font-family;
 $headings-font-weight: 700;
 
+$mono-font-family: "Roboto Mono", monospace;
+$mono-font-weight: 500;
+
 // =============================================
 // Colours
 // =============================================
@@ -52,7 +55,8 @@ $easy-shadow: 0.3px 0.5px 0.7px $shadow-colour,
 @import "./components/app/Header", "./components/app/Footer";
 
 // Import blog
-@import "./components/blog/MainPostList", "./components/blog/ListItem";
+@import "./components/blog/MainPostList", "./components/blog/ListItem",
+  "./components/blog/FilterPosts";
 
 // Import UI
 @import "./components/ui/hero";

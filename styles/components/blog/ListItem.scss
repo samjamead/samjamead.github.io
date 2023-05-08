@@ -5,7 +5,7 @@
   padding-left: 1rem;
   padding-top: 2rem;
   width: 100%;
-  max-width: 650px;
+  max-width: 680px;
 }
 
 .list-item-icon {
@@ -25,8 +25,20 @@
 .list-item-header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color: $alt-text-color;
+}
+
+.list-item-date,
+.list-item-type {
+  font-size: 14px;
+}
+
+.list-item-type {
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
 }
 
 .list-item-content {

@@ -1,15 +1,10 @@
 import Footer from "./app/footer";
+import Header from "./app/header";
 
 export default function Layout({ children }) {
   return (
     <>
-      <header>
-        <div className="container">
-          <div className="header-inner">
-            <p>Top</p>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main>
         <div className="container">{children}</div>;
       </main>
