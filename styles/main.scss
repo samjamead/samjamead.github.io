@@ -26,7 +26,8 @@ $mono-font-weight: 500;
 // Colours
 // =============================================
 $brand-color: #6688cc; // Electron.js +20%
-$text-color: #111;
+$text-color: #4a4a4a;
+$headings-color: #000;
 $alt-text-color: #666;
 $light-text-color: #898f9a;
 $link-color: #0db3f6;
@@ -41,7 +42,7 @@ $success-tint: #c7e6d0;
 // =============================================
 // Layout
 // =============================================
-$column-width: 680px; // Column width
+$column-width: 800px; // Column width
 $paragraph-width: 37em; // Should give ~80 cpl.
 $border: 1px solid $border-color;
 $shadow-colour: hsla(0, 0%, 69%, 0.15);

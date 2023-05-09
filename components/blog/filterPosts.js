@@ -1,21 +1,34 @@
 export default function ({ categories, filterPosts }) {
-  function handleChange() {
-    let category = document.getElementById("category-select").value;
-    filterPosts(category);
+  function handleChange(event) {
+    filterPosts(event.target.value);
   }
 
   return (
     <div className="post-filter-wrapper">
-      <select id="category-select" onChange={handleChange}>
-        <option value="All">All</option>
-        {categories.map((category) => {
-          return (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          );
-        })}
-      </select>
+      <div className="radio-wrapper" key="All">
+        <input
+          type="radio"
+          id="All"
+          name="radioGroup"
+          value="All"
+          onChange={handleChange}
+        />
+        <label htmlFor="All">All</label>
+      </div>
+      {categories.map((category) => {
+        return (
+          <div className="radio-wrapper" key={category}>
+            <input
+              type="radio"
+              id={category}
+              name="radioGroup"
+              value={category}
+              onChange={handleChange}
+            />
+            <label htmlFor={category}>{category}</label>
+          </div>
+        );
+      })}
     </div>
   );
 }

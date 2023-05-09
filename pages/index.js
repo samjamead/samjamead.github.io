@@ -49,9 +49,14 @@ export default function Home({ allPostsData, allCategories }) {
 
       <Hero />
 
-      <FilterPosts categories={allCategories} filterPosts={filterPosts} />
-
-      <MainPostList data={posts} />
+      <div className="flexbox">
+        <div className="">
+          <FilterPosts categories={allCategories} filterPosts={filterPosts} />
+        </div>
+        <div className="">
+          <MainPostList data={posts} />
+        </div>
+      </div>
     </>
   );
 }
