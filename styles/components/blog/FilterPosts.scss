@@ -17,8 +17,10 @@
   }
 
   label {
-    display: inline-block;
-    padding: 1rem 2rem;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 6px 18px;
     border: $border;
     border-radius: 4px;
     transition: 0.4s ease;
@@ -30,7 +32,6 @@
   }
 
   input[type="radio"]:checked + label {
-    background: $brand-color;
-    color: #fff;
+    border-color: $brand-color;
   }
 }

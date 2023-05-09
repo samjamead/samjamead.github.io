@@ -52,14 +52,14 @@ export default function Home({ allPostsData, allCategories }) {
       <Hero />
 
       <div className="flexbox">
-        <div className="">
+        <div className="flex-third">
           <FilterPosts
             activeCategory={category}
             categories={allCategories}
             filterPosts={filterPosts}
           />
         </div>
-        <div className="">
+        <div className="flex-rest">
           <MainPostList data={posts} />
         </div>
       </div>
