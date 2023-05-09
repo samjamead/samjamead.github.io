@@ -1,4 +1,4 @@
-export default function ({ categories, filterPosts }) {
+export default function ({ activeCategory, categories, filterPosts }) {
   function handleChange(event) {
     filterPosts(event.target.value);
   }
@@ -11,6 +11,7 @@ export default function ({ categories, filterPosts }) {
           id="All"
           name="radioGroup"
           value="All"
+          checked={activeCategory === "All"}
           onChange={handleChange}
         />
         <label htmlFor="All">All</label>
@@ -23,6 +24,7 @@ export default function ({ categories, filterPosts }) {
               id={category}
               name="radioGroup"
               value={category}
+              checked={category === activeCategory}
               onChange={handleChange}
             />
             <label htmlFor={category}>{category}</label>

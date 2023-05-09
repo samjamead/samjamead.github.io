@@ -14,9 +14,9 @@ export default function Header() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <line x1="6" x2="6" y1="3" y2="15"></line>
               <circle cx="18" cy="6" r="3"></circle>

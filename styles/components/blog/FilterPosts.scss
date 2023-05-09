@@ -1,3 +1,36 @@
 .post-filter-wrapper {
   margin-bottom: 2rem;
+
+  .radio-wrapper {
+    padding-bottom: 1rem;
+  }
+
+  input[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  label {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: $border;
+    border-radius: 4px;
+    transition: 0.4s ease;
+
+    &:hover {
+      cursor: pointer;
+      border-color: $brand-color;
+    }
+  }
+
+  input[type="radio"]:checked + label {
+    background: $brand-color;
+    color: #fff;
+  }
 }

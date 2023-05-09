@@ -28,13 +28,15 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData, allCategories }) {
   const [posts, setPosts] = useState(allPostsData);
+  const [category, setCategory] = useState("All");
 
-  function filterPosts(category) {
-    if (category === "All") {
+  function filterPosts(newCategory) {
+    setCategory(newCategory);
+    if (newCategory === "All") {
       setPosts(allPostsData);
     } else {
       let filteredList = allPostsData.filter((post) => {
-        return post.type === category;
+        return post.type === newCategory;
       });
       setPosts(filteredList);
     }
@@ -51,7 +53,11 @@ export default function Home({ allPostsData, allCategories }) {
 
       <div className="flexbox">
         <div className="">
-          <FilterPosts categories={allCategories} filterPosts={filterPosts} />
+          <FilterPosts
+            activeCategory={category}
+            categories={allCategories}
+            filterPosts={filterPosts}
+          />
         </div>
         <div className="">
           <MainPostList data={posts} />
