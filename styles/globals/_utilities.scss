@@ -12,9 +12,21 @@
   gap: 1rem;
 }
 
+.double-gap {
+  gap: 2rem;
+}
+
+.triple-gap {
+  gap: 3rem;
+}
+
 .flex-third {
-  flex: 1 1 26%;
-  max-width: 33%;
+  flex: 1 1 100%;
+
+  @include for-tablet-landscape-up {
+    flex: 0 0 26%;
+    max-width: 33%;
+  }
 }
 
 .flex-rest {

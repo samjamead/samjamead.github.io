@@ -51,7 +51,7 @@ export default function Home({ allPostsData, allCategories }) {
 
       <Hero />
 
-      <div className="flexbox">
+      <div className="flexbox triple-gap">
         <div className="flex-third">
           <FilterPosts
             activeCategory={category}
