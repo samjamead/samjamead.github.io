@@ -8,6 +8,7 @@ import BookListItem from "./bookListItem";
 import CommitIcon from "../../public/img/icons/git-commit.svg";
 import QuoteIcon from "../../public/img/icons/chevrons-right.svg";
 import BookIcon from "../../public/img/icons/library.svg";
+import MountainIcon from "../../public/img/icons/mountain-snow.svg";
 
 export default function MainPostList({ data }) {
   return (
@@ -31,6 +32,12 @@ export default function MainPostList({ data }) {
           return (
             <ListItem key={post.id} data={post} icon={BookIcon}>
               <BookListItem data={post} />
+            </ListItem>
+          );
+        } else if (type === "Mountain") {
+          return (
+            <ListItem key={post.id} data={post} icon={MountainIcon}>
+              <DefaultListItem data={post} />
             </ListItem>
           );
         } else {
