@@ -14,3 +14,7 @@ This is Version 9: A Next.js app.
 - `clsx` to conditionally render css classes
 - `shadcn/ui` open source component library
 - `radix` open source component library
+
+### Added and removed
+
+- `@next/mdx @mdx-js/loader @mdx-js/react` (49 packages)
