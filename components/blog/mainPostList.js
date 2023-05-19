@@ -14,27 +14,27 @@ export default function MainPostList({ data }) {
   return (
     <ul className="main-post-list margin-bottom-double">
       {data.map((post) => {
-        let type = post.type;
+        let category = post.category;
 
-        if (!type) {
+        if (!category) {
           return (
             <ListItem key={post.id} data={post} icon={CommitIcon}>
               <DefaultListItem data={post} />
             </ListItem>
           );
-        } else if (type === "Quote") {
+        } else if (category === "Quote") {
           return (
             <ListItem key={post.id} data={post} icon={QuoteIcon}>
               <QuoteListItem data={post} />
             </ListItem>
           );
-        } else if (type === "Book") {
+        } else if (category === "Book") {
           return (
             <ListItem key={post.id} data={post} icon={BookIcon}>
               <BookListItem data={post} />
             </ListItem>
           );
-        } else if (type === "Mountain") {
+        } else if (category === "Mountain") {
           return (
             <ListItem key={post.id} data={post} icon={MountainIcon}>
               <DefaultListItem data={post} />

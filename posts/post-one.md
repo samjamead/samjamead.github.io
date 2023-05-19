@@ -2,7 +2,7 @@
 title: "Post One"
 date: "2022-10-10"
 preview: "Here's a little snippet from a 'normal' post"
-type: "Post"
+category: "Post"
 ---
 
 ## Here's the heading of the first post

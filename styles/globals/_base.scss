@@ -123,6 +123,17 @@ hr {
   border-bottom: $border;
 }
 
+blockquote {
+  border-left: 3px solid $brand-color;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    color: darken($color: $text-color, $amount: 20%);
+    font-weight: 500;
+  }
+}
+
 input,
 textarea,
 select,

@@ -12,8 +12,8 @@ export default function ({ data, icon, children }) {
             <p className="list-item-date monospaced">{data.date}</p>
           </div>
           <div>
-            <span className="list-item-type">
-              {data.type ? data.type : "Post"}
+            <span className="list-item-category">
+              {data.category ? data.category : "Post"}
             </span>
           </div>
         </div>

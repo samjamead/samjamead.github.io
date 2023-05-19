@@ -1,11 +1,9 @@
-export default function Hero() {
+export default function Hero({ heading, text, children }) {
   return (
     <div className="hero">
-      <h1>Welcome to Version 9!</h1>
-      <p>
-        This one is a blog, where posts, quotes, and book reviews arrive looking
-        like a series of commits.
-      </p>
+      {heading && <h1> {heading}</h1>}
+      {text && <p>{text}</p>}
+      {children}
     </div>
   );
 }

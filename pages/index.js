@@ -1,23 +1,14 @@
 import { useState } from "react";
 import Head from "next/head";
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedPostsData, getUniqueCategories } from "../lib/posts";
 import MainPostList from "../components/blog/mainPostList";
 import Hero from "../components/ui/hero";
 import FilterPosts from "../components/blog/filterPosts";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  const allCategories = getUniqueTypes(allPostsData);
-  function getUniqueTypes(postList) {
-    let result = [];
-    postList.map((post) => {
-      let category = post.type;
-      if (result.indexOf(category) === -1) {
-        result.push(category);
-      }
-    });
-    return result;
-  }
+  const allCategories = getUniqueCategories(allPostsData);
+
   return {
     props: {
       allPostsData,
@@ -36,7 +27,7 @@ export default function Home({ allPostsData, allCategories }) {
       setPosts(allPostsData);
     } else {
       let filteredList = allPostsData.filter((post) => {
-        return post.type === newCategory;
+        return post.category === newCategory;
       });
       setPosts(filteredList);
     }
@@ -49,7 +40,10 @@ export default function Home({ allPostsData, allCategories }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
+      <Hero
+        heading="Welcome to Version 9"
+        text="It's like earlier versions, just much betterer!"
+      ></Hero>
 
       <div className="flexbox triple-gap">
         <div className="flex-third">

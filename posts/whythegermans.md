@@ -1,7 +1,7 @@
 ---
 title: "Why The Germans Do It Better"
 date: "2022-02-28"
-type: "Book"
+category: "Book"
 preview: "TL;DR - Because they didn't design how it's supposed to work in the 1600s."
 author: "John Kapmfner"
 ---

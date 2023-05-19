@@ -2,7 +2,7 @@
 title: "Post Three"
 date: "2023-04-28"
 preview: "The third post was all about things like this, and that, and the other. By the time the description was finished it was all sounding particularly interesting. "
-type: "Post"
+category: "Post"
 ---
 
 ## And just like that...

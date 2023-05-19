@@ -1,7 +1,7 @@
 ---
 title: "As She Climbed Across The Table"
 date: "2022-11-12"
-type: "Book"
+category: "Book"
 preview: "I was hoping for more physics."
 author: "TBC"
 ---

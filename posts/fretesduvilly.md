@@ -1,10 +1,10 @@
 ---
 title: "Fretes Du Villy"
 date: "2023-02-04"
-type: "Mountain"
+category: "Mountain"
 preview: "Did you see the wolf?"
 subpath: "mountainlog"
-category: "Ski"
+subcategory: "Ski"
 ---
 
 Take headtorches and lots of calories 😅

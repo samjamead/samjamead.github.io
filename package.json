@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.4.3",
     "@supabase/supabase-js": "^2.21.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
