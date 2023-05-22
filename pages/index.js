@@ -24,8 +24,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData, allCategories, specialPosts }) {
-  console.log(specialPosts);
-
   const [posts, setPosts] = useState(allPostsData);
   const [category, setCategory] = useState("All");
 
