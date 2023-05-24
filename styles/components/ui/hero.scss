@@ -7,14 +7,43 @@
       "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
     font-weight: 600;
-    letter-spacing: -0.5px;
-    font-size: 26px;
+    // letter-spacing: -0.5px;
+    font-size: 28px;
     margin-bottom: 10px;
+    display: block;
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+    margin-left: 255px;
+    margin-bottom: 0;
+    border-left: 1px solid #000;
   }
 
   p {
     font-size: 15px;
     line-height: 1.4;
     max-width: 32rem;
+  }
+
+  .intro-row {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    div {
+      flex: 0 0 100%;
+
+      @include for-tablet-landscape-up {
+        flex: 1 1 26%;
+        max-width: 33%;
+        padding-right: 1rem;
+        border-right: 1px solid #000;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
   }
 }
