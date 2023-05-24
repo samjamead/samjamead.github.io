@@ -3,6 +3,11 @@
 .container {
   max-width: $column-width;
   margin: 0 auto;
+  padding: 0 10px;
+
+  @include for-tablet-landscape-up {
+    padding: 0;
+  }
 }
 
 .flexbox {

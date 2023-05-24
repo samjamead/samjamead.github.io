@@ -1,39 +1,12 @@
-import { useState, useEffect } from "react";
-import supabase from "../../lib/supabaseClient";
-
 export default function Hero() {
-  const [data, setData] = useState(null);
-
-  async function getQuotes() {
-    const { data, error } = await supabase.from("page_meta").select();
-
-    if (error) {
-      console.log(error);
-    }
-
-    if (data) {
-      let randomIndex = Math.floor(Math.random() * data.length);
-
-      console.log(data[randomIndex]); // outputs a random index from the array
-
-      setData(data[randomIndex]);
-    }
-  }
-
-  useEffect(() => {
-    getQuotes();
-  }, []);
-
   return (
     <div className="hero">
       <div className="quote-row">
-        {data && (
-          <h1>
-            His whole life had been leading to this point, because that's
-            famously how time works{" "}
-            <span className="small light-text">Terry Pratchet</span>
-          </h1>
-        )}
+        <h1>
+          His whole life had been leading to this point, because that's famously
+          how time works{" "}
+          <span className="small light-text">Terry Pratchet</span>
+        </h1>
       </div>
       <div className="intro-row">
         <div>
