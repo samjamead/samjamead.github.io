@@ -2,7 +2,6 @@ import Link from "next/link";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export default function Post({ postData }) {
-  console.log(postData);
   return (
     <>
       <article>
