@@ -7,8 +7,9 @@ export default function Header() {
       <div className="container">
         <div className="header-inner">
           <Link href="/">
-            <span>sjam.studio</span>
+            <span>SM</span>
           </Link>
+          <p>Other Thing</p>
         </div>
       </div>
     </header>

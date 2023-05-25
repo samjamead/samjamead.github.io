@@ -1,16 +1,16 @@
 header {
-  padding-top: 1rem;
-  margin-bottom: 1rem;
+  background-color: #fff;
 }
 
 .header-inner {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
 
   a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 0.5rem;
+    display: inline-block;
     text-decoration: none;
     color: #000;
     font-size: 14px;
@@ -21,8 +21,7 @@ header {
     }
   }
 
-  img {
-    max-width: 18px;
-    fill: $brand-color;
+  p {
+    text-align: right;
   }
 }

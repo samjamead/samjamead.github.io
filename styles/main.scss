@@ -25,15 +25,22 @@ $mono-font-weight: 500;
 // =============================================
 // Colours
 // =============================================
-$brand-color: #6688cc; // Electron.js +20%
+
 $text-color: #4a4a4a;
 $headings-color: #000;
-$alt-text-color: #666;
+$alt-text-color: #575757;
 $light-text-color: #898f9a;
-$link-color: #0db3f6;
 
 $background-color: #fafafa;
+$second-background-color: #f8f8f8;
 $border-color: #dfe1e6;
+
+$brand-color: #1a5c3f; // British Racing Green
+
+$link-color: #4d8f72; // Lightened brand colour
+
+$second-color: #305a83; // French navy
+$third-color: #6c2831; // Pantone pomegranite
 
 $warning-color: #ff6e6e;
 $success-color: #eaf7ee;
@@ -59,7 +66,7 @@ $easy-shadow: 0.3px 0.5px 0.7px $shadow-colour,
 
 // Import blog
 @import "./components/blog/MainPostList", "./components/blog/ListItem",
-  "./components/blog/FilterPosts";
+  "./components/blog/FilterPosts", "./components/blog/article";
 
 // Import UI
 @import "./components/ui/hero";

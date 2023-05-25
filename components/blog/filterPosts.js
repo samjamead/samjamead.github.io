@@ -4,7 +4,7 @@ export default function ({ activeCategory, categories, filterPosts }) {
   }
 
   return (
-    <div className="post-filter-wrapper">
+    <div className="container post-filter-wrapper">
       <div className="radio-wrapper" key="All">
         <input
           type="radio"
