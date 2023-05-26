@@ -1,9 +1,13 @@
+import { useContext } from "react";
 import Head from "next/head";
 
 import Link from "next/link";
 import { getAllPostIds, getPostData } from "../../lib/posts";
+import { CategoryContext } from "../_app";
 
 export default function Post({ postData }) {
+  const { category, setCategory } = useContext(CategoryContext);
+
   return (
     <>
       <Head>
@@ -29,8 +33,8 @@ export default function Post({ postData }) {
         <div className="container article-body">
           <div className="article-aside">
             <p>
-              {postData.date}A quick little paragraph here, but for what? To
-              balance the page somehow? It should be functional too, non?{" "}
+              {postData.date} <br />
+              The selected category was {category}{" "}
             </p>
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

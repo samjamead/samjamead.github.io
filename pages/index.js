@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Head from "next/head";
 import { getSortedPostsData, getUniqueCategories } from "../lib/posts";
 import MainPostList from "../components/blog/mainPostList";
 import Hero from "../components/ui/hero";
 import FilterPosts from "../components/blog/filterPosts";
+import { CategoryContext } from "./_app";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -18,8 +19,8 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData, allCategories }) {
+  const { category, setCategory } = useContext(CategoryContext);
   const [posts, setPosts] = useState(allPostsData);
-  const [category, setCategory] = useState("All");
 
   function filterPosts(newCategory) {
     setCategory(newCategory);
