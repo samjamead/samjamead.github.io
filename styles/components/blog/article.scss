@@ -1,18 +1,33 @@
 .article-hero {
-  padding: 12rem 0 4rem;
-  background-color: $second-color;
-  color: #fff;
+  padding: 2rem 0 4rem;
 
   h1 {
-    color: #fff;
+    color: $second-color;
   }
 
-  .badge {
+  .breadcrumb {
     display: inline-block;
     background-color: $second-background-color;
     color: $second-color;
     font-size: 13px;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+
+    .divider {
+      margin: 0 10px;
+    }
+
+    a {
+      color: $second-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $brand-color;
+      }
+    }
+  }
+
+  .article-preview {
+    color: $alt-text-color;
   }
 }
 

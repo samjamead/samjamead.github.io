@@ -42,13 +42,15 @@ export default function Home({ allPostsData, allCategories }) {
 
       <Hero />
 
-      <FilterPosts
-        activeCategory={category}
-        categories={allCategories}
-        filterPosts={filterPosts}
-      />
+      <div id="posts">
+        <FilterPosts
+          activeCategory={category}
+          categories={allCategories}
+          filterPosts={filterPosts}
+        />
 
-      <MainPostList data={posts} />
+        <MainPostList data={posts} />
+      </div>
     </>
   );
 }

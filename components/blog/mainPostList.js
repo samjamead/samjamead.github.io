@@ -1,4 +1,3 @@
-import Link from "next/link";
 import DefaultListItem from "./defaultListItem";
 import ListItem from "./listItem";
 import QuoteListItem from "./quoteListItem";

@@ -2,7 +2,7 @@
 title: "Survive The Savage Sea"
 date: "2023-05-14"
 category: "Book"
-preview: "Utterly  bonkers!"
+preview: "An utterly  bonkers story about being shipwrecked in the southern Pacific Ocean"
 author: "Dougal Robertson"
 ---
 
