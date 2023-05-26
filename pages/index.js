@@ -1,8 +1,7 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import Head from "next/head";
 import { getSortedPostsData, getUniqueCategories } from "../lib/posts";
 import MainPostList from "../components/blog/mainPostList";
-import Hero from "../components/ui/hero";
 import FilterPosts from "../components/blog/filterPosts";
 import { CategoryContext } from "./_app";
 
@@ -34,14 +33,16 @@ export default function Home({ allPostsData, allCategories }) {
     }
   }
 
+  useEffect(() => {
+    filterPosts(category);
+  }, []);
+
   return (
     <>
       <Head>
         <title>samjamead.github.io</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Hero />
 
       <div id="posts">
         <FilterPosts

@@ -17,9 +17,11 @@ export default function Post({ postData }) {
         <div className="article-hero">
           <div className="container">
             <span className="breadcrumb">
-              <Link href="/#posts">All Posts</Link>{" "}
+              <Link href="/">All Posts</Link>
               <span className="divider">&rarr;</span>
-              <Link href="/#posts">{postData.category}</Link>
+              <Link href="/" onClick={() => setCategory(postData.category)}>
+                {postData.category}
+              </Link>
               <span className="divider">&rarr;</span>
               {postData.title}
             </span>

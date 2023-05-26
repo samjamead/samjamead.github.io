@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/">
             <span>SM</span>
           </Link>
-          <p>Other Thing</p>
+          <Link href="/about">About</Link>
         </div>
       </div>
     </header>
