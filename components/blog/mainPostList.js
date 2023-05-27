@@ -11,7 +11,7 @@ import MountainIcon from "../../public/img/icons/mountain-snow.svg";
 
 export default function MainPostList({ data }) {
   return (
-    <ul className="container main-post-list margin-bottom-double">
+    <ul className="main-post-list margin-bottom-double">
       {data.map((post) => {
         let category = post.category;
 

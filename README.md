@@ -2,6 +2,10 @@
 
 This is Version 9: A Next.js app.
 
+### Dev todos
+
+[ ] Evaluate commit `58ab7dc` ([two ways to filter](https://github.com/samjamead/samjamead.github.io/commit/58ab7dcf62d30825a6036f459af6ab1971689718), which is better?)
+
 ### Node Modules
 
 - `sass` (17 packages)

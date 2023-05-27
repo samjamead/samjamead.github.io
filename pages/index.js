@@ -6,7 +6,10 @@ import FilterPosts from "../components/blog/filterPosts";
 import { CategoryContext } from "./_app";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  let allPostsData = getSortedPostsData();
+  allPostsData = allPostsData.filter((post) => {
+    return post.draft !== true;
+  });
   const allCategories = getUniqueCategories(allPostsData);
 
   return {
@@ -51,7 +54,12 @@ export default function Home({ allPostsData, allCategories }) {
           filterPosts={filterPosts}
         />
 
-        <MainPostList data={posts} />
+        <div className="container flexbox">
+          <div className="flex-third">Some ting</div>
+          <div className="flex-rest">
+            <MainPostList data={posts} />
+          </div>
+        </div>
       </div>
     </>
   );

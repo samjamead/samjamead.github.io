@@ -1,7 +1,8 @@
 ---
 title: "Drafts"
 date: "2023-05-03"
-category: "Drafts"
+category: "Post"
+draft: true
 preview: "Cluttered thoughts on an imaginary desk."
 ---
 
