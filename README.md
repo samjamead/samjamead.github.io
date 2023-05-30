@@ -12,6 +12,7 @@ This is Version 9: A Next.js app.
 - `@supabase/supabase-js` (31 packages)
 - `gray-matter` (10 packages)
 - `remark remark-html` (83 packages)
+- `npm install @observablehq/plot` (42 packages, includes D3)
 
 ### Might try...
 
