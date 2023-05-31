@@ -11,8 +11,18 @@ export default function WhereDidYouSleep() {
         <title>2023 Calendar</title>
       </Head>
 
-      <div className="container">
+      <div className="container page-hero">
         <h1>Calendar</h1>
+        <p>
+          This is an ill-fated attempt to duplicate a D3 calendar plot outside
+          of ObservableHQ. Working verison on Observable:{" "}
+          <a href="https://observablehq.com/@sjam/calendar" target="_blank">
+            https://observablehq.com/@sjam/calendar
+          </a>
+        </p>
+      </div>
+
+      <div className="container margin-bottom-double">
         <CalendarView data={calendardata} x={xAccessor} y={yAccessor} />
       </div>
 
