@@ -1,6 +1,6 @@
 ---
 title: "A' Chreag Dhearg"
-date: "2023-06-28"
+date: "2023-06-26"
 category: "Book"
 preview: "Climbing stories of the Angus Glens"
 author: "Grant Farquhar"
