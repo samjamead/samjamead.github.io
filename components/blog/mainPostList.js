@@ -2,6 +2,7 @@ import DefaultListItem from "./defaultListItem";
 import ListItem from "./listItem";
 import QuoteListItem from "./quoteListItem";
 import BookListItem from "./bookListItem";
+import { getSortedPostsData } from "../../lib/posts";
 
 // Icons
 import CommitIcon from "../../public/img/icons/git-commit.svg";
@@ -9,10 +10,12 @@ import QuoteIcon from "../../public/img/icons/chevrons-right.svg";
 import BookIcon from "../../public/img/icons/library.svg";
 import MountainIcon from "../../public/img/icons/mountain-snow.svg";
 
-export default function MainPostList({ data }) {
+export default function MainPostList() {
+  const allPostsData = getSortedPostsData();
+
   return (
     <ul className="main-post-list margin-bottom-double">
-      {data.map((post) => {
+      {allPostsData.map((post) => {
         let category = post.category;
 
         if (!category) {

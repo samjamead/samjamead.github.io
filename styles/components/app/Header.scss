@@ -1,5 +1,5 @@
 header {
-  background-color: #fff;
+  background-color: $second-background-color;
 }
 
 .header-inner {
@@ -8,12 +8,12 @@ header {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
+  color: #8a8a8a;
 
   a {
     display: inline-block;
     text-decoration: none;
-    color: #000;
-    font-size: 14px;
+    color: #8a8a8a;
     transition: 0.35s ease;
 
     &:hover {

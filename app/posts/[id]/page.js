@@ -1,44 +1,29 @@
-import { useContext } from "react";
-import Head from "next/head";
+import { getAllPostIds, getPostData } from "../../../lib/posts";
 import Link from "next/link";
-import { getAllPostIds, getPostData } from "../../lib/posts";
-import { CategoryContext } from "../_app";
 
-export async function getStaticPaths() {
-  const paths = getAllPostIds();
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
+export async function generateMetadata({ params }) {
   const postData = await getPostData(params.id);
 
   return {
-    props: {
-      postData,
-    },
+    title: postData.title,
   };
 }
 
-export default function Post({ postData }) {
-  const { category, setCategory } = useContext(CategoryContext);
+export default async function Post({ params }) {
+  const postData = await getPostData(params.id);
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{postData.title}</title>
-      </Head>
+      </Head> */}
       <article>
         <div className="article-hero">
           <div className="container">
             <span className="breadcrumb">
               <Link href="/">All Posts</Link>
               <span className="divider">&rarr;</span>
-              <Link href="/" onClick={() => setCategory(postData.category)}>
-                {postData.category}
-              </Link>
+              <Link href="/">{postData.category}</Link>
               <span className="divider">&rarr;</span>
               {postData.title}
             </span>
@@ -53,7 +38,6 @@ export default function Post({ postData }) {
           <div className="article-aside">
             <p>
               {postData.date} <br />
-              The selected category was {category}{" "}
             </p>
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

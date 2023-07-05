@@ -1,13 +1,9 @@
-import Head from "next/head";
 import Link from "next/link";
-import Hero from "../components/ui/hero";
+import Hero from "../../components/ui/hero";
 
 export default function About() {
   return (
     <>
-      <Head>
-        <title>About Sam</title>
-      </Head>
       <Hero />
 
       <div className="container">

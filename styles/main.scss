@@ -7,19 +7,18 @@
 // =============================================
 // Typography
 // =============================================
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap");
 
 $base-font-size: 16px;
-$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $base-font-weight: 400;
-$base-line-height: 1.6rem;
+$base-line-height: 1.7rem;
 
 $headings-font-family: $base-font-family;
 $headings-font-weight: 700;
 
-$mono-font-family: "Roboto Mono", monospace;
+$mono-font-family: monospace;
 $mono-font-weight: 500;
 
 // =============================================
@@ -31,15 +30,15 @@ $headings-color: #000;
 $alt-text-color: #575757;
 $light-text-color: #898f9a;
 
-$background-color: #fafafa;
-$second-background-color: #f8f8f8;
+$background-color: #fff;
+$second-background-color: #f4f4f4;
 $border-color: #dfe1e6;
 
-$brand-color: #1a5c3f; // British Racing Green
+$brand-color: #4d80e6; // Indigo flower grey
 
 $link-color: #4d8f72; // Lightened brand colour
 
-$second-color: #305a83; // French navy
+$second-color: $brand-color;
 $third-color: #6c2831; // Pantone pomegranite
 
 $warning-color: #ff6e6e;
@@ -49,7 +48,7 @@ $success-tint: #c7e6d0;
 // =============================================
 // Layout
 // =============================================
-$column-width: 800px; // Column width
+$column-width: 700px; // Column width
 $paragraph-width: 37em; // Should give ~80 cpl.
 $border: 1px solid $border-color;
 $shadow-colour: hsla(0, 0%, 69%, 0.15);
