@@ -65,7 +65,8 @@ $easy-shadow: 0.3px 0.5px 0.7px $shadow-colour,
 
 // Import blog
 @import "./components/blog/MainPostList", "./components/blog/ListItem",
-  "./components/blog/FilterPosts", "./components/blog/article";
+  "./components/blog/AltListItem.scss", "./components/blog/FilterPosts",
+  "./components/blog/article";
 
 // Import UI
 @import "./components/ui/hero";
