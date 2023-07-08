@@ -1,0 +1,12 @@
+@import "../../styles/main.scss";
+
+.app_footer {
+  padding: 1rem 0;
+}
+
+.footer_inner {
+  border: $border;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}

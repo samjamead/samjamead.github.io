@@ -1,0 +1,10 @@
+@import "../../styles/main.scss";
+
+.wrapper {
+  max-width: $column-width;
+  margin: 1rem auto;
+  background-color: $second-background-color;
+  padding: 1rem;
+  font-weight: 500;
+  border-radius: 2px;
+}

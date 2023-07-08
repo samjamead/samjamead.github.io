@@ -1,9 +1,10 @@
-import Link from "next/link";
-import MainPostList from "../components/blog/mainPostList";
+import HomepageHero from "../components/HomepageHero/HomepageHero";
+import MainPostList from "../components/MainPostList/MainPostList";
 export default function Page() {
   return (
-    <div className="container">
+    <>
+      <HomepageHero />
       <MainPostList />
-    </div>
+    </>
   );
 }

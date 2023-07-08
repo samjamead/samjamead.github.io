@@ -1,5 +1,3 @@
-// main: ../main.scss
-
 @mixin for-big-phones-up {
   @media (min-width: 400px) {
     @content;

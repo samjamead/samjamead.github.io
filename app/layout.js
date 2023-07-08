@@ -1,7 +1,7 @@
-import Footer from "../components/app/footer";
-import Header from "../components/app/header";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
-import "../styles/main.scss";
+import "../styles/globals.scss";
 
 export default function RootLayout({ children }) {
   return (

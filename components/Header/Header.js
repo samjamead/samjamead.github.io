@@ -1,15 +1,14 @@
+import styles from "./Header.module.scss";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.app_header}>
       <div className="container">
-        <div className="header-inner">
+        <div className={styles.header_inner}>
           <Link href="/">
             <span>SM</span>
           </Link>
-          <Link href="/about">About</Link>
         </div>
       </div>
     </header>
