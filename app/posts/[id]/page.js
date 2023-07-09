@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData } from "../../../lib/posts";
+import { getPostData } from "../../../lib/posts";
 import Link from "next/link";
 
 export async function generateMetadata({ params }) {
@@ -13,44 +13,27 @@ export default async function Post({ params }) {
   const postData = await getPostData(params.id);
 
   return (
-    <>
-      {/* <Head>
-        <title>{postData.title}</title>
-      </Head> */}
-      <article>
-        <div className="article-hero">
-          <div className="container">
-            <span className="breadcrumb">
-              <Link href="/">All Posts</Link>
-              <span className="divider">&rarr;</span>
-              <Link href="/">{postData.category}</Link>
-              <span className="divider">&rarr;</span>
-              {postData.title}
-            </span>
-            <h1>{postData.title}</h1>
-            {postData.preview && (
-              <p className="article-preview">{postData.preview}</p>
-            )}
-          </div>
-        </div>
+    <div className="container">
+      <div className="breadcrumb">
+        <Link href="/">All Posts</Link>
+        <span className="divider">&rarr;</span>
+        <Link href="/">{postData.category}</Link>
+        <span className="divider">&rarr;</span>
+        {postData.title}
+      </div>
 
-        <div className="container article-body">
-          <div className="article-aside">
-            <p>
-              {postData.date} <br />
-            </p>
-          </div>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        </div>
+      <article>
+        <h1>{postData.title}</h1>
+        <p>{postData.date} </p>
+
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
 
-      <div className="container">
-        <hr />
+      <hr />
 
-        <p>
-          &larr; <Link href="/">Home</Link>
-        </p>
-      </div>
-    </>
+      <p>
+        &larr; <Link href="/">Home</Link>
+      </p>
+    </div>
   );
 }
