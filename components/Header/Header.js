@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className={styles.app_header}>
+    <header>
       <div className="container">
         <div className={styles.header_inner}>
           <Link href="/">
