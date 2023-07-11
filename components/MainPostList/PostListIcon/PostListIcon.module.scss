@@ -1,0 +1,111 @@
+@import "../../../styles/main.scss";
+
+.icon {
+  width: 75px;
+  aspect-ratio: 1/1;
+}
+
+.row {
+  height: 25px;
+  width: 100%;
+}
+
+.Post {
+  .row:first-child {
+    background: $chalk-grey;
+  }
+  .row:nth-child(2) {
+    background: linear-gradient(
+      to right,
+      $chalk-grey,
+      $chalk-grey 33.33%,
+      $indigo-flower-grey 33.33%,
+      $indigo-flower-grey 66.66%,
+      $chalk-grey 66.66%,
+      $chalk-grey
+    );
+  }
+  .row:last-child {
+    background: linear-gradient(
+      to right,
+      $mouse-grey,
+      $mouse-grey 33.33%,
+      $dark-grey 33.33%,
+      $dark-grey
+    );
+  }
+}
+
+.Quote {
+  .row:first-child {
+    background: $chalk-grey;
+  }
+  .row:nth-child(2) {
+    background: linear-gradient(
+      to right,
+      $chalk-grey,
+      $chalk-grey 33.33%,
+      $willow-grey 33.33%,
+      $willow-grey
+    );
+  }
+  .row:last-child {
+    background: linear-gradient(
+      to right,
+      $light-grey-cloud,
+      $light-grey-cloud 33.33%,
+      $minato-village-grey 33.33%,
+      $minato-village-grey 66.66%,
+      $willow-grey 66.66%,
+      $willow-grey
+    );
+  }
+}
+
+.Book {
+  .row:first-child {
+    background: linear-gradient(
+      to right,
+      $chalk-grey,
+      $chalk-grey 66.66%,
+      $dark-grey 66.66%,
+      $dark-grey
+    );
+  }
+  .row:nth-child(2),
+  .row:last-child {
+    background: linear-gradient(
+      to right,
+      $chalk-grey,
+      $chalk-grey 33.33%,
+      $dove-feather-grey 33.33%,
+      $dove-feather-grey 66.66%,
+      $chalk-grey 66.66%,
+      $chalk-grey
+    );
+  }
+}
+
+.Mountain {
+  .row:first-child {
+    background: linear-gradient(
+      to right,
+      $chalk-grey,
+      $chalk-grey 66.66%,
+      $white-plum-grey 66.66%,
+      $white-plum-grey
+    );
+  }
+  .row:nth-child(2) {
+    background: linear-gradient(
+      to right,
+      $silk-grey,
+      $silk-grey 66.66%,
+      $indigo-grey 66.66%,
+      $indigo-grey
+    );
+  }
+  .row:last-child {
+    background: $silk-grey;
+  }
+}
